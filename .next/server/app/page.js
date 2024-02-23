@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 7572:
+/***/ 3565:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690))
 
 /***/ }),
 
@@ -1153,42 +1153,18 @@ var motion = __webpack_require__(5055);
 
 
 const ParallaxScroll_images = [
-    {
-        I1: _1
-    },
-    {
-        I2: _2
-    },
-    {
-        I3: _3
-    },
-    {
-        I4: _4
-    },
-    {
-        I5: _5
-    },
-    {
-        I6: _6
-    },
-    {
-        I7: _7
-    },
-    {
-        I8: _8
-    },
-    {
-        I9: _9
-    },
-    {
-        I10: _10
-    },
-    {
-        I11: _11
-    },
-    {
-        I12: _12
-    }
+    "{I1}",
+    "{I2}",
+    "{I3}",
+    "{I4}",
+    "{I5}",
+    "{I6}",
+    "{I7}",
+    "{I8}",
+    "{I9}",
+    "{I10}",
+    "{I11}",
+    "{I12}"
 ];
 function ParallaxScroll() {
     const gallery = (0,react_.useRef)(null);

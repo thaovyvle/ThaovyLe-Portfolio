@@ -20,8 +20,8 @@ import I12 from "../../../public/12.png";
 
 
 const images = [
-  {I1}, {I2}, {I3}, {I4}, {I5}, {I6}, 
-  {I7}, {I8}, {I9}, {I10}, {I11}, {I12},
+  "{I1}", "{I2}", "{I3}", "{I4}", "{I5}", "{I6}", 
+  "{I7}", "{I8}", "{I9}", "{I10}", "{I11}", "{I12}",
 ]
 
 export default function ParallaxScroll() {
