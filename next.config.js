@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: '/ThaovyLe-Portfolio',
-  experimental: {
-    images: {
-      unstable_styleRewriting: true,
-    },
+  basePath: '/ThaovyLePortfolio',
+  images: {
+    loader: "default",
+    path: "/_next/image",
   },
-}
+};
 
 module.exports = nextConfig
