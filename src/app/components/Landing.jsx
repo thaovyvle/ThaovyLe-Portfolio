@@ -4,6 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import ImageofMe from "../../../public/me.png"
 
 const Landing = () => {
   return (
@@ -64,7 +65,7 @@ const Landing = () => {
         >
           <div className="rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 sm:pt-10 w-[200px] h-[200px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative">
             <Image
-              src="/ThaovyLe-Portfolio/_next/static/media/me.png"
+              src={ImageofMe}
               alt="image of Thaovy Le"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={400}
