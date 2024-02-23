@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 3215:
+/***/ 6990:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890))
 
 /***/ }),
 
@@ -1469,9 +1469,7 @@ const projectsData = [
         id: 1,
         title: "Quiz App",
         description: "React Native application. To view the app, you can log in with these credentials: username-test, password-Test1@",
-        image: {
-            P1: p1
-        },
+        image: p1,
         tag: [
             "ALL",
             "MOBILE"
@@ -1483,9 +1481,7 @@ const projectsData = [
         id: 2,
         title: "Layers of Love",
         description: "Responsive single-page website that demonstrates a form of creativity. Developed with HTML, CSS, and JavaScript",
-        image: {
-            P2: p2
-        },
+        image: p2,
         tag: [
             "ALL",
             "WEB"
@@ -1497,9 +1493,7 @@ const projectsData = [
         id: 3,
         title: "Journey Through UCF",
         description: "Responsive single-page website that describes my journey at UCF. Developed with HTML, SASS, and JavaScript",
-        image: {
-            P3: p3
-        },
+        image: p3,
         tag: [
             "ALL",
             "WEB"
@@ -1511,9 +1505,7 @@ const projectsData = [
         id: 4,
         title: "Art Deco",
         description: "Single-page website that describes the Art Deco movement. Developed with HTML and CSS",
-        image: {
-            P4: p4
-        },
+        image: p4,
         tag: [
             "ALL",
             "WEB"
@@ -1525,9 +1517,7 @@ const projectsData = [
         id: 5,
         title: "Exercise App",
         description: "React application that is a simple exercise tracker. Contains menu with a repetition and duration types",
-        image: {
-            P5: p5
-        },
+        image: p5,
         tag: [
             "ALL",
             "MOBILE"
@@ -1539,9 +1529,7 @@ const projectsData = [
         id: 6,
         title: "Survey",
         description: "A survey form that offers up hints, uses a variety of input types, and performs validation before delivering the results",
-        image: {
-            P6: p6
-        },
+        image: p6,
         tag: [
             "ALL",
             "WEB"
@@ -1553,9 +1541,7 @@ const projectsData = [
         id: 7,
         title: "Yahoo Redesign - Web Prototype",
         description: "A website redesign for usability and accessibility: light mode switch & accesibility button. Designed with Adobe XD",
-        image: {
-            P7: p7
-        },
+        image: p7,
         tag: [
             "ALL",
             "DESIGN"
@@ -1567,9 +1553,7 @@ const projectsData = [
         id: 8,
         title: "TravelME - App Prototype",
         description: "A UX/UI project that includes developing a high fidelity prototype with Adobe XD, and a full report of the design process",
-        image: {
-            P8: p8
-        },
+        image: p8,
         tag: [
             "ALL",
             "DESIGN"
@@ -1581,9 +1565,7 @@ const projectsData = [
         id: 9,
         title: "Bakery Database - MongoDB",
         description: "A bakery database comprising entities of the store, baker, and dessert. Postman is used to show the queries and operations",
-        image: {
-            P11: p11
-        },
+        image: p11,
         tag: [
             "ALL",
             "DATABASE"
@@ -1595,9 +1577,7 @@ const projectsData = [
         id: 10,
         title: "Crumbl Redesign - App Design",
         description: "Tasked with creating an alternative design for the Crumbl app with at least three states and controls. Designed with Adobe XD",
-        image: {
-            P9: p9
-        },
+        image: p9,
         tag: [
             "ALL",
             "DESIGN"
@@ -1609,9 +1589,7 @@ const projectsData = [
         id: 11,
         title: "Blog Database - MySQL",
         description: "Created a blog database with MySQL. Postman is used to demonstrate the queries and operations",
-        image: {
-            P10: p10
-        },
+        image: p10,
         tag: [
             "ALL",
             "DATABASE"
@@ -1623,9 +1601,7 @@ const projectsData = [
         id: 12,
         title: "Chessland Attacks - C",
         description: "Recreated a chessboard, considering the positions of rooks. Determines how many and which rooks can attack each piece",
-        image: {
-            P12: p12
-        },
+        image: p12,
         tag: [
             "ALL",
             "C.S"
@@ -1637,9 +1613,7 @@ const projectsData = [
         id: 13,
         title: "Coin Organization - C",
         description: "The program sorts the list of individuals based on the money they each have and the ratio of currency",
-        image: {
-            P13: p13
-        },
+        image: p13,
         tag: [
             "ALL",
             "C.S"
@@ -1651,9 +1625,7 @@ const projectsData = [
         id: 14,
         title: "Arcade Management - C",
         description: "Given a list of people entering and leaving the arcade, determine the most valuable player",
-        image: {
-            P14: p14
-        },
+        image: p14,
         tag: [
             "ALL",
             "C.S"
@@ -1665,9 +1637,7 @@ const projectsData = [
         id: 15,
         title: "Sudoku Solver - Java",
         description: "Given a sudoku unsolved grid, output the solved puzzle. Uses backtracking function to solve",
-        image: {
-            P15: p15
-        },
+        image: p15,
         tag: [
             "ALL",
             "C.S"
@@ -1679,9 +1649,7 @@ const projectsData = [
         id: 16,
         title: "Hexagram - Java",
         description: "Determine the amount of ways to place numbers on the vertices of a hexagram such that the sum each line is the same",
-        image: {
-            P16: p16
-        },
+        image: p16,
         tag: [
             "ALL",
             "C.S"
