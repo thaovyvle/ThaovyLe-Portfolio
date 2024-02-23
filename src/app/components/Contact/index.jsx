@@ -29,7 +29,7 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/me.png`}
+                            src={`/me.png`}
                             />
                         </div>
                         <h2>Let's Connect</h2>
