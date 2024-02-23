@@ -4,4 +4,7 @@ const nextConfig = {
   basePath: '/ThaovyLe-Portfolio',
 }
 
-module.exports = nextConfig
+module.exports = {
+  env: {
+    RESEND_API_KEY: process.env.RESEND_API_KEY,
+},
