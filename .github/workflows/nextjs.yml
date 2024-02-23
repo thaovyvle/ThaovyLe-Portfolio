@@ -93,3 +93,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+env:
+  RESEND_API_KEY: re_HMXPFy1j_7hB3PbJUogu3N3VpVYNwR7tH
