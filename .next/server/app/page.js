@@ -352,15 +352,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 1674:
+/***/ 3215:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
 
 /***/ }),
@@ -1772,7 +1772,7 @@ const ProjectsSection = ()=>{
                         children: /*#__PURE__*/ jsx_runtime_.jsx(components_ProjectCard, {
                             title: project.title,
                             description: project.description,
-                            imgUrl: `${project.image}`,
+                            imgUrl: project.image,
                             gitUrl: project.gitUrl,
                             previewUrl: project.previewUrl
                         }, project.id)

@@ -15,11 +15,11 @@ import Art from "../../../../public/art.png";
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: LayersPages
+        src: LayersPages,
     },
     {
         color: "#e3e3e3",
-        src: JourneyPages
+        src: JourneyPages,
     },
     {
         color: "#d6d7dc",

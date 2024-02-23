@@ -241,7 +241,7 @@ const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
-              imgUrl={`${project.image}`}
+              imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
             />
