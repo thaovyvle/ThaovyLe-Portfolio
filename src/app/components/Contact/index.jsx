@@ -9,6 +9,7 @@ import FacebookIcon from "../../../../public/facebook-icon.svg";
 import Link from "next/link";
 import { useRef } from 'react';
 import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
+import ImageofMe from "../../../../public/me.png";
 
 export default function index() {
     const container = useRef(null);
@@ -29,7 +30,7 @@ export default function index() {
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/ThaovyLe-Portfolio/_next/static/media/me.png`}
+                            src={ImageofMe}
                             />
                         </div>
                         <h2>Let's Connect</h2>
