@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 7651:
+/***/ 7572:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
 
 /***/ }),
 
@@ -1311,7 +1311,7 @@ const Column = ({ images, y })=>{
             return /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (page_module_default()).imageContainer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: src,
+                    src: `${src}`,
                     alt: "image",
                     fill: true
                 })
@@ -1796,7 +1796,7 @@ const ProjectsSection = ()=>{
                         children: /*#__PURE__*/ jsx_runtime_.jsx(components_ProjectCard, {
                             title: project.title,
                             description: project.description,
-                            imgUrl: project.image,
+                            imgUrl: `${project.image}`,
                             gitUrl: project.gitUrl,
                             previewUrl: project.previewUrl
                         }, project.id)
@@ -1992,7 +1992,7 @@ function index() {
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
-                                src: project.src
+                                src: `${project.src}`
                             })
                         }, index)
                     }, index);
