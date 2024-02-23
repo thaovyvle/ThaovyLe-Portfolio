@@ -80,7 +80,7 @@ const Column = ({images, y}) => {
         images.map( (src, i) => {
           return <div key={i} className={styles.imageContainer}>
             <Image 
-              src={`/${src}`}
+              src={`/ThaovyLe-Portfolio/_next/static/media/${src}`}
               alt='image'
               fill
             />

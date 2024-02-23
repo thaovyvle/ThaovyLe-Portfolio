@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 4725:
+/***/ 2659:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9765));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 627));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5602));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9765))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958))
 
 /***/ }),
 
@@ -710,7 +710,7 @@ function index() {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             fill: true,
                                             alt: "image",
-                                            src: `/me.png`
+                                            src: `/ThaovyLe-Portfolio/_next/static/media/me.png`
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
@@ -917,7 +917,7 @@ const Landing = ()=>{
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 sm:pt-10 w-[200px] h-[200px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                            src: "/me.png",
+                            src: "/ThaovyLe-Portfolio/_next/static/media/me.png",
                             alt: "image of Thaovy Le",
                             className: "absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2",
                             width: 400,
@@ -1235,7 +1235,7 @@ const Column = ({ images, y })=>{
             return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: (_page_module_scss__WEBPACK_IMPORTED_MODULE_6___default().imageContainer),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                    src: `/${src}`,
+                    src: `/ThaovyLe-Portfolio/_next/static/media/${src}`,
                     alt: "image",
                     fill: true
                 })
@@ -1369,7 +1369,7 @@ const projectsData = [
         id: 1,
         title: "Quiz App",
         description: "React Native application. To view the app, you can log in with these credentials: username-test, password-Test1@",
-        image: "/p1.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p1.png",
         tag: [
             "ALL",
             "MOBILE"
@@ -1381,7 +1381,7 @@ const projectsData = [
         id: 2,
         title: "Layers of Love",
         description: "Responsive single-page website that demonstrates a form of creativity. Developed with HTML, CSS, and JavaScript",
-        image: "/p2.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p2.png",
         tag: [
             "ALL",
             "WEB"
@@ -1393,7 +1393,7 @@ const projectsData = [
         id: 3,
         title: "Journey Through UCF",
         description: "Responsive single-page website that describes my journey at UCF. Developed with HTML, SASS, and JavaScript",
-        image: "/p3.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p3.png",
         tag: [
             "ALL",
             "WEB"
@@ -1405,7 +1405,7 @@ const projectsData = [
         id: 4,
         title: "Art Deco",
         description: "Single-page website that describes the Art Deco movement. Developed with HTML and CSS",
-        image: "/p4.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p4.png",
         tag: [
             "ALL",
             "WEB"
@@ -1417,7 +1417,7 @@ const projectsData = [
         id: 5,
         title: "Exercise App",
         description: "React application that is a simple exercise tracker. Contains menu with a repetition and duration types",
-        image: "/p5.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p5.png",
         tag: [
             "ALL",
             "MOBILE"
@@ -1429,7 +1429,7 @@ const projectsData = [
         id: 6,
         title: "Survey",
         description: "A survey form that offers up hints, uses a variety of input types, and performs validation before delivering the results",
-        image: "/p6.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p6.png",
         tag: [
             "ALL",
             "WEB"
@@ -1441,7 +1441,7 @@ const projectsData = [
         id: 7,
         title: "Yahoo Redesign - Web Prototype",
         description: "A website redesign for usability and accessibility: light mode switch & accesibility button. Designed with Adobe XD",
-        image: "/p7.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p7.png",
         tag: [
             "ALL",
             "DESIGN"
@@ -1453,7 +1453,7 @@ const projectsData = [
         id: 8,
         title: "TravelME - App Prototype",
         description: "A UX/UI project that includes developing a high fidelity prototype with Adobe XD, and a full report of the design process",
-        image: "/p8.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p8.png",
         tag: [
             "ALL",
             "DESIGN"
@@ -1465,7 +1465,7 @@ const projectsData = [
         id: 9,
         title: "Bakery Database - MongoDB",
         description: "A bakery database comprising entities of the store, baker, and dessert. Postman is used to show the queries and operations",
-        image: "/p11.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p11.png",
         tag: [
             "ALL",
             "DATABASE"
@@ -1477,7 +1477,7 @@ const projectsData = [
         id: 10,
         title: "Crumbl Redesign - App Design",
         description: "Tasked with creating an alternative design for the Crumbl app with at least three states and controls. Designed with Adobe XD",
-        image: "/p9.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p9.png",
         tag: [
             "ALL",
             "DESIGN"
@@ -1489,7 +1489,7 @@ const projectsData = [
         id: 11,
         title: "Blog Database - MySQL",
         description: "Created a blog database with MySQL. Postman is used to demonstrate the queries and operations",
-        image: "/p10.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p10.png",
         tag: [
             "ALL",
             "DATABASE"
@@ -1501,7 +1501,7 @@ const projectsData = [
         id: 12,
         title: "Chessland Attacks - C",
         description: "Recreated a chessboard, considering the positions of rooks. Determines how many and which rooks can attack each piece",
-        image: "/p12.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p12.png",
         tag: [
             "ALL",
             "C.S"
@@ -1513,7 +1513,7 @@ const projectsData = [
         id: 13,
         title: "Coin Organization - C",
         description: "The program sorts the list of individuals based on the money they each have and the ratio of currency",
-        image: "/p13.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p13.png",
         tag: [
             "ALL",
             "C.S"
@@ -1525,7 +1525,7 @@ const projectsData = [
         id: 14,
         title: "Arcade Management - C",
         description: "Given a list of people entering and leaving the arcade, determine the most valuable player",
-        image: "/p14.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p14.png",
         tag: [
             "ALL",
             "C.S"
@@ -1537,7 +1537,7 @@ const projectsData = [
         id: 15,
         title: "Sudoku Solver - Java",
         description: "Given a sudoku unsolved grid, output the solved puzzle. Uses backtracking function to solve",
-        image: "/p15.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p15.png",
         tag: [
             "ALL",
             "C.S"
@@ -1549,7 +1549,7 @@ const projectsData = [
         id: 16,
         title: "Hexagram - Java",
         description: "Determine the amount of ways to place numbers on the vertices of a hexagram such that the sum each line is the same",
-        image: "/p16.png",
+        image: "/ThaovyLe-Portfolio/_next/static/media/p16.png",
         tag: [
             "ALL",
             "C.S"
@@ -1764,7 +1764,7 @@ function index() {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `/${project.src}`
+                                src: `/ThaovyLe-Portfolio/_next/static/media/${project.src}`
                             })
                         })
                     }, index);
@@ -1786,7 +1786,7 @@ function index() {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `/${project.src}`
+                                src: `/ThaovyLe-Portfolio/_next/static/media/${project.src}`
                             })
                         }, index)
                     }, index);

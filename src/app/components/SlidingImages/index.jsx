@@ -65,7 +65,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/${project.src}`}/>
+                                    src={`/ThaovyLe-Portfolio/_next/static/media/${project.src}`}/>
                                 </div>
                             </div>
                         })
@@ -79,7 +79,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/${project.src}`}/>
+                                    src={`/ThaovyLe-Portfolio/_next/static/media/${project.src}`}/>
                                 </div>
                             </div>
                         })
