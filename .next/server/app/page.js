@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 6990:
+/***/ 5835:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958))
 
 /***/ }),
 
@@ -1153,18 +1153,18 @@ var motion = __webpack_require__(5055);
 
 
 const ParallaxScroll_images = [
-    "{I1}",
-    "{I2}",
-    "{I3}",
-    "{I4}",
-    "{I5}",
-    "{I6}",
-    "{I7}",
-    "{I8}",
-    "{I9}",
-    "{I10}",
-    "{I11}",
-    "{I12}"
+    _1,
+    _2,
+    _3,
+    _4,
+    _5,
+    _6,
+    _7,
+    _8,
+    _9,
+    _10,
+    _11,
+    _12
 ];
 function ParallaxScroll() {
     const gallery = (0,react_.useRef)(null);
@@ -1287,7 +1287,7 @@ const Column = ({ images, y })=>{
             return /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (page_module_default()).imageContainer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: `${src}`,
+                    src: src,
                     alt: "image",
                     fill: true
                 })
@@ -1340,7 +1340,9 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl })=>{
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "h-80 md:h-52 rounded-t-xl relative group",
                 style: {
-                    background: `url(${imgUrl})`,
+                    background: {
+                        imgUrl
+                    },
                     backgroundSize: "cover"
                 },
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -1898,7 +1900,7 @@ function index() {
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `${project.src}`
+                                src: project.src
                             })
                         })
                     }, index);

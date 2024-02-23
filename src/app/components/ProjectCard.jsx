@@ -10,7 +10,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
     <div className="rounded-b-xl rounded-t-xl" style={{boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.5)'}}>
       <div
         className="h-80 md:h-52 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        style={{ background: {imgUrl}, backgroundSize: "cover" }}
       >
         <div className="overlay items-center rounded-t-xl justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           <Link
