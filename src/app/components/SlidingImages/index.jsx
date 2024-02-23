@@ -3,42 +3,50 @@ import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import styles from './style.module.scss';
 import Image from 'next/image';
+import LayersPages from "../../../../public/layersPages.png";
+import JourneyPages from "../../../../public/journeyPages.png";
+import LayersLove from "../../../../public/layersOfLove.png";
+import QuizApp from "../../../../public/quizApp.png";
+import ArtPages from "../../../../public/artPages.png";
+import LayersMobile from "../../../../public/layersMobile.png";
+import Journey from "../../../../public/journey.png";
+import Art from "../../../../public/art.png";
 
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: "layersPages.png"
+        src: {LayersPages}
     },
     {
         color: "#e3e3e3",
-        src: "journeyPages.png"
+        src: {JourneyPages}
     },
     {
         color: "#d6d7dc",
-        src: "layersOfLove.png"
+        src: {LayersLove}
     },
     {
         color: "#21242b",
-        src: "quizApp.png"
+        src: {QuizApp}
     }
 ]
 
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: "artPages.png"
+        src: {ArtPages}
     },
     {
         color: "#e1dad6",
-        src: "layersMobile.png"
+        src: {LayersMobile}
     },
     {
         color: "#e5e0e1",
-        src: "journey.png"
+        src: {Journey}
     },
     {
         color: "#d7d4cf",
-        src: "art.png"
+        src: {Art}
     },
     
 ]
@@ -65,7 +73,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/ThaovyLe-Portfolio/_next/static/media/${project.src}`}/>
+                                    src={`${project.src}`}/>
                                 </div>
                             </div>
                         })
@@ -79,7 +87,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/ThaovyLe-Portfolio/_next/static/media/${project.src}`}/>
+                                    src={`${project.src}`}/>
                                 </div>
                             </div>
                         })

@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 2332:
+/***/ 8817:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5270));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9765));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5602));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 627));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5270))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
 
 /***/ }),
 
@@ -1086,53 +1086,124 @@ const Navbar = ()=>{
 
 /***/ }),
 
-/***/ 9765:
+/***/ 8690:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ ParallaxScroll)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _page_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5882);
-/* harmony import */ var _page_module_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_page_module_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2451);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _studio_freight_lenis__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6788);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9290);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1591);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(5055);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ ParallaxScroll)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(8038);
+// EXTERNAL MODULE: ./src/app/components/page.module.scss
+var page_module = __webpack_require__(5882);
+var page_module_default = /*#__PURE__*/__webpack_require__.n(page_module);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(2451);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+// EXTERNAL MODULE: ./node_modules/@studio-freight/lenis/dist/lenis.mjs
+var dist_lenis = __webpack_require__(6788);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
+var use_scroll = __webpack_require__(9290);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
+var use_transform = __webpack_require__(1591);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
+var motion = __webpack_require__(5055);
+;// CONCATENATED MODULE: ./public/1.png
+/* harmony default export */ const _1 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/1.34d6752c.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAe0lEQVR42hWNuw7CMAwA/f8/wwoCdYCxSJV406UNUVRCbCfOg6wE6YYbTjpAnxuOM4XSBD4UF4vMYixZiuBImHm7Wa92hzdnQE6I2PfH4TpaSoA+zUpP06yUdq3XZrnfTs/HKCIsBV7aXM5D1+1rrSF+wXHiULwU+o/TDwEUa9/aDpSSAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/2.png
+/* harmony default export */ const _2 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/2.a2ada86c.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAaUlEQVR42g3HMQ7CMBBE0fm7jkFBSFDQUXP/miNwD9pAESSQEw953aM/7mBJtoBA3VGn8/UXKTtknK3mp7JIbBe5HsqMuqxwiGXPu4jROIDG8PWgTKDYK/35mmNq9TbuihTZj5cap6KEP8w/J/MKSus3AAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/3.png
+/* harmony default export */ const _3 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/3.4d343a5e.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAWklEQVR42jWKsQ0DMQwDvf9smSBFJggcf2RbJNU8YeBVCHckGzBz/rgDOSE0KNe/z/FdMY4zIbKKJfNxQqLvcaDc6ziFlftasZHmpmKP6/V59xhm7x17L38wb+p1c4tGDK6wAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/4.png
+/* harmony default export */ const _4 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/4.7ea974db.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAc0lEQVR42mMQE5dnAAEeIBYVA7H54xNS0jMKQkIjOTjFGHh4JQ0MTEJCo/LzSxggYO78VbfvPFm5aguUf+TYpdfv/pm71kP5gUHR9U3Tw6KKGYEcYVFJBXkTH68iFSUjfkFxBmEROVExRQlJDWERJWEROQDgUhurmbsxWwAAAABJRU5ErkJggg==","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/5.png
+/* harmony default export */ const _5 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/5.9565245e.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAdElEQVR42hXMuwpCMRCE4ZlsTioRK22tfHgfRrC2shBtREFzNJfNujLVBz/D/eFYdQyzSUSIGMjtagntubVXNzd2m/Vi4ulyze8SAZZaxdgNPjeSSBIKSTD60/nxdN9LHTaCAU0VQT5dv639+1uemWcPU4w/SCo7suOVYhAAAAAASUVORK5CYII=","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/6.png
+/* harmony default export */ const _6 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/6.c97cb5a0.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAMAAAAGL8UJAAAASFBMVEX///////7+///+/v79/v79/v37+/v5+vr99vL89vT58/Hy9fT58fDy8/H07uvq6+Hr6uD05d7w4dbb2snT2tXrz73dw7fkwaiE4sPCAAAALElEQVR42gXAhRGAMAwAwIfgLpX9N+2JjmCpK7Zy4Msv7v/Bnk5iuuZg7AcNGwsBHqWj1vQAAAAASUVORK5CYII=","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/7.png
+/* harmony default export */ const _7 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/7.badfc780.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAhklEQVR42mNQ1TQyNLG2dXDTM7JU0zJikFXScXX3LSgo9PENlFTQZtDWM5NQ0y4NirExtlXUMmSQVzfQVNDtiEy20DERV9FlMLOw8wsKSwoJjQuPNrSwYzCztA+PiMnOLwqLjLW0dmSQUtAyMrWeM2eujZ2LsJQag4aOCdBIoKiWnqmGjgkAJlkc+y5Ib20AAAAASUVORK5CYII=","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/8.png
+/* harmony default export */ const _8 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/8.c522cd68.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAdklEQVR42iVMuwrCQBC8//8Ef8DCQmy01EJtA7aWCidmyeV1t7O7CWRDYHeYYR4Bwmpq82STiXBw/Y9fqmOXSBSBUR7nw+24e1dXmLnm1NCQaGwbeD5zeV32n/spVk+YBhYeh87NUvLa98+ce/o5YttnP4UTUSyzMG9xQ03chQAAAABJRU5ErkJggg==","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/9.png
+/* harmony default export */ const _9 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/9.4f7929f3.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAhUlEQVR42mNQ0zLWNTC3tHHS1jdX1zZmUFbXN7NyyMktcHRyk1PRY9DQMVHTMJqQEmdkYKaiZcygqm2sp2Na65+gomSgrmMMklfVMgoIi/HzD5FV0mFQUNWztnNZvHhJSWkFA4MIg6Kavrml/ZIlS51cPCXltRiAdgC1yCrraOubqWsbAwDfChwE4ZfWDQAAAABJRU5ErkJggg==","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/10.png
+/* harmony default export */ const _10 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/10.f19732bc.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAWUlEQVR42iXKywqDQBBE0f7/H8w2gaCoIMxMdz1ciQ7U5nArZErwpbmg2MaQZHsa+7n00bNSZkD5PT7FgqCLIQH7kq9nr/X4Vba3K2S27G37F0rmY4ow5/8Gv3Vy1yudw4oAAAAASUVORK5CYII=","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/11.png
+/* harmony default export */ const _11 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/11.80ca4a64.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAaklEQVR42iXGQQqDQAwF0PwkDKUFcSHe/2zdT4diwXScJAq+1YPVCoAuoIzUSN53qJCnPMpQP/xoPy9t2FzWSSW8jLbRNiU4nkyU+rflNYvZdU5GdKH317skoMTiy5qjhxYSgdUPAXTLPAGVvDapbAeKmwAAAABJRU5ErkJggg==","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/12.png
+/* harmony default export */ const _12 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/12.c8c94798.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAcUlEQVR42kXLPQqFMBAE4JztHcuLPDyBnY1n0MJOK7GwEUEIBDaaYH521xUEm2U/ZkYh4rZMQ9+u88iYVcq5q8uq+DX/IoZLEbEFMHoHACRSzJxSct7Llf+xdScc1jv3GqRvTAjhs9Y6xvhalhISETPfLS1v/hy0HwMAAAAASUVORK5CYII=","blurWidth":5,"blurHeight":8});
+;// CONCATENATED MODULE: ./src/app/components/ParallaxScroll.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 
 
 
-const images = [
-    "1.png",
-    "2.png",
-    "3.png",
-    "4.png",
-    "5.png",
-    "6.png",
-    "7.png",
-    "8.png",
-    "9.png",
-    "10.png",
-    "11.png",
-    "12.png"
+
+
+
+
+
+
+
+
+
+
+
+
+const ParallaxScroll_images = [
+    {
+        I1: _1
+    },
+    {
+        I2: _2
+    },
+    {
+        I3: _3
+    },
+    {
+        I4: _4
+    },
+    {
+        I5: _5
+    },
+    {
+        I6: _6
+    },
+    {
+        I7: _7
+    },
+    {
+        I8: _8
+    },
+    {
+        I9: _9
+    },
+    {
+        I10: _10
+    },
+    {
+        I11: _11
+    },
+    {
+        I12: _12
+    }
 ];
 function ParallaxScroll() {
-    const gallery = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
-    const [dimension, setDimension] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
+    const gallery = (0,react_.useRef)(null);
+    const [dimension, setDimension] = (0,react_.useState)({
         width: 0,
         height: 0
     });
-    const { scrollYProgress } = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__/* .useScroll */ .v)({
+    const { scrollYProgress } = (0,use_scroll/* useScroll */.v)({
         target: gallery,
         offset: [
             "start end",
@@ -1140,36 +1211,36 @@ function ParallaxScroll() {
         ]
     });
     const { height } = dimension;
-    const y = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const y = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         height * 2
     ]);
-    const y2 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const y2 = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         height * 3.3
     ]);
-    const y3 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const y3 = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         height * 1.25
     ]);
-    const y4 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const y4 = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         height * 3
     ]);
-    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
-        const lenis = new _studio_freight_lenis__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z();
+    (0,react_.useEffect)(()=>{
+        const lenis = new dist_lenis/* default */.Z();
         const raf = (time)=>{
             lenis.raf(time);
             requestAnimationFrame(raf);
@@ -1187,67 +1258,67 @@ function ParallaxScroll() {
             window.removeEventListener("resize", resize);
         };
     }, []);
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
-        className: (_page_module_scss__WEBPACK_IMPORTED_MODULE_6___default().main),
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
+        className: (page_module_default()).main,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_page_module_scss__WEBPACK_IMPORTED_MODULE_6___default().spacer)
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (page_module_default()).spacer
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 ref: gallery,
-                className: (_page_module_scss__WEBPACK_IMPORTED_MODULE_6___default().gallery),
+                className: (page_module_default()).gallery,
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Column, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(Column, {
                         images: [
-                            images[0],
-                            images[1],
-                            images[2]
+                            ParallaxScroll_images[0],
+                            ParallaxScroll_images[1],
+                            ParallaxScroll_images[2]
                         ],
                         y: y
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Column, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(Column, {
                         images: [
-                            images[3],
-                            images[4],
-                            images[5]
+                            ParallaxScroll_images[3],
+                            ParallaxScroll_images[4],
+                            ParallaxScroll_images[5]
                         ],
                         y: y2
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Column, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(Column, {
                         images: [
-                            images[6],
-                            images[7],
-                            images[8]
+                            ParallaxScroll_images[6],
+                            ParallaxScroll_images[7],
+                            ParallaxScroll_images[8]
                         ],
                         y: y3
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Column, {
+                    /*#__PURE__*/ jsx_runtime_.jsx(Column, {
                         images: [
-                            images[9],
-                            images[10],
-                            images[11]
+                            ParallaxScroll_images[9],
+                            ParallaxScroll_images[10],
+                            ParallaxScroll_images[11]
                         ],
                         y: y4
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_page_module_scss__WEBPACK_IMPORTED_MODULE_6___default().spacer)
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (page_module_default()).spacer
             })
         ]
     });
 }
 const Column = ({ images, y })=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_7__/* .motion */ .E.div, {
-        className: (_page_module_scss__WEBPACK_IMPORTED_MODULE_6___default().column),
+    return /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+        className: (page_module_default()).column,
         style: {
             y
         },
         children: images.map((src, i)=>{
-            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_page_module_scss__WEBPACK_IMPORTED_MODULE_6___default().imageContainer),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                    src: `/ThaovyLe-Portfolio/_next/static/media/${src}`,
+            return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (page_module_default()).imageContainer,
+                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    src: `${src}`,
                     alt: "image",
                     fill: true
                 })
@@ -1259,7 +1330,7 @@ const Column = ({ images, y })=>{
 
 /***/ }),
 
-/***/ 5602:
+/***/ 9890:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1369,8 +1440,56 @@ var use_in_view = __webpack_require__(9694);
 var motion = __webpack_require__(5055);
 // EXTERNAL MODULE: ./node_modules/react-responsive/dist/react-responsive.js
 var react_responsive = __webpack_require__(8148);
+;// CONCATENATED MODULE: ./public/p1.png
+/* harmony default export */ const p1 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p1.c6076a4f.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAhklEQVR42mN49ub/5ZuvFixeFRWT4usfOXv+mmNn7gAFGV6+/7/vyA0GkVwnZ7/AwGAGBoY5C9a++vCf4cW7/0fPvLCKPTFv0eYZs5Y1t/Rt333y+VuIjsNXGVQn+Pil2dj6MzA4zFu8DaTj6et/1++8W7fpYFFpfV5h9cq1u85cfPTszX8AZQlMSjST164AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p2.png
+/* harmony default export */ const p2 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p2.e86c1932.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAbUlEQVR42gVAUQ7CIAx9hW4z0ykfYrz/5fxZiIoMBrQz1NegoNw6oGytkCHVyYDTlsou+1dueRXU5J3h+3QdOL6CLUFwsbUclKGn3ztARrZuMbzgU2sdDJ2nwXeN3BqDKebNP9w8P0XU4MDIAP4aKTfNiJpxlgAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p3.png
+/* harmony default export */ const p3 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p3.c0645b8e.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgUlEQVR42gUAzQ7BMLhPL8JNPMni4kIQC0JEWFudjbTp39qPrjuwXSzo8/1X0JgKhLQOgn9HZbyLHbJ1J41TUnoPq+ViezhecmHCD7HHa5PuORfa2MFwNJ5M01uRngnC5E4wCaGmNEuS2Xy9O2U5JgxdacFK4WMrXdTQ6NA+FZRc93WIZxzlfifjAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p4.png
+/* harmony default export */ const p4 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p4.298a1d97.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AGdWSiAADMC4qN7WwdjTxb+8tHJzcTQvMQAyIiUtAACrpZvMyL5tZV87QW9ca6qWnJ8AhIOAraum09LOureyenFek5Wrenuyn5+qANPPyuHg4OXl5eDd13t6daKdnL21sMO/ugDe2dTZ1M+RgW3Du7HSz8i6uLWrq6y8vb8AAEjLPb2ScgAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p5.png
+/* harmony default export */ const p5 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p5.8b2e63a0.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAg0lEQVR42mM4qlY7R7YgRy7RTdnLWtHbWyXdU6zRmXkGwzHZ2i7b5KDQYFd3P0d374BAVxedXCeGmQxHZWonOqQnB0SnJ2WnpucE29kHmJY4ACWOy9c2miXZJ0YFh4SHRcSExAQG2Jc6gnSo1s5SzE2TjXJR8jST8gw2yPEQbnRimgEAyRcnpM1ihP4AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p6.png
+/* harmony default export */ const p6 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p6.b4e1e82a.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAcklEQVR42hXGWQ7CIBAAUO5/PDWGppGk1ZSyzwxMF2jE+L6eKECLyWk28S7j7RGeo1U2LUFQJDkYjuVAOqwvLjCfDCx2xJP5qrX3/m31av+0bROM5HzBFVi7POuiA8YdbBbgUQ5r+lgaFb4mUO8wGdTuBzYab3qNM0SfAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p7.png
+/* harmony default export */ const p7 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p7.f141e713.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AOft/8DE1ZqZqLG0wrO0wKSmt8XJ2ubs/wDo7v+0tcNtXGSrko7Esqbe4tjf5e7i6PwA5uz/wMPRjI+Nk3RThnNrwb+t0dbc5Or/AOnv/6euzgAAekBHikdFgQAAY6aow+nw/wDl6/zFy+21t+W8vOK9utyxqczIx9/l7P5N5FZFI3jU7QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p8.png
+/* harmony default export */ const p8 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p8.d78ed747.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAh0lEQVR42g3LSQrCMBQA0Nz/BC7VA1RcCCpO4EJFhIIgjbZxaFAy/J+kSVPtyu7fI9WvxuC0Q55fObtpCxKkMkgE6OxC18nCvUv5vG92++V8djqmBI1hBZuMp50tP6/+sJeeU+hG823y4jHaHmxEbeQgWVGaeW+Ib6OLlQ1OAReKC9Q2QGjrP4QfaQ+/YOsDAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p9.png
+/* harmony default export */ const p9 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p9.c1b3a86d.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/APfl5eLQ0cW4uYl+fpOIiMW4uN3NzvTj4wCul5iPY2MAEwFlZ2diYGGPZWJ6bmyqoaAAgn+BjWpi0Kyka3BzeHV1fFtZwLa06NzaAKGWln1QVZtsbwAAAAAAAC0gJHJxcr+wsQD75+jgz8/CuLiQhYaYi4zUwcLk1dX14+PJfESNMidM1wAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p10.png
+/* harmony default export */ const p10 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p10.3bcee5c5.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAARVBMVEX////8/PzY19bV1dW3t7a1tbW1tLWzs7OzsrCysrKurq6tra2srK2lpaSkpKQ2Nzs0NDczMToqMjYvLTAoKCgAABwAAAA3gzt8AAAALklEQVR42g3GxQEAIQAEseUUd6b/UiGvyFwphnwbybLAS3oolf/kpQ3cyUefOG0kMQG4UnFp9gAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p11.png
+/* harmony default export */ const p11 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p11.22a6106a.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAfklEQVR42mN4++XD83evXr5/c+DYoe17du3cv2frru3nrlxgmD1vDgMDQ31zo39wCAMMtHV1MEyaNoWBgaGsqjItM5NXRMnI1JyBgWHClEkMk6aCJEory5PS0hgYhLR0DRkYGPomT2B49PLp9bu3bty7HREVx8DAoKahAZEAAB1qMg8nreE/AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p12.png
+/* harmony default export */ const p12 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p12.bba41cb7.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAb0lEQVR42mO49fbTmbuPzt5/cubu44uPX159/ubUnYc3Xn1g2HL4BAMDg7aeAZDMLinvn70AyFi2ZQfD5kPHgSx1HT0gmVlU2ocmoamnD9HROW0WkLFow1aGzWCj1LX1gGRqXuHKnXtzKmp3nDgLAE58NmjxpVBqAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p13.png
+/* harmony default export */ const p13 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p13.8507b727.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAaElEQVR42iWLWwqFMAxEs/J7oT9uQa0RC26mVRej1KRqH0Y6HOZjhgP/n7JusXZxXwtuXTelGtDapCemlHLOpZTaxszQtUPYD/I+MAuSGCPiBH2LNzGfdIVQERvRwKBHJhE8E8suqccLNXRmIQzjX7kAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p14.png
+/* harmony default export */ const p14 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p14.fdd89a95.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAhklEQVR42mM4dvru7gOX9x66sufglf1Hrh04cm3n3gvHz9xjKC7rZWDwEGLxZGCwtTCL9PJNZWCQqq6dzFBVPdFAPcLOKtlQN8LXNzsitoKT2aulfTZDfmE7A4OnrGAgA4OThUmkb2ghA4NFTd0UhqOnQHYALQCS+w5fO3Dsxs79F4+fuQ8A7AU5WbHkO8EAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p15.png
+/* harmony default export */ const p15 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p15.2f7b1323.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAASFBMVEX/7+//7e376eny4eHaysrZycnXyMjWx8dMT0tHSUhJR0ZFQUFFQT84REBCPz8+PzczPzs0PzUrMTIxMCUsLCwoLCoAAgAAAABy6V9YAAAALUlEQVR42mNgZGJhZ2NlYmRgYOYXExdhZgAyOHiFuMEMLgFRPjCDU1CYh5kBABiiAS1cFhnUAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p16.png
+/* harmony default export */ const p16 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p16.158e5696.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAARVBMVEXe7Nje7Nfd69fc6dbb6dXZ59O8yLe7yLe1wbFaY2FaY19ZYl5YYFxXYFxRWlpNVVMgLTYdKjMcKTYbKTcQICwAACAAAAzIx4D2AAAAL0lEQVR42iXGtwEAIAwDMAcwvbf/T2VAk6C09d4ZBbCe2wgIYx+JAjCsnX/mLpQHG0gBSz5wL3EAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./src/app/components/ProjectsSection.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1381,7 +1500,9 @@ const projectsData = [
         id: 1,
         title: "Quiz App",
         description: "React Native application. To view the app, you can log in with these credentials: username-test, password-Test1@",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p1.png",
+        image: {
+            P1: p1
+        },
         tag: [
             "ALL",
             "MOBILE"
@@ -1393,7 +1514,9 @@ const projectsData = [
         id: 2,
         title: "Layers of Love",
         description: "Responsive single-page website that demonstrates a form of creativity. Developed with HTML, CSS, and JavaScript",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p2.png",
+        image: {
+            P2: p2
+        },
         tag: [
             "ALL",
             "WEB"
@@ -1405,7 +1528,9 @@ const projectsData = [
         id: 3,
         title: "Journey Through UCF",
         description: "Responsive single-page website that describes my journey at UCF. Developed with HTML, SASS, and JavaScript",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p3.png",
+        image: {
+            P3: p3
+        },
         tag: [
             "ALL",
             "WEB"
@@ -1417,7 +1542,9 @@ const projectsData = [
         id: 4,
         title: "Art Deco",
         description: "Single-page website that describes the Art Deco movement. Developed with HTML and CSS",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p4.png",
+        image: {
+            P4: p4
+        },
         tag: [
             "ALL",
             "WEB"
@@ -1429,7 +1556,9 @@ const projectsData = [
         id: 5,
         title: "Exercise App",
         description: "React application that is a simple exercise tracker. Contains menu with a repetition and duration types",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p5.png",
+        image: {
+            P5: p5
+        },
         tag: [
             "ALL",
             "MOBILE"
@@ -1441,7 +1570,9 @@ const projectsData = [
         id: 6,
         title: "Survey",
         description: "A survey form that offers up hints, uses a variety of input types, and performs validation before delivering the results",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p6.png",
+        image: {
+            P6: p6
+        },
         tag: [
             "ALL",
             "WEB"
@@ -1453,7 +1584,9 @@ const projectsData = [
         id: 7,
         title: "Yahoo Redesign - Web Prototype",
         description: "A website redesign for usability and accessibility: light mode switch & accesibility button. Designed with Adobe XD",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p7.png",
+        image: {
+            P7: p7
+        },
         tag: [
             "ALL",
             "DESIGN"
@@ -1465,7 +1598,9 @@ const projectsData = [
         id: 8,
         title: "TravelME - App Prototype",
         description: "A UX/UI project that includes developing a high fidelity prototype with Adobe XD, and a full report of the design process",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p8.png",
+        image: {
+            P8: p8
+        },
         tag: [
             "ALL",
             "DESIGN"
@@ -1477,7 +1612,9 @@ const projectsData = [
         id: 9,
         title: "Bakery Database - MongoDB",
         description: "A bakery database comprising entities of the store, baker, and dessert. Postman is used to show the queries and operations",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p11.png",
+        image: {
+            P11: p11
+        },
         tag: [
             "ALL",
             "DATABASE"
@@ -1489,7 +1626,9 @@ const projectsData = [
         id: 10,
         title: "Crumbl Redesign - App Design",
         description: "Tasked with creating an alternative design for the Crumbl app with at least three states and controls. Designed with Adobe XD",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p9.png",
+        image: {
+            P9: p9
+        },
         tag: [
             "ALL",
             "DESIGN"
@@ -1501,7 +1640,9 @@ const projectsData = [
         id: 11,
         title: "Blog Database - MySQL",
         description: "Created a blog database with MySQL. Postman is used to demonstrate the queries and operations",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p10.png",
+        image: {
+            P10: p10
+        },
         tag: [
             "ALL",
             "DATABASE"
@@ -1513,7 +1654,9 @@ const projectsData = [
         id: 12,
         title: "Chessland Attacks - C",
         description: "Recreated a chessboard, considering the positions of rooks. Determines how many and which rooks can attack each piece",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p12.png",
+        image: {
+            P12: p12
+        },
         tag: [
             "ALL",
             "C.S"
@@ -1525,7 +1668,9 @@ const projectsData = [
         id: 13,
         title: "Coin Organization - C",
         description: "The program sorts the list of individuals based on the money they each have and the ratio of currency",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p13.png",
+        image: {
+            P13: p13
+        },
         tag: [
             "ALL",
             "C.S"
@@ -1537,7 +1682,9 @@ const projectsData = [
         id: 14,
         title: "Arcade Management - C",
         description: "Given a list of people entering and leaving the arcade, determine the most valuable player",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p14.png",
+        image: {
+            P14: p14
+        },
         tag: [
             "ALL",
             "C.S"
@@ -1549,7 +1696,9 @@ const projectsData = [
         id: 15,
         title: "Sudoku Solver - Java",
         description: "Given a sudoku unsolved grid, output the solved puzzle. Uses backtracking function to solve",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p15.png",
+        image: {
+            P15: p15
+        },
         tag: [
             "ALL",
             "C.S"
@@ -1561,7 +1710,9 @@ const projectsData = [
         id: 16,
         title: "Hexagram - Java",
         description: "Determine the amount of ways to place numbers on the vertices of a hexagram such that the sum each line is the same",
-        image: "/ThaovyLe-Portfolio/_next/static/media/p16.png",
+        image: {
+            P16: p16
+        },
         tag: [
             "ALL",
             "C.S"
@@ -1666,26 +1817,60 @@ const ProjectsSection = ()=>{
 
 /***/ }),
 
-/***/ 627:
+/***/ 6996:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ index)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9290);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1591);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5055);
-/* harmony import */ var _style_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6059);
-/* harmony import */ var _style_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_style_module_scss__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2451);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ index)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(8038);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
+var use_scroll = __webpack_require__(9290);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
+var use_transform = __webpack_require__(1591);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
+var motion = __webpack_require__(5055);
+// EXTERNAL MODULE: ./src/app/components/SlidingImages/style.module.scss
+var style_module = __webpack_require__(6059);
+var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(2451);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./public/layersPages.png
+/* harmony default export */ const layersPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersPages.fd1e0958.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42gXA2AqCsP3//0TPPmQn2LQgjLEWrB3tcmeIsgC5afiwYyOWr69mMvo0l3VZVpA32+nS8pFE7Wqt0cQ3eiCCgTl2ntAg1U+KJ/4gON5PB2sUiEIUSvW+NbCXTHjr5pSTnUDorubcSdi74VY4D1wYqgREfzgBa0ru2+N2AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/journeyPages.png
+/* harmony default export */ const journeyPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/journeyPages.812c6d14.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgElEQVR42gXAygrCIH+8a6dgEfQLwSLoVrdGBEHtFKGo8zG1NJ9J9QEBmmZ26O/ERMYJovTpC+FaCAma+WJ3PCMdx4cftfUhn7puOZ0AiKm0mbu3dhlByAbu7ItzAbDyVyj3PaMmhphL/YZcff6AVbvdtOvLDWGTUv35VAZKldJ/FtZkXVeOTX8AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/layersOfLove.png
+/* harmony default export */ const layersOfLove = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersOfLove.8adab5d8.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAcUlEQVR42g3ISRaDIBAFwP50ixn0mcnn/Y+XhWZQRBCapJaFNE5K2PZMpMysAFStIXHruoUUvnrxo1Jw/RXV3bYiy/PF/yoNR0/wpAf3nkyuhbvG3Fr6hBgrg3Nd9WmZeY8Cwez9Y+hOxyGrmlLIMhF+Kd840no2wccAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/quizApp.png
+/* harmony default export */ const quizApp = ({"src":"/ThaovyLe-Portfolio/_next/static/media/quizApp.79152eb7.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AMvQ44OHk8TJ26mtu6erucjN34SHk8fM3wC5vc4AAACrsL9dYGpaXmaxtcUAAACvs8MAvsPVnqXJuL3QY2ZwYGRtvcHRmZmdwMTUALe8zjdFgaqvwWxvfWhseK+0xSQ0c7G2yQDO1OeKjZzFy927v8+4vMzJz+GHi5bJzuHep0qI4TDTmAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/artPages.png
+/* harmony default export */ const artPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/artPages.94660fcb.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AGxbTSsQG8W9rN3VwdnTxb+8s3Bxbz0xMwA8LS05AACxq6HLxrxvZ2A+RHdicayfn5sAhoWCr6yn1dTRuLSvfnVjkpSvf3+yp6etANXRzOPi4uXk5N3a1H59d6mko8C5s8LAvADe2tXX0syOfGbHv7XT0Mq1tLKvsLLDw8VU0UnkMOAQyAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/layersMobile.png
+/* harmony default export */ const layersMobile = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersMobile.44eb9af2.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAdklEQVR42hXLSw7CIBAAUO5/KXdqW+QbaUQGmMYOaoU06QVsk7d9bKO31/dvwgKRYvoBwE1sRGwJOSuZtYUnvnZCLkI2iKz5UM8n6jupuDW2aFuVqQFYjdjUYzYOtQM9Tpx/Bn6MdabgocScLkO6cnIjdP2K0x8+vmbiYqBoRAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/journey.png
+/* harmony default export */ const journey = ({"src":"/ThaovyLe-Portfolio/_next/static/media/journey.0801a286.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgElEQVR42gXAygrCIP+/iKhfqQ7dosZiRFBQc5uuYTqnzse0oPLQAObzl/bdKcO6XhmvbWiFkSEC4SMTumVMa53sd0l2uiLK3RfghibHjJCnkP10Np8slumtTi8FgBWGOXRuqKpitd5sD9k5R7DE4I5IWVPlf0wHbl58iA23DypHm6Fnx54PhyYAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/art.png
+/* harmony default export */ const art = ({"src":"/ThaovyLe-Portfolio/_next/static/media/art.d01773b8.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42mP4/+/jq2d3zp05evniqauXzwAZr57fBQoy/P//7eSRXXIMXMmRoanREXwMDEAuUBAkcfzwTm0GhqzYkIzoYH0GhhOHd0IlDu/fysDAoKVuoKyoA2Qc3r8NLPH349NHN04c3Xf21KGzpw8BGUDu/78fAV+PTk+at86dAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./src/app/components/SlidingImages/index.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+
+
 
 
 
@@ -1693,124 +1878,140 @@ __webpack_require__.r(__webpack_exports__);
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: "layersPages.png"
+        src: {
+            LayersPages: layersPages
+        }
     },
     {
         color: "#e3e3e3",
-        src: "journeyPages.png"
+        src: {
+            JourneyPages: journeyPages
+        }
     },
     {
         color: "#d6d7dc",
-        src: "layersOfLove.png"
+        src: {
+            LayersLove: layersOfLove
+        }
     },
     {
         color: "#21242b",
-        src: "quizApp.png"
+        src: {
+            QuizApp: quizApp
+        }
     }
 ];
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: "artPages.png"
+        src: {
+            ArtPages: artPages
+        }
     },
     {
         color: "#e1dad6",
-        src: "layersMobile.png"
+        src: {
+            LayersMobile: layersMobile
+        }
     },
     {
         color: "#e5e0e1",
-        src: "journey.png"
+        src: {
+            Journey: journey
+        }
     },
     {
         color: "#d7d4cf",
-        src: "art.png"
+        src: {
+            Art: art
+        }
     }
 ];
 function index() {
-    const container = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
-    const { scrollYProgress } = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__/* .useScroll */ .v)({
+    const container = (0,react_.useRef)(null);
+    const { scrollYProgress } = (0,use_scroll/* useScroll */.v)({
         target: container,
         offset: [
             "start end",
             "end start"
         ]
     });
-    const x1 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const x1 = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         150
     ]);
-    const x2 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const x2 = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         -150
     ]);
-    const height = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const height = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         0.9
     ], [
         50,
         0
     ]);
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         ref: container,
-        className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().slidingImages),
+        className: (style_module_default()).slidingImages,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.div, {
+            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                 style: {
                     x: x1
                 },
-                className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().slider),
+                className: (style_module_default()).slider,
                 children: slider1.map((project, index)=>{
-                    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().project),
+                    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (style_module_default()).project,
                         style: {
                             backgroundColor: project.color
                         },
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().imageContainer),
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: (style_module_default()).imageContainer,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `/ThaovyLe-Portfolio/_next/static/media/${project.src}`
+                                src: `${project.src}`
                             })
                         })
                     }, index);
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.div, {
+            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                 style: {
                     x: x2
                 },
-                className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().slider),
+                className: (style_module_default()).slider,
                 children: slider2.map((project, index)=>{
-                    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().project),
+                    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (style_module_default()).project,
                         style: {
                             backgroundColor: project.color
                         },
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().imageContainer),
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: (style_module_default()).imageContainer,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `/ThaovyLe-Portfolio/_next/static/media/${project.src}`
+                                src: `${project.src}`
                             })
                         }, index)
                     }, index);
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.div, {
+            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                 style: {
                     height
                 },
-                className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().circleContainer),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_5___default().circle)
+                className: (style_module_default()).circleContainer,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (style_module_default()).circle
                 })
             })
         ]

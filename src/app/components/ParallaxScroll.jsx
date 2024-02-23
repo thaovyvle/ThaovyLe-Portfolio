@@ -5,19 +5,23 @@ import Image from 'next/image';
 import Lenis from '@studio-freight/lenis'
 import { useTransform, useScroll, motion } from 'framer-motion';
 
+import I1 from "../../../public/1.png";
+import I2 from "../../../public/2.png";
+import I3 from "../../../public/3.png";
+import I4 from "../../../public/4.png";
+import I5 from "../../../public/5.png";
+import I6 from "../../../public/6.png";
+import I7 from "../../../public/7.png";
+import I8 from "../../../public/8.png";
+import I9 from "../../../public/9.png";
+import I10 from "../../../public/10.png";
+import I11 from "../../../public/11.png";
+import I12 from "../../../public/12.png";
+
+
 const images = [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png",
-  "7.png",
-  "8.png",
-  "9.png",
-  "10.png",
-  "11.png",
-  "12.png",
+  {I1}, {I2}, {I3}, {I4}, {I5}, {I6}, 
+  {I7}, {I8}, {I9}, {I10}, {I11}, {I12},
 ]
 
 export default function ParallaxScroll() {
@@ -80,7 +84,7 @@ const Column = ({images, y}) => {
         images.map( (src, i) => {
           return <div key={i} className={styles.imageContainer}>
             <Image 
-              src={`/ThaovyLe-Portfolio/_next/static/media/${src}`}
+              src={`${src}`}
               alt='image'
               fill
             />
