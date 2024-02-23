@@ -15,38 +15,38 @@ import Art from "../../../../public/art.png";
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: {LayersPages}
+        src: LayersPages
     },
     {
         color: "#e3e3e3",
-        src: {JourneyPages}
+        src: JourneyPages
     },
     {
         color: "#d6d7dc",
-        src: {LayersLove}
+        src: LayersLove
     },
     {
         color: "#21242b",
-        src: {QuizApp}
+        src: QuizApp
     }
 ]
 
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: {ArtPages}
+        src: ArtPages
     },
     {
         color: "#e1dad6",
-        src: {LayersMobile}
+        src: LayersMobile
     },
     {
         color: "#e5e0e1",
-        src: {Journey}
+        src: Journey
     },
     {
         color: "#d7d4cf",
-        src: {Art}
+        src: Art
     },
     
 ]
@@ -87,7 +87,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`${project.src}`}/>
+                                    src={`{${project.src}}`}/>
                                 </div>
                             </div>
                         })

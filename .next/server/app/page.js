@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 3565:
+/***/ 946:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
 
 /***/ }),
 
@@ -1847,53 +1847,37 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: {
-            LayersPages: layersPages
-        }
+        src: layersPages
     },
     {
         color: "#e3e3e3",
-        src: {
-            JourneyPages: journeyPages
-        }
+        src: journeyPages
     },
     {
         color: "#d6d7dc",
-        src: {
-            LayersLove: layersOfLove
-        }
+        src: layersOfLove
     },
     {
         color: "#21242b",
-        src: {
-            QuizApp: quizApp
-        }
+        src: quizApp
     }
 ];
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: {
-            ArtPages: artPages
-        }
+        src: artPages
     },
     {
         color: "#e1dad6",
-        src: {
-            LayersMobile: layersMobile
-        }
+        src: layersMobile
     },
     {
         color: "#e5e0e1",
-        src: {
-            Journey: journey
-        }
+        src: journey
     },
     {
         color: "#d7d4cf",
-        src: {
-            Art: art
-        }
+        src: art
     }
 ];
 function index() {
@@ -1968,7 +1952,7 @@ function index() {
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `${project.src}`
+                                src: `{${project.src}}`
                             })
                         }, index)
                     }, index);
