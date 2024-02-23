@@ -3,7 +3,7 @@ const nextConfig = {
   output: "export",
   basePath: '/ThaovyLe-Portfolio',
   images: {
-    path: "/images",
+    path: "out/images",
     loader: "default",
   },
 };
