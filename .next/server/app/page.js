@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 1625:
+/***/ 1708:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958))
 
 /***/ }),
 
@@ -2161,8 +2161,6 @@ const Contact_default_ = Contact_proxy.default;
 
 
 /* harmony default export */ const Contact = (Contact_default_);
-// EXTERNAL MODULE: ./node_modules/react-responsive/dist/react-responsive.js
-var react_responsive = __webpack_require__(4503);
 ;// CONCATENATED MODULE: ./src/app/page.js
 
 
@@ -2172,11 +2170,7 @@ var react_responsive = __webpack_require__(4503);
 
 
 
-
 function Home() {
-    const isSmallScreen = (0,react_responsive.useMediaQuery)({
-        maxWidth: 400
-    });
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
         className: "flex min-h-screen flex-col bg-[white]",
         children: [
@@ -2196,7 +2190,7 @@ function Home() {
                     /*#__PURE__*/ jsx_runtime_.jsx(ProjectsSection, {})
                 ]
             }),
-            !isSmallScreen && /*#__PURE__*/ jsx_runtime_.jsx(SlidingImages, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(SlidingImages, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Contact, {})
         ]
     });
@@ -2254,7 +2248,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,60,418], () => (__webpack_exec__(3261)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,60,504], () => (__webpack_exec__(3261)));
 module.exports = __webpack_exports__;
 
 })();
