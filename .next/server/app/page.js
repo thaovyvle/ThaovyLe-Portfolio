@@ -361,7 +361,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 627))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996))
 
 /***/ }),
 
@@ -1754,28 +1754,59 @@ const ProjectsSection = ()=>{
 
 /***/ }),
 
-/***/ 627:
+/***/ 6996:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ index)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9290);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1591);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(5055);
-/* harmony import */ var _style_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6059);
-/* harmony import */ var _style_module_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_style_module_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2451);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8148);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_5__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ index)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(8038);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
+var use_scroll = __webpack_require__(9290);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
+var use_transform = __webpack_require__(1591);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
+var motion = __webpack_require__(5055);
+// EXTERNAL MODULE: ./src/app/components/SlidingImages/style.module.scss
+var style_module = __webpack_require__(6059);
+var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(2451);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./public/layersPages.png
+/* harmony default export */ const layersPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersPages.fd1e0958.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42gXA2AqCsP3//0TPPmQn2LQgjLEWrB3tcmeIsgC5afiwYyOWr69mMvo0l3VZVpA32+nS8pFE7Wqt0cQ3eiCCgTl2ntAg1U+KJ/4gON5PB2sUiEIUSvW+NbCXTHjr5pSTnUDorubcSdi74VY4D1wYqgREfzgBa0ru2+N2AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/journeyPages.png
+/* harmony default export */ const journeyPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/journeyPages.812c6d14.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgElEQVR42gXAygrCIH+8a6dgEfQLwSLoVrdGBEHtFKGo8zG1NJ9J9QEBmmZ26O/ERMYJovTpC+FaCAma+WJ3PCMdx4cftfUhn7puOZ0AiKm0mbu3dhlByAbu7ItzAbDyVyj3PaMmhphL/YZcff6AVbvdtOvLDWGTUv35VAZKldJ/FtZkXVeOTX8AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/layersOfLove.png
+/* harmony default export */ const layersOfLove = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersOfLove.8adab5d8.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAcUlEQVR42g3ISRaDIBAFwP50ixn0mcnn/Y+XhWZQRBCapJaFNE5K2PZMpMysAFStIXHruoUUvnrxo1Jw/RXV3bYiy/PF/yoNR0/wpAf3nkyuhbvG3Fr6hBgrg3Nd9WmZeY8Cwez9Y+hOxyGrmlLIMhF+Kd840no2wccAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/quizApp.png
+/* harmony default export */ const quizApp = ({"src":"/ThaovyLe-Portfolio/_next/static/media/quizApp.79152eb7.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AMvQ44OHk8TJ26mtu6erucjN34SHk8fM3wC5vc4AAACrsL9dYGpaXmaxtcUAAACvs8MAvsPVnqXJuL3QY2ZwYGRtvcHRmZmdwMTUALe8zjdFgaqvwWxvfWhseK+0xSQ0c7G2yQDO1OeKjZzFy927v8+4vMzJz+GHi5bJzuHep0qI4TDTmAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/artPages.png
+/* harmony default export */ const artPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/artPages.94660fcb.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAiElEQVR42gF9AIL/AGxbTSsQG8W9rN3VwdnTxb+8s3Bxbz0xMwA8LS05AACxq6HLxrxvZ2A+RHdicayfn5sAhoWCr6yn1dTRuLSvfnVjkpSvf3+yp6etANXRzOPi4uXk5N3a1H59d6mko8C5s8LAvADe2tXX0syOfGbHv7XT0Mq1tLKvsLLDw8VU0UnkMOAQyAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/layersMobile.png
+/* harmony default export */ const layersMobile = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersMobile.44eb9af2.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAdklEQVR42hXLSw7CIBAAUO5/KXdqW+QbaUQGmMYOaoU06QVsk7d9bKO31/dvwgKRYvoBwE1sRGwJOSuZtYUnvnZCLkI2iKz5UM8n6jupuDW2aFuVqQFYjdjUYzYOtQM9Tpx/Bn6MdabgocScLkO6cnIjdP2K0x8+vmbiYqBoRAAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/journey.png
+/* harmony default export */ const journey = ({"src":"/ThaovyLe-Portfolio/_next/static/media/journey.0801a286.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAgElEQVR42gXAygrCIP+/iKhfqQ7dosZiRFBQc5uuYTqnzse0oPLQAObzl/bdKcO6XhmvbWiFkSEC4SMTumVMa53sd0l2uiLK3RfghibHjJCnkP10Np8slumtTi8FgBWGOXRuqKpitd5sD9k5R7DE4I5IWVPlf0wHbl58iA23DypHm6Fnx54PhyYAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/art.png
+/* harmony default export */ const art = ({"src":"/ThaovyLe-Portfolio/_next/static/media/art.d01773b8.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42mP4/+/jq2d3zp05evniqauXzwAZr57fBQoy/P//7eSRXXIMXMmRoanREXwMDEAuUBAkcfzwTm0GhqzYkIzoYH0GhhOHd0IlDu/fysDAoKVuoKyoA2Qc3r8NLPH349NHN04c3Xf21KGzpw8BGUDu/78fAV+PTk+at86dAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./src/app/components/SlidingImages/index.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+
 
 
 
@@ -1784,137 +1815,124 @@ __webpack_require__.r(__webpack_exports__);
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: "layersPages.png"
+        src: layersPages
     },
     {
         color: "#e3e3e3",
-        src: "journeyPages.png"
+        src: journeyPages
     },
     {
         color: "#d6d7dc",
-        src: "layersOfLove.png"
+        src: layersOfLove
     },
     {
         color: "#21242b",
-        src: "quizApp.png"
+        src: quizApp
     }
 ];
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: "artPages.png"
+        src: artPages
     },
     {
         color: "#e1dad6",
-        src: "layersMobile.png"
+        src: layersMobile
     },
     {
         color: "#e5e0e1",
-        src: "journey.png"
+        src: journey
     },
     {
         color: "#d7d4cf",
-        src: "art.png"
+        src: art
     }
 ];
 function index() {
-    const container = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
-    const { scrollYProgress } = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__/* .useScroll */ .v)({
+    const container = (0,react_.useRef)(null);
+    const { scrollYProgress } = (0,use_scroll/* useScroll */.v)({
         target: container,
         offset: [
             "start end",
             "end start"
         ]
     });
-    const x1 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const x1 = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         150
     ]);
-    const x2 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const x2 = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         1
     ], [
         0,
         -150
     ]);
-    const height = (0,framer_motion__WEBPACK_IMPORTED_MODULE_4__/* .useTransform */ .H)(scrollYProgress, [
+    const height = (0,use_transform/* useTransform */.H)(scrollYProgress, [
         0,
         0.9
     ], [
         50,
         0
     ]);
-    // Adjust the transform values for screens smaller than 400px
-    const isSmallScreen = (0,react_responsive__WEBPACK_IMPORTED_MODULE_5__.useMediaQuery)({
-        maxWidth: 700
-    });
-    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
-        if (isSmallScreen) {
-            x1.set(0);
-            x2.set(0);
-            height.set(0);
-        }
-    }, [
-        isSmallScreen
-    ]);
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         ref: container,
-        className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().slidingImages),
+        className: (style_module_default()).slidingImages,
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_7__/* .motion */ .E.div, {
+            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                 style: {
                     x: x1
                 },
-                className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().slider),
+                className: (style_module_default()).slider,
                 children: slider1.map((project, index)=>{
-                    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().project),
+                    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (style_module_default()).project,
                         style: {
                             backgroundColor: project.color
                         },
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().imageContainer),
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: (style_module_default()).imageContainer,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `/images/${project.src}`
+                                src: project.src
                             })
                         })
                     }, index);
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_7__/* .motion */ .E.div, {
+            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                 style: {
                     x: x2
                 },
-                className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().slider),
+                className: (style_module_default()).slider,
                 children: slider2.map((project, index)=>{
-                    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().project),
+                    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: (style_module_default()).project,
                         style: {
                             backgroundColor: project.color
                         },
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().imageContainer),
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: (style_module_default()).imageContainer,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
-                                src: `/images/${project.src}`
+                                src: project.src
                             })
                         }, index)
                     }, index);
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_7__/* .motion */ .E.div, {
+            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                 style: {
                     height
                 },
-                className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().circleContainer),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: (_style_module_scss__WEBPACK_IMPORTED_MODULE_6___default().circle)
+                className: (style_module_default()).circleContainer,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (style_module_default()).circle
                 })
             })
         ]
