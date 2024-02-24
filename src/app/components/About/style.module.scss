@@ -7,8 +7,8 @@
     color: black;
     border-bottom: 1.5px solid rgb(134, 134, 134);
     @media (max-width: 400px) {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     .body{
         display: flex;
@@ -50,7 +50,7 @@
                 }
                 @media (max-width: 400px) {
                     width: 100%;
-                    font-size: 12px;
+                    font-size: 14px;
                     margin-left: 0px;
                 }
             }
