@@ -1,52 +1,45 @@
 "use client";
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import styles from './style.module.scss';
 import Image from 'next/image';
-import LayersPages from "../../../../public/layersPages.png";
-import JourneyPages from "../../../../public/journeyPages.png";
-import LayersLove from "../../../../public/layersOfLove.png";
-import QuizApp from "../../../../public/quizApp.png";
-import ArtPages from "../../../../public/artPages.png";
-import LayersMobile from "../../../../public/layersMobile.png";
-import Journey from "../../../../public/journey.png";
-import Art from "../../../../public/art.png";
+import { useMediaQuery } from 'react-responsive';
 
 const slider1 = [
     {
         color: "#e3e5e7",
-        src: LayersPages,
+        src: "layersPages.png"
     },
     {
         color: "#e3e3e3",
-        src: JourneyPages,
+        src: "journeyPages.png"
     },
     {
         color: "#d6d7dc",
-        src: LayersLove
+        src: "layersOfLove.png"
     },
     {
         color: "#21242b",
-        src: QuizApp
+        src: "quizApp.png"
     }
 ]
 
 const slider2 = [
     {
         color: "#d4e3ec",
-        src: ArtPages
+        src: "artPages.png"
     },
     {
         color: "#e1dad6",
-        src: LayersMobile
+        src: "layersMobile.png"
     },
     {
         color: "#e5e0e1",
-        src: Journey
+        src: "journey.png"
     },
     {
         color: "#d7d4cf",
-        src: Art
+        src: "art.png"
     },
     
 ]
@@ -63,6 +56,16 @@ export default function index() {
     const x2 = useTransform(scrollYProgress, [0, 1], [0, -150])
     const height = useTransform(scrollYProgress, [0, 0.9], [50, 0])
 
+    // Adjust the transform values for screens smaller than 400px
+    const isSmallScreen = useMediaQuery({ maxWidth: 700 })
+    useEffect(() => {
+        if (isSmallScreen) {
+            x1.set(0)
+            x2.set(0)
+            height.set(0)
+        }
+    }, [isSmallScreen])
+
     return (
         <div ref={container} className={styles.slidingImages}>
             <motion.div style={{x: x1}} className={styles.slider}>
@@ -73,7 +76,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={project.src}/>
+                                    src={`/images/${project.src}`}/>
                                 </div>
                             </div>
                         })
@@ -87,7 +90,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={project.src}/>
+                                    src={`/images/${project.src}`}/>
                                 </div>
                             </div>
                         })
