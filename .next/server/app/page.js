@@ -352,16 +352,16 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5456:
+/***/ 4012:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278))
 
 /***/ }),
 
@@ -920,7 +920,7 @@ const Landing = ()=>{
                     },
                     className: "col-span-4 place-self-center mt-4 lg:mt-0 ml-4 lg:ml-10",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 sm:pt-10 w-[200px] h-[200px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative",
+                        className: "rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 mt-10 w-[210px] h-[210px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                             src: _public_me_png__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z,
                             alt: "image of Thaovy Le",

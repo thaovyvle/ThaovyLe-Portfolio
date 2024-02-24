@@ -63,7 +63,7 @@ const Landing = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0 ml-4 lg:ml-10"
         >
-          <div className="rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 sm:pt-10 w-[200px] h-[200px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative">
+          <div className="rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 mt-10 w-[210px] h-[210px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative">
             <Image
               src={ImageofMe}
               alt="image of Thaovy Le"
