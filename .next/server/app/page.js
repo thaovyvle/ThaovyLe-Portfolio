@@ -352,15 +352,15 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 724:
+/***/ 5456:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890))
 
 /***/ }),
@@ -1338,7 +1338,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl })=>{
         },
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "h-80 md:h-52 rounded-t-xl relative group",
+                className: "h-52 md:h-52 lg:h-52 rounded-t-xl relative group",
                 style: {
                     background: `url(${imgUrl})`,
                     backgroundSize: "cover"
@@ -1685,7 +1685,7 @@ const ProjectsSection = ()=>{
         id: "projects",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                className: "text-center md:text-5xl sm:text-[2em] font-semibold tracking-[0.2em] mb-8 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
+                className: "text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-8 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
                 children: "PROJECTS"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {

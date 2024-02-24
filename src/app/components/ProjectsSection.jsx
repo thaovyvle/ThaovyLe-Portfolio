@@ -191,7 +191,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center md:text-5xl sm:text-[2em] font-semibold tracking-[0.2em] mb-8 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
+      <h2 className="text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-8 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
         PROJECTS
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-5 py-5 mb-10">
