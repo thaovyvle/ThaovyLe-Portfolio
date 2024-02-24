@@ -36,12 +36,6 @@
                     position: relative;
                     border-radius: 50%;
                     overflow: hidden;
-
-                    @media (max-width: 400px) {
-                        width: 100px;
-                        height: 100px;
-                    }
-
                     img{
                         object-fit: cover;
                     }
