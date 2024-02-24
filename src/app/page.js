@@ -5,8 +5,11 @@ import AboutSection from "./components/About/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SlidingImages from './components/SlidingImages';
 import Contact from './components/Contact';
+import { useMediaQuery } from 'react-responsive'
 
 export default function Home() {
+  const isSmallScreen = useMediaQuery({ maxWidth: 400 })
+
   return (
     <main className="flex min-h-screen flex-col bg-[white]">
       <Navbar />
@@ -20,7 +23,7 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
       </div>
-      <SlidingImages />
+      {!isSmallScreen && <SlidingImages />}
       <Contact />
     </main>
   );
