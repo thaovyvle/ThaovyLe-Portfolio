@@ -1777,11 +1777,7 @@ function Contact_index() {
 
 
 
-
 function Home() {
-    const isSmallScreen = (0,react_responsive.useMediaQuery)({
-        maxWidth: 400
-    });
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
         className: "flex min-h-screen flex-col bg-[white]",
         children: [
@@ -1801,7 +1797,7 @@ function Home() {
                     /*#__PURE__*/ jsx_runtime_.jsx(components_ProjectsSection, {})
                 ]
             }),
-            !isSmallScreen && /*#__PURE__*/ jsx_runtime_.jsx(SlidingImages_index, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(SlidingImages_index, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Contact_index, {})
         ]
     });
