@@ -2542,7 +2542,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
 
 /***/ }),
 
-/***/ 5737:
+/***/ 9301:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -2897,7 +2897,7 @@ _export(exports, {
 });
 const _nexturl = __webpack_require__(2419);
 const _utils = __webpack_require__(9537);
-const _error = __webpack_require__(5737);
+const _error = __webpack_require__(9301);
 const _cookies = __webpack_require__(3425);
 const INTERNALS = Symbol("internal request");
 class NextRequest extends Request {

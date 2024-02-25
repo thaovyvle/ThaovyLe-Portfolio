@@ -278,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3348)), "/Users/thaovy/ThaovyLe-Portfolio/src/app/page.js"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7170)), "/Users/thaovy/ThaovyLe-Portfolio/src/app/page.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9109))).default(props))],
     apple: [],
@@ -352,27 +352,23 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 1708:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5252));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9594));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8278));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8690));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9890));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6996));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3958))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 118))
 
 /***/ }),
 
-/***/ 5448:
+/***/ 118:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  Z: () => (/* binding */ RoundedButton_index)
+  "default": () => (/* binding */ Home)
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
@@ -380,452 +376,19 @@ var jsx_runtime_ = __webpack_require__(6786);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
 var react_ = __webpack_require__(8038);
 var react_default = /*#__PURE__*/__webpack_require__.n(react_);
-// EXTERNAL MODULE: ./src/app/common/RoundedButton/style.module.scss
-var style_module = __webpack_require__(5909);
-var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
-// EXTERNAL MODULE: ./node_modules/gsap/dist/gsap.js
-var gsap = __webpack_require__(6118);
-var gsap_default = /*#__PURE__*/__webpack_require__.n(gsap);
-;// CONCATENATED MODULE: ./src/app/common/Magnetic/index.jsx
-
-
-function index({ children }) {
-    const magnetic = (0,react_.useRef)(null);
-    (0,react_.useEffect)(()=>{
-        console.log(children);
-        const xTo = gsap_default().quickTo(magnetic.current, "x", {
-            duration: 1,
-            ease: "elastic.out(1, 0.3)"
-        });
-        const yTo = gsap_default().quickTo(magnetic.current, "y", {
-            duration: 1,
-            ease: "elastic.out(1, 0.3)"
-        });
-        magnetic.current.addEventListener("mousemove", (e)=>{
-            const { clientX, clientY } = e;
-            const { height, width, left, top } = magnetic.current.getBoundingClientRect();
-            const x = clientX - (left + width / 2);
-            const y = clientY - (top + height / 2);
-            xTo(x * 0.35);
-            yTo(y * 0.35);
-        });
-        magnetic.current.addEventListener("mouseleave", (e)=>{
-            xTo(0);
-            yTo(0);
-        });
-    }, []);
-    return /*#__PURE__*/ react_default().cloneElement(children, {
-        ref: magnetic
-    });
-}
-
-;// CONCATENATED MODULE: ./src/app/common/RoundedButton/index.jsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-function RoundedButton_index({ children, backgroundColor = "#FDD7EE", ...attributes }) {
-    const circle = (0,react_.useRef)(null);
-    let timeline = (0,react_.useRef)(null);
-    let timeoutId = null;
-    (0,react_.useEffect)(()=>{
-        timeline.current = gsap_default().timeline({
-            paused: true
-        });
-        timeline.current.to(circle.current, {
-            top: "-25%",
-            width: "150%",
-            duration: 0.4,
-            ease: "power3.in"
-        }, "enter").to(circle.current, {
-            top: "-150%",
-            width: "125%",
-            duration: 0.25
-        }, "exit");
-    }, []);
-    const manageMouseEnter = ()=>{
-        if (timeoutId) clearTimeout(timeoutId);
-        timeline.current.tweenFromTo("enter", "exit");
-    };
-    const manageMouseLeave = ()=>{
-        timeoutId = setTimeout(()=>{
-            timeline.current.play();
-        }, 300);
-    };
-    return /*#__PURE__*/ jsx_runtime_.jsx(index, {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: (style_module_default()).roundedButton,
-            style: {
-                overflow: "hidden"
-            },
-            onMouseEnter: ()=>{
-                manageMouseEnter();
-            },
-            onMouseLeave: ()=>{
-                manageMouseLeave();
-            },
-            ...attributes,
-            children: [
-                children,
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    ref: circle,
-                    style: {
-                        backgroundColor
-                    },
-                    className: (style_module_default()).circle
-                })
-            ]
-        })
-    });
-}
-
-
-/***/ }),
-
-/***/ 5252:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ AboutSection)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./src/app/components/About/style.module.scss
-var style_module = __webpack_require__(8859);
-var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-in-view.mjs + 1 modules
-var use_in_view = __webpack_require__(9694);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
-var motion = __webpack_require__(5055);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
-;// CONCATENATED MODULE: ./src/app/components/About/animation.js
-const slideUp = {
-    initial: {
-        y: "100%"
-    },
-    open: (i)=>({
-            y: "0%",
-            transition: {
-                duration: 0.8,
-                delay: 0.03 * i
-            }
-        }),
-    closed: {
-        y: "100%",
-        transition: {
-            duration: 0.8
-        }
-    }
-};
-const opacity = {
-    initial: {
-        opacity: 0
-    },
-    open: {
-        opacity: 1,
-        transition: {
-            duration: 0.8
-        }
-    },
-    closed: {
-        opacity: 0,
-        transition: {
-            duration: 0.8
-        }
-    }
-};
-
-// EXTERNAL MODULE: ./src/app/common/RoundedButton/index.jsx + 1 modules
-var RoundedButton = __webpack_require__(5448);
-;// CONCATENATED MODULE: ./src/app/components/About/AboutSection.jsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-function AboutSection() {
-    const phrase = "During my time at UCF, I worked in customer service as a Beverage Cart Attendant at Hawks Landing Golf Club and had a great experience working at Destination Brides as their Web Development Intern this past Summer. Throughout these roles, I have been able to gain leadership skills, satisfy customer needs, time management, team collaboration, and attention to detail.";
-    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-        dangerouslySetInnerHTML: {
-            __html: phrase
-        }
-    });
-    const description = (0,react_.useRef)(null);
-    const isInView = (0,use_in_view/* useInView */.Y)(description);
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "about",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            ref: description,
-            className: (style_module_default()).description,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (style_module_default()).body,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                        children: "A B O U T"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (style_module_default()).textRow,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: (style_module_default()).phrase,
-                                children: phrase.split(" ").map((word, index)=>{
-                                    return /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        className: (style_module_default()).mask,
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.span, {
-                                            variants: slideUp,
-                                            custom: index,
-                                            animate: isInView ? "open" : "closed",
-                                            children: word
-                                        }, index)
-                                    }, index);
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
-                                variants: opacity,
-                                animate: isInView ? "open" : "closed",
-                                children: "Eager to gain more work experience in Development and actively looking for new opportunities."
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    });
-}
-
-
-/***/ }),
-
-/***/ 3958:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ index)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./src/app/components/Contact/style.module.scss
-var style_module = __webpack_require__(4887);
-var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(2451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./src/app/common/RoundedButton/index.jsx + 1 modules
-var RoundedButton = __webpack_require__(5448);
-;// CONCATENATED MODULE: ./public/github-icon.svg
-/* harmony default export */ const github_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/github-icon.fd8f7f1e.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./public/linkedin-icon.svg
-/* harmony default export */ const linkedin_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/linkedin-icon.23a051cc.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./public/gmail-icon.svg
-/* harmony default export */ const gmail_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/gmail-icon.4fc08bfe.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./public/facebook-icon.svg
-/* harmony default export */ const facebook_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/facebook-icon.12acdce1.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
+// EXTERNAL MODULE: ./node_modules/react-type-animation/dist/cjs/index.js
+var cjs = __webpack_require__(9901);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
+var motion = __webpack_require__(5055);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1440);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
-var use_scroll = __webpack_require__(9290);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
-var use_transform = __webpack_require__(1591);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
-var motion = __webpack_require__(5055);
-// EXTERNAL MODULE: ./public/me.png
-var me = __webpack_require__(898);
-;// CONCATENATED MODULE: ./src/app/components/Contact/index.jsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-
-
-
-
-
-
-function index() {
-    const container = (0,react_.useRef)(null);
-    const { scrollYProgress } = (0,use_scroll/* useScroll */.v)({
-        target: container,
-        offset: [
-            "start end",
-            "end end"
-        ]
-    });
-    const x = (0,use_transform/* useTransform */.H)(scrollYProgress, [
-        0,
-        1
-    ], [
-        0,
-        100
-    ]);
-    const y = (0,use_transform/* useTransform */.H)(scrollYProgress, [
-        0,
-        1
-    ], [
-        -500,
-        0
-    ]);
-    const rotate = (0,use_transform/* useTransform */.H)(scrollYProgress, [
-        0,
-        1
-    ], [
-        120,
-        90
-    ]);
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "contact",
-        children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
-            style: {
-                y
-            },
-            ref: container,
-            className: (style_module_default()).contact,
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (style_module_default()).body,
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (style_module_default()).title,
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: (style_module_default()).imageContainer,
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            fill: true,
-                                            alt: "image",
-                                            src: me/* default */.Z
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                        children: "Let's Connect"
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "socials flex flex-row gap-5 mx-auto my-auto w-fit",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        href: "https://github.com/thaovyvle",
-                                        rel: "noopener noreferrer",
-                                        target: "_blank",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            src: github_icon,
-                                            alt: "Github Icon"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        href: "https://mailto:thaovyvivian@gmail.com",
-                                        rel: "noopener noreferrer",
-                                        target: "_blank",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            src: gmail_icon,
-                                            alt: "Gmail Icon"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        href: "https://www.facebook.com/thaovy.le.9085",
-                                        rel: "noopener noreferrer",
-                                        target: "_blank",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            src: facebook_icon,
-                                            alt: "Facebook Icon"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        href: "https://www.linkedin.com/in/thaovyvivanle/",
-                                        rel: "noopener noreferrer",
-                                        target: "_blank",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            src: linkedin_icon,
-                                            alt: "Linkedin Icon"
-                                        })
-                                    })
-                                ]
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (style_module_default()).nav,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(RoundedButton/* default */.Z, {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "thaovyvivian@gmail.com"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(RoundedButton/* default */.Z, {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "(603)-682-2406"
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (style_module_default()).info,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "THAOVY LE"
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "2024 \xa9 Edition"
-                                    })
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    });
-}
-
-
-/***/ }),
-
-/***/ 8278:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2451);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_type_animation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9901);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5055);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1440);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _public_me_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(898);
+;// CONCATENATED MODULE: ./public/me.png
+/* harmony default export */ const me = ({"src":"/ThaovyLe-Portfolio/_next/static/media/me.a83533f4.png","height":1063,"width":1063,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABBklEQVR42mMAgTe37wr9evl+/rfn7588vn7/8Z83n+f///pXCCz5/tYdoY/3H1/98vj5/0ntXf+jDOX/H9m64//Xx8+u3j9/SYjh/d0H8z8/fPz/8LadPxOMRf/trY35l+jl+PPuqVP/396+Mx+k4Mnr6zf+56Rn/JuTYPN/W3nsf0Vh3n+nd+78//H+wycMH+89fHJp/77/DAwM/5YWJ/6vD/cEs49s2fr/25PnTxg+3Hswf+OUHpDgz5aeLf+6J+34B2LPnTgJpGA+w////4WacjKuyjIw/K/p3vB/0qKz/50dAv63ZcVfBckxQIGQvTzD/NqOlU/65x174u8dPb+agQEsCQDfW5xPCvkf7QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./src/app/components/Landing.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
@@ -834,12 +397,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Landing = ()=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: "lg:py-20",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "grid grid-cols-1 sm:grid-cols-12",
             children: [
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.div, {
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.div, {
                     initial: {
                         opacity: 0,
                         scale: 0.5
@@ -853,18 +416,18 @@ const Landing = ()=>{
                     },
                     className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
                     children: [
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
                             className: "text-[#222442] mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold",
                             children: [
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
                                     className: "text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600",
                                     children: [
                                         "Hello, I'm",
                                         " "
                                     ]
                                 }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_type_animation__WEBPACK_IMPORTED_MODULE_3__/* .TypeAnimation */ .e, {
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
                                     sequence: [
                                         "Thaovy Le",
                                         1000,
@@ -881,23 +444,23 @@ const Landing = ()=>{
                                 })
                             ]
                         }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             className: "text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl md:text-lg flex flex-wrap",
                             children: "Fourth year student at University of Central Florida, studying Web Design & Computer Science"
                         }),
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                     href: "/#contact",
                                     className: "tracking-[0.1em] px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white",
                                     children: "CONTACT"
                                 }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                     href: "https://drive.google.com/file/d/1itM3a9lPaVqHEErVJ8vDfgW5W4E3T9T6/view?usp=sharing",
                                     rel: "noopener noreferrer",
                                     target: "_blank",
                                     className: "px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3",
-                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                         className: " tracking-[0.1em] block bg-[#222442] hover:bg-slate-800 rounded-full px-5 py-2",
                                         children: "VIEW RESUME"
                                     })
@@ -906,7 +469,7 @@ const Landing = ()=>{
                         })
                     ]
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_6__/* .motion */ .E.div, {
+                /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                     initial: {
                         opacity: 0,
                         scale: 0.5
@@ -919,10 +482,10 @@ const Landing = ()=>{
                         duration: 0.5
                     },
                     className: "col-span-4 place-self-center mt-4 lg:mt-0 ml-4 lg:ml-10",
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                         className: "rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 mt-10 w-[210px] h-[210px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                            src: _public_me_png__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                            src: me,
                             alt: "image of Thaovy Le",
                             className: "absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2",
                             width: 400,
@@ -934,181 +497,17 @@ const Landing = ()=>{
         })
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Landing);
+/* harmony default export */ const components_Landing = (Landing);
 
-
-/***/ }),
-
-/***/ 9594:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ components_Navbar)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1440);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
-;// CONCATENATED MODULE: ./src/app/components/NavLink.jsx
-
-
-const NavLink = ({ href, title })=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-        href: href,
-        className: "block py-2 pl-3 pr-4 text-[#807e7e] sm:text-l tracking-[0.18em] rounded md:p-0 hover:text-[#ff3888]",
-        children: title
-    });
-};
-/* harmony default export */ const components_NavLink = (NavLink);
-
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/solid/esm/Bars3Icon.js
-var Bars3Icon = __webpack_require__(2876);
-// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/solid/esm/XMarkIcon.js
-var XMarkIcon = __webpack_require__(9322);
-;// CONCATENATED MODULE: ./src/app/components/MenuOverlay.jsx
-
-
-
-const MenuOverlay = ({ links })=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-        className: "flex flex-col py-4 items-center",
-        children: links.map((link, index)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                children: /*#__PURE__*/ jsx_runtime_.jsx(components_NavLink, {
-                    href: link.path,
-                    title: link.title
-                })
-            }, index))
-    });
-};
-/* harmony default export */ const components_MenuOverlay = (MenuOverlay);
-
-;// CONCATENATED MODULE: ./src/app/components/Navbar.jsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-
-const navLinks = [
-    {
-        title: "ABOUT",
-        path: "#about"
-    },
-    {
-        title: "PROJECTS",
-        path: "#projects"
-    },
-    {
-        title: "CONTACT",
-        path: "#contact"
-    }
-];
-const Navbar = ()=>{
-    const [navbarOpen, setNavbarOpen] = (0,react_.useState)(false);
-    const scrollToSection = (id)=>{
-        const targetElement = document.getElementById(id);
-        if (targetElement) {
-            const targetPosition = targetElement.offsetTop - 100;
-            window.scrollTo({
-                top: targetPosition,
-                behavior: "smooth"
-            });
-        }
-    };
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
-        className: "fixed mx-auto border-b border-t-0 border-[#adadad] top-0 left-0 right-0 z-10 bg-[white] bg-opacity-100",
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                        href: "/",
-                        className: "text-2xl md:text-3xl font-semibold bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
-                        children: "THAOVY LE"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "mobile-menu block md:hidden",
-                        children: !navbarOpen ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                            onClick: ()=>setNavbarOpen(true),
-                            className: "flex items-center px-3 py-2 border rounded border-[black] text-[black] hover:text-[#ff3888] hover:border-[#ff3888]",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx(Bars3Icon/* default */.Z, {
-                                className: "h-5 w-5"
-                            })
-                        }) : /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                            onClick: ()=>setNavbarOpen(false),
-                            className: "flex items-center px-3 py-2 border rounded border-[black] text-[black] hover:text-[#ff3888] hover:border-[#ff3888]",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx(XMarkIcon/* default */.Z, {
-                                className: "h-5 w-5"
-                            })
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "menu hidden md:block md:w-auto",
-                        id: "navbar",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                            className: "flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 text-black",
-                            children: navLinks.map((link, index)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                        className: "block py-2 pl-3 pr-4 text-[#807e7e] sm:text-l tracking-[0.18em] rounded md:p-0 hover:text-[#ff3888]",
-                                        onClick: ()=>scrollToSection(link.path.slice(1)),
-                                        children: link.title
-                                    })
-                                }, index))
-                        })
-                    })
-                ]
-            }),
-            navbarOpen ? /*#__PURE__*/ jsx_runtime_.jsx(components_MenuOverlay, {
-                links: navLinks
-            }) : null
-        ]
-    });
-};
-/* harmony default export */ const components_Navbar = (Navbar);
-
-
-/***/ }),
-
-/***/ 8690:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ ParallaxScroll)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
 // EXTERNAL MODULE: ./src/app/components/page.module.scss
 var page_module = __webpack_require__(5882);
 var page_module_default = /*#__PURE__*/__webpack_require__.n(page_module);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(2451);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./node_modules/@studio-freight/lenis/dist/lenis.mjs
 var dist_lenis = __webpack_require__(6788);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
 var use_scroll = __webpack_require__(9290);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
 var use_transform = __webpack_require__(1591);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
-var motion = __webpack_require__(5055);
 ;// CONCATENATED MODULE: ./public/1.png
 /* harmony default export */ const _1 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/1.34d6752c.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAe0lEQVR42hWNuw7CMAwA/f8/wwoCdYCxSJV406UNUVRCbCfOg6wE6YYbTjpAnxuOM4XSBD4UF4vMYixZiuBImHm7Wa92hzdnQE6I2PfH4TpaSoA+zUpP06yUdq3XZrnfTs/HKCIsBV7aXM5D1+1rrSF+wXHiULwU+o/TDwEUa9/aDpSSAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/2.png
@@ -1296,32 +695,328 @@ const Column = ({ images, y })=>{
     });
 };
 
+;// CONCATENATED MODULE: ./src/app/components/NavLink.jsx
 
-/***/ }),
 
-/***/ 9890:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+const NavLink = ({ href, title })=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+        href: href,
+        className: "block py-2 pl-3 pr-4 text-[#807e7e] sm:text-l tracking-[0.18em] rounded md:p-0 hover:text-[#ff3888]",
+        children: title
+    });
+};
+/* harmony default export */ const components_NavLink = (NavLink);
 
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/solid/esm/Bars3Icon.js
+var Bars3Icon = __webpack_require__(2876);
+// EXTERNAL MODULE: ./node_modules/@heroicons/react/24/solid/esm/XMarkIcon.js
+var XMarkIcon = __webpack_require__(9322);
+;// CONCATENATED MODULE: ./src/app/components/MenuOverlay.jsx
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ components_ProjectsSection)
-});
 
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
+
+const MenuOverlay = ({ links })=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+        className: "flex flex-col py-4 items-center",
+        children: links.map((link, index)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx(components_NavLink, {
+                    href: link.path,
+                    title: link.title
+                })
+            }, index))
+    });
+};
+/* harmony default export */ const components_MenuOverlay = (MenuOverlay);
+
+;// CONCATENATED MODULE: ./src/app/components/Navbar.jsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+const navLinks = [
+    {
+        title: "ABOUT",
+        path: "#about"
+    },
+    {
+        title: "PROJECTS",
+        path: "#projects"
+    },
+    {
+        title: "CONTACT",
+        path: "#contact"
+    }
+];
+const Navbar = ()=>{
+    const [navbarOpen, setNavbarOpen] = (0,react_.useState)(false);
+    const scrollToSection = (id)=>{
+        const targetElement = document.getElementById(id);
+        if (targetElement) {
+            const targetPosition = targetElement.offsetTop - 100;
+            window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth"
+            });
+        }
+    };
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
+        className: "fixed mx-auto border-b border-t-0 border-[#adadad] top-0 left-0 right-0 z-10 bg-[white] bg-opacity-100",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                        href: "/",
+                        className: "text-2xl md:text-3xl font-semibold bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
+                        children: "THAOVY LE"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "mobile-menu block md:hidden",
+                        children: !navbarOpen ? /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            onClick: ()=>setNavbarOpen(true),
+                            className: "flex items-center px-3 py-2 border rounded border-[black] text-[black] hover:text-[#ff3888] hover:border-[#ff3888]",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(Bars3Icon/* default */.Z, {
+                                className: "h-5 w-5"
+                            })
+                        }) : /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            onClick: ()=>setNavbarOpen(false),
+                            className: "flex items-center px-3 py-2 border rounded border-[black] text-[black] hover:text-[#ff3888] hover:border-[#ff3888]",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(XMarkIcon/* default */.Z, {
+                                className: "h-5 w-5"
+                            })
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "menu hidden md:block md:w-auto",
+                        id: "navbar",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                            className: "flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 text-black",
+                            children: navLinks.map((link, index)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                        className: "block py-2 pl-3 pr-4 text-[#807e7e] sm:text-l tracking-[0.18em] rounded md:p-0 hover:text-[#ff3888]",
+                                        onClick: ()=>scrollToSection(link.path.slice(1)),
+                                        children: link.title
+                                    })
+                                }, index))
+                        })
+                    })
+                ]
+            }),
+            navbarOpen ? /*#__PURE__*/ jsx_runtime_.jsx(components_MenuOverlay, {
+                links: navLinks
+            }) : null
+        ]
+    });
+};
+/* harmony default export */ const components_Navbar = (Navbar);
+
+// EXTERNAL MODULE: ./src/app/components/About/style.module.scss
+var style_module = __webpack_require__(8859);
+var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
+// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-in-view.mjs + 1 modules
+var use_in_view = __webpack_require__(9694);
+;// CONCATENATED MODULE: ./src/app/components/About/animation.js
+const slideUp = {
+    initial: {
+        y: "100%"
+    },
+    open: (i)=>({
+            y: "0%",
+            transition: {
+                duration: 0.8,
+                delay: 0.03 * i
+            }
+        }),
+    closed: {
+        y: "100%",
+        transition: {
+            duration: 0.8
+        }
+    }
+};
+const opacity = {
+    initial: {
+        opacity: 0
+    },
+    open: {
+        opacity: 1,
+        transition: {
+            duration: 0.8
+        }
+    },
+    closed: {
+        opacity: 0,
+        transition: {
+            duration: 0.8
+        }
+    }
+};
+
+// EXTERNAL MODULE: ./src/app/common/RoundedButton/style.module.scss
+var RoundedButton_style_module = __webpack_require__(5909);
+var RoundedButton_style_module_default = /*#__PURE__*/__webpack_require__.n(RoundedButton_style_module);
+// EXTERNAL MODULE: ./node_modules/gsap/dist/gsap.js
+var gsap = __webpack_require__(6118);
+var gsap_default = /*#__PURE__*/__webpack_require__.n(gsap);
+;// CONCATENATED MODULE: ./src/app/common/Magnetic/index.jsx
+
+
+function index({ children }) {
+    const magnetic = (0,react_.useRef)(null);
+    (0,react_.useEffect)(()=>{
+        console.log(children);
+        const xTo = gsap_default().quickTo(magnetic.current, "x", {
+            duration: 1,
+            ease: "elastic.out(1, 0.3)"
+        });
+        const yTo = gsap_default().quickTo(magnetic.current, "y", {
+            duration: 1,
+            ease: "elastic.out(1, 0.3)"
+        });
+        magnetic.current.addEventListener("mousemove", (e)=>{
+            const { clientX, clientY } = e;
+            const { height, width, left, top } = magnetic.current.getBoundingClientRect();
+            const x = clientX - (left + width / 2);
+            const y = clientY - (top + height / 2);
+            xTo(x * 0.35);
+            yTo(y * 0.35);
+        });
+        magnetic.current.addEventListener("mouseleave", (e)=>{
+            xTo(0);
+            yTo(0);
+        });
+    }, []);
+    return /*#__PURE__*/ react_default().cloneElement(children, {
+        ref: magnetic
+    });
+}
+
+;// CONCATENATED MODULE: ./src/app/common/RoundedButton/index.jsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+function RoundedButton_index({ children, backgroundColor = "#FDD7EE", ...attributes }) {
+    const circle = (0,react_.useRef)(null);
+    let timeline = (0,react_.useRef)(null);
+    let timeoutId = null;
+    (0,react_.useEffect)(()=>{
+        timeline.current = gsap_default().timeline({
+            paused: true
+        });
+        timeline.current.to(circle.current, {
+            top: "-25%",
+            width: "150%",
+            duration: 0.4,
+            ease: "power3.in"
+        }, "enter").to(circle.current, {
+            top: "-150%",
+            width: "125%",
+            duration: 0.25
+        }, "exit");
+    }, []);
+    const manageMouseEnter = ()=>{
+        if (timeoutId) clearTimeout(timeoutId);
+        timeline.current.tweenFromTo("enter", "exit");
+    };
+    const manageMouseLeave = ()=>{
+        timeoutId = setTimeout(()=>{
+            timeline.current.play();
+        }, 300);
+    };
+    return /*#__PURE__*/ jsx_runtime_.jsx(index, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: (RoundedButton_style_module_default()).roundedButton,
+            style: {
+                overflow: "hidden"
+            },
+            onMouseEnter: ()=>{
+                manageMouseEnter();
+            },
+            onMouseLeave: ()=>{
+                manageMouseLeave();
+            },
+            ...attributes,
+            children: [
+                children,
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    ref: circle,
+                    style: {
+                        backgroundColor
+                    },
+                    className: (RoundedButton_style_module_default()).circle
+                })
+            ]
+        })
+    });
+}
+
+;// CONCATENATED MODULE: ./src/app/components/About/AboutSection.jsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+function AboutSection() {
+    const phrase = "During my time at UCF, I worked in customer service as a Beverage Cart Attendant at Hawks Landing Golf Club and had a great experience working at Destination Brides as their Web Development Intern this past Summer. Throughout these roles, I have been able to gain leadership skills, satisfy customer needs, time management, team collaboration, and attention to detail.";
+    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+        dangerouslySetInnerHTML: {
+            __html: phrase
+        }
+    });
+    const description = (0,react_.useRef)(null);
+    const isInView = (0,use_in_view/* useInView */.Y)(description);
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        id: "about",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            ref: description,
+            className: (style_module_default()).description,
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (style_module_default()).body,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                        children: "A B O U T"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (style_module_default()).textRow,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (style_module_default()).phrase,
+                                children: phrase.split(" ").map((word, index)=>{
+                                    return /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        className: (style_module_default()).mask,
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.span, {
+                                            variants: slideUp,
+                                            custom: index,
+                                            animate: isInView ? "open" : "closed",
+                                            children: word
+                                        }, index)
+                                    }, index);
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
+                                variants: opacity,
+                                animate: isInView ? "open" : "closed",
+                                children: "Eager to gain more work experience in Development and actively looking for new opportunities."
+                            })
+                        ]
+                    })
+                ]
+            })
+        })
+    });
+}
+
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/CodeBracketIcon.js
 var CodeBracketIcon = __webpack_require__(8755);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/outline/esm/EyeIcon.js
 var EyeIcon = __webpack_require__(1808);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1440);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./src/app/components/ProjectCard.jsx
 
 
@@ -1403,10 +1098,6 @@ const ProjectTag = ({ name, onClick, isSelected })=>{
 };
 /* harmony default export */ const components_ProjectTag = (ProjectTag);
 
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-in-view.mjs + 1 modules
-var use_in_view = __webpack_require__(9694);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
-var motion = __webpack_require__(5055);
 // EXTERNAL MODULE: ./node_modules/react-responsive/dist/react-responsive.js
 var react_responsive = __webpack_require__(8148);
 ;// CONCATENATED MODULE: ./public/p1.png
@@ -1751,37 +1442,9 @@ const ProjectsSection = ()=>{
 };
 /* harmony default export */ const components_ProjectsSection = (ProjectsSection);
 
-
-/***/ }),
-
-/***/ 6996:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ index)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
-var use_scroll = __webpack_require__(9290);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
-var use_transform = __webpack_require__(1591);
-// EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 169 modules
-var motion = __webpack_require__(5055);
 // EXTERNAL MODULE: ./src/app/components/SlidingImages/style.module.scss
-var style_module = __webpack_require__(6059);
-var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(2451);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+var SlidingImages_style_module = __webpack_require__(6059);
+var SlidingImages_style_module_default = /*#__PURE__*/__webpack_require__.n(SlidingImages_style_module);
 ;// CONCATENATED MODULE: ./public/layersPages.png
 /* harmony default export */ const layersPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersPages.fd1e0958.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42gXA2AqCsP3//0TPPmQn2LQgjLEWrB3tcmeIsgC5afiwYyOWr69mMvo0l3VZVpA32+nS8pFE7Wqt0cQ3eiCCgTl2ntAg1U+KJ/4gON5PB2sUiEIUSvW+NbCXTHjr5pSTnUDorubcSdi74VY4D1wYqgREfzgBa0ru2+N2AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./public/journeyPages.png
@@ -1848,7 +1511,7 @@ const slider2 = [
         src: art
     }
 ];
-function index() {
+function SlidingImages_index() {
     const container = (0,react_.useRef)(null);
     const { scrollYProgress } = (0,use_scroll/* useScroll */.v)({
         target: container,
@@ -1880,21 +1543,21 @@ function index() {
     ]);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         ref: container,
-        className: (style_module_default()).slidingImages,
+        className: (SlidingImages_style_module_default()).slidingImages,
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
                 style: {
                     x: x1
                 },
-                className: (style_module_default()).slider,
+                className: (SlidingImages_style_module_default()).slider,
                 children: slider1.map((project, index)=>{
                     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (style_module_default()).project,
+                        className: (SlidingImages_style_module_default()).project,
                         style: {
                             backgroundColor: project.color
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: (style_module_default()).imageContainer,
+                            className: (SlidingImages_style_module_default()).imageContainer,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
@@ -1908,15 +1571,15 @@ function index() {
                 style: {
                     x: x2
                 },
-                className: (style_module_default()).slider,
+                className: (SlidingImages_style_module_default()).slider,
                 children: slider2.map((project, index)=>{
                     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (style_module_default()).project,
+                        className: (SlidingImages_style_module_default()).project,
                         style: {
                             backgroundColor: project.color
                         },
                         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: (style_module_default()).imageContainer,
+                            className: (SlidingImages_style_module_default()).imageContainer,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
                                 alt: "image",
@@ -1930,11 +1593,216 @@ function index() {
                 style: {
                     height
                 },
-                className: (style_module_default()).circleContainer,
+                className: (SlidingImages_style_module_default()).circleContainer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: (style_module_default()).circle
+                    className: (SlidingImages_style_module_default()).circle
                 })
             })
+        ]
+    });
+}
+
+// EXTERNAL MODULE: ./src/app/components/Contact/style.module.scss
+var Contact_style_module = __webpack_require__(4887);
+var Contact_style_module_default = /*#__PURE__*/__webpack_require__.n(Contact_style_module);
+;// CONCATENATED MODULE: ./public/github-icon.svg
+/* harmony default export */ const github_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/github-icon.fd8f7f1e.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./public/linkedin-icon.svg
+/* harmony default export */ const linkedin_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/linkedin-icon.23a051cc.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./public/gmail-icon.svg
+/* harmony default export */ const gmail_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/gmail-icon.4fc08bfe.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./public/facebook-icon.svg
+/* harmony default export */ const facebook_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/facebook-icon.12acdce1.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./src/app/components/Contact/index.jsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+
+
+
+
+
+function Contact_index() {
+    const container = (0,react_.useRef)(null);
+    const { scrollYProgress } = (0,use_scroll/* useScroll */.v)({
+        target: container,
+        offset: [
+            "start end",
+            "end end"
+        ]
+    });
+    const x = (0,use_transform/* useTransform */.H)(scrollYProgress, [
+        0,
+        1
+    ], [
+        0,
+        100
+    ]);
+    const y = (0,use_transform/* useTransform */.H)(scrollYProgress, [
+        0,
+        1
+    ], [
+        -500,
+        0
+    ]);
+    const rotate = (0,use_transform/* useTransform */.H)(scrollYProgress, [
+        0,
+        1
+    ], [
+        120,
+        90
+    ]);
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        id: "contact",
+        children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+            style: {
+                y
+            },
+            ref: container,
+            className: (Contact_style_module_default()).contact,
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (Contact_style_module_default()).body,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Contact_style_module_default()).title,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: (Contact_style_module_default()).imageContainer,
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            fill: true,
+                                            alt: "image",
+                                            src: me
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                        children: "Let's Connect"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: "socials flex flex-row gap-5 mx-auto my-auto w-fit",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "https://github.com/thaovyvle",
+                                        rel: "noopener noreferrer",
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: github_icon,
+                                            alt: "Github Icon"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "https://mailto:thaovyvivian@gmail.com",
+                                        rel: "noopener noreferrer",
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: gmail_icon,
+                                            alt: "Gmail Icon"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "https://www.facebook.com/thaovy.le.9085",
+                                        rel: "noopener noreferrer",
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: facebook_icon,
+                                            alt: "Facebook Icon"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "https://www.linkedin.com/in/thaovyvivanle/",
+                                        rel: "noopener noreferrer",
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                            src: linkedin_icon,
+                                            alt: "Linkedin Icon"
+                                        })
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Contact_style_module_default()).nav,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx(RoundedButton_index, {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: "thaovyvivian@gmail.com"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx(RoundedButton_index, {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: "(603)-682-2406"
+                                })
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Contact_style_module_default()).info,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "THAOVY LE"
+                                    })
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        children: "2024 \xa9 Edition"
+                                    })
+                                })
+                            })
+                        ]
+                    })
+                ]
+            })
+        })
+    });
+}
+
+;// CONCATENATED MODULE: ./src/app/page.js
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+
+
+
+
+
+
+function Home() {
+    const isSmallScreen = (0,react_responsive.useMediaQuery)({
+        maxWidth: 400
+    });
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
+        className: "flex min-h-screen flex-col bg-[white]",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(components_Navbar, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "container mt-20 mx-auto px-10",
+                children: /*#__PURE__*/ jsx_runtime_.jsx(components_Landing, {})
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "pt-10 px-0 w-full",
+                children: /*#__PURE__*/ jsx_runtime_.jsx(ParallaxScroll, {})
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "container mt-10 mx-auto px-10",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(AboutSection, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(components_ProjectsSection, {})
+                ]
+            }),
+            !isSmallScreen && /*#__PURE__*/ jsx_runtime_.jsx(SlidingImages_index, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Contact_index, {})
         ]
     });
 }
@@ -2054,25 +1922,19 @@ function RootLayout({ children }) {
 
 /***/ }),
 
-/***/ 3348:
+/***/ 7170:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Home)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(1363);
-;// CONCATENATED MODULE: ./src/app/components/Landing.jsx
-
-const proxy = (0,module_proxy.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/components/Landing.jsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/page.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -2082,131 +1944,7 @@ const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
 
-/* harmony default export */ const Landing = (__default__);
-;// CONCATENATED MODULE: ./src/app/components/ParallaxScroll.jsx
-
-const ParallaxScroll_proxy = (0,module_proxy.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/components/ParallaxScroll.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: ParallaxScroll_esModule, $$typeof: ParallaxScroll_$$typeof } = ParallaxScroll_proxy;
-const ParallaxScroll_default_ = ParallaxScroll_proxy.default;
-
-
-/* harmony default export */ const ParallaxScroll = (ParallaxScroll_default_);
-;// CONCATENATED MODULE: ./src/app/components/Navbar.jsx
-
-const Navbar_proxy = (0,module_proxy.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/components/Navbar.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: Navbar_esModule, $$typeof: Navbar_$$typeof } = Navbar_proxy;
-const Navbar_default_ = Navbar_proxy.default;
-
-
-/* harmony default export */ const Navbar = (Navbar_default_);
-;// CONCATENATED MODULE: ./src/app/components/About/AboutSection.jsx
-
-const AboutSection_proxy = (0,module_proxy.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/components/About/AboutSection.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: AboutSection_esModule, $$typeof: AboutSection_$$typeof } = AboutSection_proxy;
-const AboutSection_default_ = AboutSection_proxy.default;
-
-
-/* harmony default export */ const AboutSection = (AboutSection_default_);
-;// CONCATENATED MODULE: ./src/app/components/ProjectsSection.jsx
-
-const ProjectsSection_proxy = (0,module_proxy.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/components/ProjectsSection.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: ProjectsSection_esModule, $$typeof: ProjectsSection_$$typeof } = ProjectsSection_proxy;
-const ProjectsSection_default_ = ProjectsSection_proxy.default;
-
-
-/* harmony default export */ const ProjectsSection = (ProjectsSection_default_);
-;// CONCATENATED MODULE: ./src/app/components/SlidingImages/index.jsx
-
-const SlidingImages_proxy = (0,module_proxy.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/components/SlidingImages/index.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: SlidingImages_esModule, $$typeof: SlidingImages_$$typeof } = SlidingImages_proxy;
-const SlidingImages_default_ = SlidingImages_proxy.default;
-
-
-/* harmony default export */ const SlidingImages = (SlidingImages_default_);
-;// CONCATENATED MODULE: ./src/app/components/Contact/index.jsx
-
-const Contact_proxy = (0,module_proxy.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/components/Contact/index.jsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: Contact_esModule, $$typeof: Contact_$$typeof } = Contact_proxy;
-const Contact_default_ = Contact_proxy.default;
-
-
-/* harmony default export */ const Contact = (Contact_default_);
-;// CONCATENATED MODULE: ./src/app/page.js
-
-
-
-
-
-
-
-
-function Home() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
-        className: "flex min-h-screen flex-col bg-[white]",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "container mt-20 mx-auto px-10",
-                children: /*#__PURE__*/ jsx_runtime_.jsx(Landing, {})
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "pt-10 px-0 w-full",
-                children: /*#__PURE__*/ jsx_runtime_.jsx(ParallaxScroll, {})
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "container mt-10 mx-auto px-10",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(AboutSection, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(ProjectsSection, {})
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(SlidingImages, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Contact, {})
-        ]
-    });
-}
-
-
-/***/ }),
-
-/***/ 898:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/ThaovyLe-Portfolio/_next/static/media/me.a83533f4.png","height":1063,"width":1063,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABBklEQVR42mMAgTe37wr9evl+/rfn7588vn7/8Z83n+f///pXCCz5/tYdoY/3H1/98vj5/0ntXf+jDOX/H9m64//Xx8+u3j9/SYjh/d0H8z8/fPz/8LadPxOMRf/trY35l+jl+PPuqVP/396+Mx+k4Mnr6zf+56Rn/JuTYPN/W3nsf0Vh3n+nd+78//H+wycMH+89fHJp/77/DAwM/5YWJ/6vD/cEs49s2fr/25PnTxg+3Hswf+OUHpDgz5aeLf+6J+34B2LPnTgJpGA+w////4WacjKuyjIw/K/p3vB/0qKz/50dAv63ZcVfBckxQIGQvTzD/NqOlU/65x174u8dPb+agQEsCQDfW5xPCvkf7QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ }),
 
