@@ -1646,7 +1646,7 @@ function Contact_index() {
         0,
         1
     ], [
-        -600,
+        -300,
         0
     ]);
     const rotate = (0,use_transform/* useTransform */.H)(scrollYProgress, [
