@@ -18,7 +18,7 @@ export default function index() {
         offset: ["start end", "end end"]
     })
     const x = useTransform(scrollYProgress, [0, 1], [0, 100])
-    const y = useTransform(scrollYProgress, [0, 1], [-500, 0])
+    const y = useTransform(scrollYProgress, [0, 1], [-600, 0])
     const rotate = useTransform(scrollYProgress, [0, 1], [120, 90])
     return (
         <section id="contact">

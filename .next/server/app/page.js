@@ -451,7 +451,7 @@ const Landing = ()=>{
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             children: [
                                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/#contact",
+                                    href: "#contact",
                                     className: "tracking-[0.1em] px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white",
                                     children: "CONTACT"
                                 }),
@@ -1646,7 +1646,7 @@ function Contact_index() {
         0,
         1
     ], [
-        -500,
+        -600,
         0
     ]);
     const rotate = (0,use_transform/* useTransform */.H)(scrollYProgress, [
