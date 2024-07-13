@@ -38,7 +38,7 @@ const Landing = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl md:text-lg flex flex-wrap">
-            Fourth year student at University of Central Florida, studying Web Design & Computer Science
+            Recent Graduate from the University of Central Florida || Web Design & Computer Science
           </p>
           <div>
             <Link

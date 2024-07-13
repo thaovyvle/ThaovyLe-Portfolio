@@ -446,7 +446,7 @@ const Landing = ()=>{
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("p", {
                             className: "text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl md:text-lg flex flex-wrap",
-                            children: "Fourth year student at University of Central Florida, studying Web Design & Computer Science"
+                            children: "Recent Graduate from the University of Central Florida || Web Design & Computer Science"
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             children: [
