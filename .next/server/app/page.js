@@ -355,11 +355,11 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 /***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 118))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5426))
 
 /***/ }),
 
-/***/ 118:
+/***/ 5426:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1132,8 +1132,11 @@ var react_responsive = __webpack_require__(8148);
 /* harmony default export */ const p15 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p15.2f7b1323.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAASFBMVEX/7+//7e376eny4eHaysrZycnXyMjWx8dMT0tHSUhJR0ZFQUFFQT84REBCPz8+PzczPzs0PzUrMTIxMCUsLCwoLCoAAgAAAABy6V9YAAAALUlEQVR42mNgZGJhZ2NlYmRgYOYXExdhZgAyOHiFuMEMLgFRPjCDU1CYh5kBABiiAS1cFhnUAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./public/p16.png
 /* harmony default export */ const p16 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p16.158e5696.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAARVBMVEXe7Nje7Nfd69fc6dbb6dXZ59O8yLe7yLe1wbFaY2FaY19ZYl5YYFxXYFxRWlpNVVMgLTYdKjMcKTYbKTcQICwAACAAAAzIx4D2AAAAL0lEQVR42iXGtwEAIAwDMAcwvbf/T2VAk6C09d4ZBbCe2wgIYx+JAjCsnX/mLpQHG0gBSz5wL3EAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
+;// CONCATENATED MODULE: ./public/p17.png
+/* harmony default export */ const p17 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/p17.489a9ffd.png","height":720,"width":1280,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAa0lEQVR42gUAOQ7CMMxX2xgkGJA6wP+/xcyEiiCQ2omNMB93AOwRX49qNjLPpaiQJNDmAW55ujRuNvxgNolKxq/0F+DsjLhX3J4fsjJfBbFrGbuL9ViIdL3VHMkoAMcEnSbW9uaMhFyJF4w/W5g7/pfefhAAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":5});
 ;// CONCATENATED MODULE: ./src/app/components/ProjectsSection.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -1158,6 +1161,18 @@ var react_responsive = __webpack_require__(8148);
 const projectsData = [
     {
         id: 1,
+        title: "Chef It!",
+        description: "Recipe and Pantry app designed with Figma and developed with React and Firebase.",
+        image: p17,
+        tag: [
+            "ALL",
+            "MOBILE"
+        ],
+        gitUrl: "https://drive.google.com/drive/folders/12M6tdUN1PpsMcol1dh-OMXA1yJ78VIv1?usp=sharing",
+        previewUrl: "https://vimeo.com/936435801"
+    },
+    {
+        id: 2,
         title: "Quiz App",
         description: "React Native application. To view the app, you can log in with these credentials: username-test, password-Test1@",
         image: p1,
@@ -1169,7 +1184,7 @@ const projectsData = [
         previewUrl: "https://thaovyvle.github.io/quizApp/"
     },
     {
-        id: 2,
+        id: 3,
         title: "Layers of Love",
         description: "Responsive single-page website that demonstrates a form of creativity. Developed with HTML, CSS, and JavaScript",
         image: p2,
@@ -1181,7 +1196,7 @@ const projectsData = [
         previewUrl: "https://thaovyvle.github.io/layersOfLove/"
     },
     {
-        id: 3,
+        id: 4,
         title: "Journey Through UCF",
         description: "Responsive single-page website that describes my journey at UCF. Developed with HTML, SASS, and JavaScript",
         image: p3,
@@ -1193,7 +1208,7 @@ const projectsData = [
         previewUrl: "https://thaovyvle.github.io/journeyThroughUCF/"
     },
     {
-        id: 4,
+        id: 5,
         title: "Art Deco",
         description: "Single-page website that describes the Art Deco movement. Developed with HTML and CSS",
         image: p4,
@@ -1205,7 +1220,7 @@ const projectsData = [
         previewUrl: "https://thaovyvle.github.io/artDeco/"
     },
     {
-        id: 5,
+        id: 6,
         title: "Exercise App",
         description: "React application that is a simple exercise tracker. Contains menu with a repetition and duration types",
         image: p5,
@@ -1217,7 +1232,7 @@ const projectsData = [
         previewUrl: "https://thaovyvle.github.io/exerciseApp/"
     },
     {
-        id: 6,
+        id: 7,
         title: "Survey",
         description: "A survey form that offers up hints, uses a variety of input types, and performs validation before delivering the results",
         image: p6,
@@ -1229,7 +1244,7 @@ const projectsData = [
         previewUrl: "https://thaovyvle.github.io/survey/"
     },
     {
-        id: 7,
+        id: 8,
         title: "Yahoo Redesign - Web Prototype",
         description: "A website redesign for usability and accessibility: light mode switch & accesibility button. Designed with Adobe XD",
         image: p7,
@@ -1241,7 +1256,7 @@ const projectsData = [
         previewUrl: "https://xd.adobe.com/view/bf5744d5-1229-43bc-aa70-60a0afd028a6-ea04/?fullscreen"
     },
     {
-        id: 8,
+        id: 9,
         title: "TravelME - App Prototype",
         description: "A UX/UI project that includes developing a high fidelity prototype with Adobe XD, and a full report of the design process",
         image: p8,
@@ -1253,7 +1268,7 @@ const projectsData = [
         previewUrl: "https://xd.adobe.com/view/1baf8575-04b5-4169-9878-bc04b0a13b80-4efc/screen/fa639dbe-0750-43e7-9945-e0df9318aa43"
     },
     {
-        id: 9,
+        id: 10,
         title: "Bakery Database - MongoDB",
         description: "A bakery database comprising entities of the store, baker, and dessert. Postman is used to show the queries and operations",
         image: p11,
@@ -1265,7 +1280,7 @@ const projectsData = [
         previewUrl: "https://www.canva.com/design/DAF9dWHguW4/g9ro-AWFHKpn6w9Ks8W9pg/edit?utm_content=DAF9dWHguW4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
     {
-        id: 10,
+        id: 11,
         title: "Crumbl Redesign - App Design",
         description: "Tasked with creating an alternative design for the Crumbl app with at least three states and controls. Designed with Adobe XD",
         image: p9,
@@ -1277,7 +1292,7 @@ const projectsData = [
         previewUrl: "https://xd.adobe.com/view/85cb937a-85eb-4f33-b1ca-2ed932ee7ef5-d098/"
     },
     {
-        id: 11,
+        id: 12,
         title: "Blog Database - MySQL",
         description: "Created a blog database with MySQL. Postman is used to demonstrate the queries and operations",
         image: p10,
@@ -1289,7 +1304,7 @@ const projectsData = [
         previewUrl: "https://www.canva.com/design/DAF9dCSKkvQ/r-ERvXTcO8pXnf8DB8SxvA/edit?utm_content=DAF9dCSKkvQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
     {
-        id: 12,
+        id: 13,
         title: "Chessland Attacks - C",
         description: "Recreated a chessboard, considering the positions of rooks. Determines how many and which rooks can attack each piece",
         image: p12,
@@ -1301,7 +1316,7 @@ const projectsData = [
         previewUrl: "https://github.com/thaovyvle/Chessland-Attacks/blob/main/main.c"
     },
     {
-        id: 13,
+        id: 14,
         title: "Coin Organization - C",
         description: "The program sorts the list of individuals based on the money they each have and the ratio of currency",
         image: p13,
@@ -1313,7 +1328,7 @@ const projectsData = [
         previewUrl: "https://github.com/thaovyvle/Coin-Organization/blob/main/main.c"
     },
     {
-        id: 14,
+        id: 15,
         title: "Arcade Management - C",
         description: "Given a list of people entering and leaving the arcade, determine the most valuable player",
         image: p14,
@@ -1325,7 +1340,7 @@ const projectsData = [
         previewUrl: "https://github.com/thaovyvle/Arcade-Management/blob/main/main.c"
     },
     {
-        id: 15,
+        id: 16,
         title: "Sudoku Solver - Java",
         description: "Given a sudoku unsolved grid, output the solved puzzle. Uses backtracking function to solve",
         image: p15,
@@ -1337,7 +1352,7 @@ const projectsData = [
         previewUrl: "https://github.com/thaovyvle/Sudoku-Solver/blob/main/sudokuSolver.java"
     },
     {
-        id: 16,
+        id: 17,
         title: "Hexagram - Java",
         description: "Determine the amount of ways to place numbers on the vertices of a hexagram such that the sum each line is the same",
         image: p16,
