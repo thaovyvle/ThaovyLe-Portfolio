@@ -1165,7 +1165,7 @@ const projectsData = [
     {
         id: 1,
         title: "Chef It!",
-        description: "Recipe and Pantry app designed with Figma and developed with React and Firebase. View video to see all the innovative features!",
+        description: "Recipe and Pantry app designed with Figma and developed with React and Firebase. View video to see all the features!",
         image: p17,
         tag: [
             "ALL",
@@ -1189,7 +1189,7 @@ const projectsData = [
     {
         id: 3,
         title: "FitConnect - App Design",
-        description: "Tasked with designing a new app concept. Designed with Adobe XD, this app revolutionizes the fitness class booking experience",
+        description: "Designed with Adobe XD, this app revolutionizes the fitness class booking experience",
         image: p18,
         tag: [
             "ALL",
