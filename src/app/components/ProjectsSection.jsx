@@ -22,13 +22,14 @@ import P14 from "../../../public/p14.png";
 import P15 from "../../../public/p15.png";
 import P16 from "../../../public/p16.png";
 import P17 from "../../../public/p17.png";
+import P18 from "../../../public/p18.png";
 
 
 const projectsData = [
   {
     id: 1,
     title: "Chef It!",
-    description: "Recipe and Pantry app designed with Figma and developed with React and Firebase.",
+    description: "Recipe and Pantry app designed with Figma and developed with React and Firebase. Watch the video to view all the innovative features!",
     image: P17,
     tag: ["ALL", "MOBILE"],
     gitUrl: "https://drive.google.com/drive/folders/12M6tdUN1PpsMcol1dh-OMXA1yJ78VIv1?usp=sharing",
@@ -45,6 +46,15 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "FitConnect - App Design",
+    description: "Tasked with designing a concept for an app that uses WordPress as a backend. Designed with Adobe XD, this app revolutionizes the fitness class booking experience",
+    image: P18,
+    tag: ["ALL", "MOBILE", "DESIGN"],
+    gitUrl: "https://docs.google.com/document/d/1MnW3JTOq3vJ09vI2ABf0I_ZfwihbdwlVBajirPCO338/edit?usp=sharing",
+    previewUrl: "https://xd.adobe.com/view/87ff88d2-5a79-4c7d-bb3b-fd06545ab97e-d2ac/?fullscreen",
+  },
+  {
+    id: 4,
     title: "Layers of Love",
     description: "Responsive single-page website that demonstrates a form of creativity. Developed with HTML, CSS, and JavaScript",
     image: P2,
@@ -53,7 +63,7 @@ const projectsData = [
     previewUrl: "https://thaovyvle.github.io/layersOfLove/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Journey Through UCF",
     description: "Responsive single-page website that describes my journey at UCF. Developed with HTML, SASS, and JavaScript",
     image: P3,
@@ -62,7 +72,7 @@ const projectsData = [
     previewUrl: "https://thaovyvle.github.io/journeyThroughUCF/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Art Deco",
     description: "Single-page website that describes the Art Deco movement. Developed with HTML and CSS",
     image: P4,
@@ -71,7 +81,7 @@ const projectsData = [
     previewUrl: "https://thaovyvle.github.io/artDeco/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Exercise App",
     description: "React application that is a simple exercise tracker. Contains menu with a repetition and duration types",
     image: P5,
@@ -80,8 +90,8 @@ const projectsData = [
     previewUrl: "https://thaovyvle.github.io/exerciseApp/",
   },
   {
-    id: 7,
-    title: "Survey",
+    id: 8,
+    title: "Survey - HTML/CSS & JavaScript",
     description: "A survey form that offers up hints, uses a variety of input types, and performs validation before delivering the results",
     image: P6,
     tag: ["ALL", "WEB"],
@@ -89,7 +99,7 @@ const projectsData = [
     previewUrl: "https://thaovyvle.github.io/survey/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Yahoo Redesign - Web Prototype",
     description: "A website redesign for usability and accessibility: light mode switch & accesibility button. Designed with Adobe XD",
     image: P7,
@@ -98,7 +108,7 @@ const projectsData = [
     previewUrl: "https://xd.adobe.com/view/bf5744d5-1229-43bc-aa70-60a0afd028a6-ea04/?fullscreen",
   },
   {
-    id: 9,
+    id: 10,
     title: "TravelME - App Prototype",
     description: "A UX/UI project that includes developing a high fidelity prototype with Adobe XD, and a full report of the design process",
     image: P8,
@@ -107,7 +117,7 @@ const projectsData = [
     previewUrl: "https://xd.adobe.com/view/1baf8575-04b5-4169-9878-bc04b0a13b80-4efc/screen/fa639dbe-0750-43e7-9945-e0df9318aa43",
   },
   {
-    id: 10,
+    id: 11,
     title: "Bakery Database - MongoDB",
     description: "A bakery database comprising entities of the store, baker, and dessert. Postman is used to show the queries and operations",
     image: P11,
@@ -116,7 +126,7 @@ const projectsData = [
     previewUrl: "https://www.canva.com/design/DAF9dWHguW4/g9ro-AWFHKpn6w9Ks8W9pg/edit?utm_content=DAF9dWHguW4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    id: 11,
+    id: 12,
     title: "Crumbl Redesign - App Design",
     description: "Tasked with creating an alternative design for the Crumbl app with at least three states and controls. Designed with Adobe XD",
     image: P9,
@@ -125,7 +135,7 @@ const projectsData = [
     previewUrl: "https://xd.adobe.com/view/85cb937a-85eb-4f33-b1ca-2ed932ee7ef5-d098/",
   },
   {
-    id: 12,
+    id: 13,
     title: "Blog Database - MySQL",
     description: "Created a blog database with MySQL. Postman is used to demonstrate the queries and operations",
     image: P10,
@@ -134,7 +144,7 @@ const projectsData = [
     previewUrl: "https://www.canva.com/design/DAF9dCSKkvQ/r-ERvXTcO8pXnf8DB8SxvA/edit?utm_content=DAF9dCSKkvQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
-    id: 13,
+    id: 14,
     title: "Chessland Attacks - C",
     description: "Recreated a chessboard, considering the positions of rooks. Determines how many and which rooks can attack each piece",
     image: P12,
@@ -143,7 +153,7 @@ const projectsData = [
     previewUrl: "https://github.com/thaovyvle/Chessland-Attacks/blob/main/main.c",
   },
   {
-    id: 14,
+    id: 15,
     title: "Coin Organization - C",
     description: "The program sorts the list of individuals based on the money they each have and the ratio of currency",
     image: P13,
@@ -152,7 +162,7 @@ const projectsData = [
     previewUrl: "https://github.com/thaovyvle/Coin-Organization/blob/main/main.c",
   },
   {
-    id: 15,
+    id: 16,
     title: "Arcade Management - C",
     description: "Given a list of people entering and leaving the arcade, determine the most valuable player",
     image: P14,
@@ -161,7 +171,7 @@ const projectsData = [
     previewUrl: "https://github.com/thaovyvle/Arcade-Management/blob/main/main.c",
   },
   {
-    id: 16,
+    id: 17,
     title: "Sudoku Solver - Java",
     description: "Given a sudoku unsolved grid, output the solved puzzle. Uses backtracking function to solve",
     image: P15,
@@ -170,7 +180,7 @@ const projectsData = [
     previewUrl: "https://github.com/thaovyvle/Sudoku-Solver/blob/main/sudokuSolver.java",
   },
   {
-    id: 17,
+    id: 18,
     title: "Hexagram - Java",
     description: "Determine the amount of ways to place numbers on the vertices of a hexagram such that the sum each line is the same",
     image: P16,
