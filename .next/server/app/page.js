@@ -677,32 +677,21 @@ function ParallaxScroll() {
     });
 }
 const Column = ({ images, y })=>{
-    const getWidth = ()=>{
-        if (false) {}
-        return "100%";
-    };
     return /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
         className: (page_module_default()).column,
         style: {
             y
         },
-        children: images.map((src, i)=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: images.map((src, i)=>{
+            return /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (page_module_default()).imageContainer,
-                style: {
-                    width: getWidth(),
-                    marginBottom: "20px"
-                },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     src: src,
                     alt: "image",
-                    fill: true,
-                    style: {
-                        width: "100%",
-                        height: "auto",
-                        objectFit: "cover"
-                    }
+                    fill: true
                 })
-            }, i))
+            }, i);
+        })
     });
 };
 
