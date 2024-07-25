@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 118))
@@ -964,7 +964,7 @@ function RoundedButton_index({ children, backgroundColor = "#FDD7EE", ...attribu
 
 
 function AboutSection() {
-    const phrase = "During my time at UCF, I worked in customer service as a Beverage Cart Attendant at Hawks Landing Golf Club and had a great experience working at Destination Brides as their Web Development Intern this past Summer. Throughout these roles, I have been able to gain leadership skills, satisfy customer needs, time management, team collaboration, and attention to detail.";
+    const phrase = "I recently graduated from the University of Central Florida with a major in Digital Media - Web Design and a minor in Computer Science. During my studies, I worked on diverse projects, creating websites and mobile applications from the ground up. One notable example is my senior project, Chef It!, a recipe and pantry app that my team and I developed through comprehensive research, design, prototyping, development, debugging, and deployment, detailed in the next section. Additionally, I gained valuable skills during my Summer 2023 internship with Destination Brides, where I worked as a Web Development Intern.";
     /*#__PURE__*/ jsx_runtime_.jsx("p", {
         dangerouslySetInnerHTML: {
             __html: phrase
@@ -1003,7 +1003,7 @@ function AboutSection() {
                             /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
                                 variants: opacity,
                                 animate: isInView ? "open" : "closed",
-                                children: "Eager to gain more work experience in Development and actively looking for new opportunities."
+                                children: "Currently seeking opportunities as a Web or Software Developer and am eager to advance my career in this dynamic industry."
                             })
                         ]
                     })
