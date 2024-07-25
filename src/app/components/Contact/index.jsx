@@ -29,7 +29,7 @@ export default function index() {
                         <div className={styles.imageContainer}>
                             <Image 
                             fill={true}
-                            alt={"image"}
+                            alt={"Thaovy Le"}
                             src={ImageofMe}
                             />
                         </div>
@@ -37,16 +37,16 @@ export default function index() {
                     </span>
                     <div className="socials flex flex-row gap-5 mx-auto my-auto w-fit">
                     <Link href="https://github.com/thaovyvle" rel="noopener noreferrer" target="_blank">
-                        <Image src={GithubIcon} alt="Github Icon" />
+                        <Image src={GithubIcon} alt="Thaovy Le - Github Icon" />
                     </Link>
                     <Link href="https://mailto:thaovyvivian@gmail.com" rel="noopener noreferrer" target="_blank">
-                        <Image src={GmailIcon} alt="Gmail Icon" />
+                        <Image src={GmailIcon} alt="Thaovy Le - Gmail Icon" />
                     </Link>
                     <Link href="https://www.facebook.com/thaovy.le.9085" rel="noopener noreferrer" target="_blank">
-                        <Image src={FacebookIcon} alt="Facebook Icon" />
+                        <Image src={FacebookIcon} alt="Thaovy Le - Facebook Icon" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/thaovyvivanle/" rel="noopener noreferrer" target="_blank">
-                        <Image src={LinkedinIcon} alt="Linkedin Icon" />
+                        <Image src={LinkedinIcon} alt="Thaovy Le - Linkedin Icon" />
                     </Link>
                 </div>
                 </div>

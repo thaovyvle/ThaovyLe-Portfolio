@@ -85,7 +85,7 @@ const Column = ({images, y}) => {
           return <div key={i} className={styles.imageContainer}>
             <Image 
               src={src}
-              alt='image'
+              alt='Thaovy Le'
               fill
             />
           </div>

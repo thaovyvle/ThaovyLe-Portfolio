@@ -72,7 +72,7 @@ export default function index() {
                                 <div className={styles.imageContainer}>
                                     <Image 
                                     fill={true}
-                                    alt={"image"}
+                                    alt={"Thaovy Le"}
                                     src={project.src}/>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ export default function index() {
                                 <div key={index} className={styles.imageContainer}>
                                     <Image 
                                     fill={true}
-                                    alt={"image"}
+                                    alt={"Thaovy Le"}
                                     src={project.src}/>
                                 </div>
                             </div>

@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5737:
+/***/ 5638:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6158))
@@ -687,7 +687,7 @@ const Column = ({ images, y })=>{
                 className: (page_module_default()).imageContainer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     src: src,
-                    alt: "image",
+                    alt: "Thaovy Le",
                     fill: true
                 })
             }, i);
@@ -1591,7 +1591,7 @@ function SlidingImages_index() {
                             className: (SlidingImages_style_module_default()).imageContainer,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
-                                alt: "image",
+                                alt: "Thaovy Le",
                                 src: project.src
                             })
                         })
@@ -1613,7 +1613,7 @@ function SlidingImages_index() {
                             className: (SlidingImages_style_module_default()).imageContainer,
                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                 fill: true,
-                                alt: "image",
+                                alt: "Thaovy Le",
                                 src: project.src
                             })
                         }, index)
@@ -1707,7 +1707,7 @@ function Contact_index() {
                                         className: (Contact_style_module_default()).imageContainer,
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             fill: true,
-                                            alt: "image",
+                                            alt: "Thaovy Le",
                                             src: me
                                         })
                                     }),
@@ -1725,7 +1725,7 @@ function Contact_index() {
                                         target: "_blank",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             src: github_icon,
-                                            alt: "Github Icon"
+                                            alt: "Thaovy Le - Github Icon"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
@@ -1734,7 +1734,7 @@ function Contact_index() {
                                         target: "_blank",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             src: gmail_icon,
-                                            alt: "Gmail Icon"
+                                            alt: "Thaovy Le - Gmail Icon"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
@@ -1743,7 +1743,7 @@ function Contact_index() {
                                         target: "_blank",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             src: facebook_icon,
-                                            alt: "Facebook Icon"
+                                            alt: "Thaovy Le - Facebook Icon"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
@@ -1752,7 +1752,7 @@ function Contact_index() {
                                         target: "_blank",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                                             src: linkedin_icon,
-                                            alt: "Linkedin Icon"
+                                            alt: "Thaovy Le - Linkedin Icon"
                                         })
                                     })
                                 ]
