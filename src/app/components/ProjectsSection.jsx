@@ -29,7 +29,7 @@ const projectsData = [
   {
     id: 1,
     title: "Chef It!",
-    description: "Recipe and Pantry app designed with Figma and developed with React and Firebase. Watch the video to view all the innovative features!",
+    description: "Recipe and Pantry app designed with Figma and developed with React and Firebase. View video to see all the innovative features!",
     image: P17,
     tag: ["ALL", "MOBILE"],
     gitUrl: "https://drive.google.com/drive/folders/12M6tdUN1PpsMcol1dh-OMXA1yJ78VIv1?usp=sharing",
@@ -47,7 +47,7 @@ const projectsData = [
   {
     id: 3,
     title: "FitConnect - App Design",
-    description: "Tasked with designing a concept for an app that uses WordPress as a backend. Designed with Adobe XD, this app revolutionizes the fitness class booking experience",
+    description: "Tasked with designing a new app concept. Designed with Adobe XD, this app revolutionizes the fitness class booking experience",
     image: P18,
     tag: ["ALL", "MOBILE", "DESIGN"],
     gitUrl: "https://docs.google.com/document/d/1MnW3JTOq3vJ09vI2ABf0I_ZfwihbdwlVBajirPCO338/edit?usp=sharing",
