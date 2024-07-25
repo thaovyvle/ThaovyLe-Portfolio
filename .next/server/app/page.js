@@ -412,7 +412,7 @@ const Landing = ()=>{
                         scale: 1
                     },
                     transition: {
-                        duration: 0.5
+                        duration: 1
                     },
                     className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
                     children: [
