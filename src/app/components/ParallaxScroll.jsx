@@ -74,23 +74,46 @@ export default function ParallaxScroll() {
   )
 }
 
-const Column = ({images, y}) => {
-  return (
-    <motion.div 
-      className={styles.column}
-      style={{y}}
-      >
-      {
-        images.map( (src, i) => {
-          return <div key={i} className={styles.imageContainer}>
-            <Image 
-              src={src}
-              alt='image'
-              fill
-            />
-          </div>
-        })
+const Column = ({ images, y }) => {
+  const getWidth = () => {
+    if (typeof window !== 'undefined') {
+      if (window.innerWidth <= 480) {
+        return '100%';
+      } else if (window.innerWidth <= 768) {
+        return '80%';
+      } else {
+        return '100%';
       }
+    }
+    return '100%';
+  };
+
+  return (
+    <motion.div
+      className={styles.column}
+      style={{ y }}
+    >
+      {images.map((src, i) => (
+        <div
+          key={i}
+          className={styles.imageContainer}
+          style={{
+            width: getWidth(),
+            marginBottom: '20px',
+          }}
+        >
+          <Image
+            src={src}
+            alt='image'
+            fill
+            style={{
+              width: '100%',
+              height: 'auto',
+              objectFit: 'cover',
+            }}
+          />
+        </div>
+      ))}
     </motion.div>
-  )
-}
+  );
+};
