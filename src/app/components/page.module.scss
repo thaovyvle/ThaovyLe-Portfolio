@@ -46,18 +46,6 @@
 
 @media (max-width: 480px) {
     .gallery {
-      gap: 1vw; // Adjust gap for smaller screens
-  
-      .column {
-        width: 48%; // Two columns per row
-        min-width: unset; // Remove min-width for better flexibility
-        gap: 2vw; // Adjust gap between image containers
-  
-        .imageContainer {
-          height: auto; // Adjust height to maintain aspect ratio
-          width: 100%;
-          border-radius: 3vw; // Adjust border-radius for smaller screens
-        }
-      }
+      height: 150vh;
     }
-  }
+}
