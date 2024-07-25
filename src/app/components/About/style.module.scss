@@ -16,25 +16,27 @@
         position: relative;
         @media (max-width: 400px) {
             gap: 15px;
-            line-height: 1.1;
+            line-height: 1.3;
+            letter-spacing: normal;
+            word-spacing: normal;
         }
         @media (min-width: 640px) {
             .phrase {
               font-size: 14px;
-              line-height: 1.2;
+              line-height: 1.5;
             }
         }
         @media (min-width: 768px) {
             .phrase {
               font-size: 18px;
-              line-height: 1.3;
+              line-height: 1.5;
               gap: 5px;
             }
         }
         @media (min-width: 1024px) {
             .phrase {
               font-size: 20px;
-              line-height: 1.4;
+              line-height: 1.8;
               gap: 10px;
             }
         }

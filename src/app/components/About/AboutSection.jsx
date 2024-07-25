@@ -28,7 +28,7 @@ export default function AboutSection() {
                     })
                 }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>Currently seeking opportunities as a Web Developer</motion.p>
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>Seeking opportunities as a Web Developer and am eager to advance my career in this dynamic industry.</motion.p>
             </div>
             </div>
         </div>

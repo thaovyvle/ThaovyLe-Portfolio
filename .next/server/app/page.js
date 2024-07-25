@@ -1003,7 +1003,7 @@ function AboutSection() {
                             /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.p, {
                                 variants: opacity,
                                 animate: isInView ? "open" : "closed",
-                                children: "Currently seeking opportunities as a Web Developer"
+                                children: "Seeking opportunities as a Web Developer and am eager to advance my career in this dynamic industry."
                             })
                         ]
                     })
