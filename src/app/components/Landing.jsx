@@ -48,7 +48,7 @@ const Landing = () => {
               CONTACT
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1itM3a9lPaVqHEErVJ8vDfgW5W4E3T9T6/view?usp=sharing" rel="noopener noreferrer" target="_blank"
+              href="https://drive.google.com/file/d/1uPFUA6yvBTUT1-f9ThdgnFvlM_OLC5Wt/view?usp=sharing" rel="noopener noreferrer" target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className=" tracking-[0.1em] block bg-[#222442] hover:bg-slate-800 rounded-full px-5 py-2">
