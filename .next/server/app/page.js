@@ -2046,10 +2046,10 @@ const RecentWork = ()=>{
                 ref: playerRef,
                 className: "react-player fixed-bottom",
                 url: "https://vimeo.com/990728213?share=copy",
-                width: "100%",
-                height: "100%",
+                width: "960vw",
+                height: "720vh",
                 controls: false,
-                playing: false
+                playing: true
             })
         ]
     });

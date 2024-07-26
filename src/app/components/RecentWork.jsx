@@ -48,10 +48,10 @@ const RecentWork = () => {
                 ref={playerRef}
                 className='react-player fixed-bottom'
                 url='https://vimeo.com/990728213?share=copy'
-                width='100%'
-                height='100%'
+                width='960vw'
+                height='720vh'
                 controls={false} // Hide the control bar
-                playing={false} // Initially, set to false; will be controlled by IntersectionObserver
+                playing={true} // Initially, set to false; will be controlled by IntersectionObserver
             />
         </section>
     );
