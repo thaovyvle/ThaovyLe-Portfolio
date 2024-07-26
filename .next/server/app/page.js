@@ -543,7 +543,7 @@ const Landing = ()=>{
                     },
                     transition: {
                         duration: 1,
-                        delay: 1
+                        delay: 3
                     },
                     className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
                     children: [
@@ -570,7 +570,7 @@ const Landing = ()=>{
                                         1000
                                     ],
                                     wrapper: "span",
-                                    speed: 50,
+                                    speed: 35,
                                     repeat: Infinity
                                 })
                             ]
