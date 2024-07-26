@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -1988,8 +1988,28 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 
 
 
-
 const RecentWork = ()=>{
+    const playerRef = (0,react_.useRef)(null);
+    (0,react_.useEffect)(()=>{
+        const handlePlay = (entries)=>{
+            entries.forEach((entry)=>{
+                if (entry.isIntersecting && playerRef.current) {
+                    playerRef.current.getInternalPlayer().play();
+                }
+            });
+        };
+        const observer = new IntersectionObserver(handlePlay, {
+            threshold: 0.5
+        });
+        if (playerRef.current) {
+            observer.observe(playerRef.current.wrapper);
+        }
+        return ()=>{
+            if (playerRef.current) {
+                observer.unobserve(playerRef.current.wrapper);
+            }
+        };
+    }, []);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         id: "recentWork",
         children: [
@@ -2023,11 +2043,13 @@ const RecentWork = ()=>{
                 ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
+                ref: playerRef,
                 className: "react-player fixed-bottom",
                 url: "https://vimeo.com/990728213?share=copy",
-                width: "80%",
-                height: "80%",
-                controls: true
+                width: "100%",
+                height: "100%",
+                controls: false,
+                playing: false
             })
         ]
     });
