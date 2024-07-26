@@ -34,17 +34,17 @@ const Landing = () => {
             {initialDelay ? (
               <TypeAnimation
                 sequence={[
-                  "", // Initial empty string to delay the start
-                  3000, // Delay for 3 seconds
+                  "", 
+                  5000, 
                   "Thaovy Le",
                   1000,
-                  "a Web Developer",
+                  "Web Developer",
                   1000,
-                  "an App Developer",
+                  "App Developer",
                   1000,
-                  "a Full-Stack Developer",
+                  "Full-Stack Developer",
                   1000,
-                  "a UI/UX Designer",
+                  "UI/UX Designer",
                   1000,
                 ]}
                 wrapper="span"
@@ -56,13 +56,13 @@ const Landing = () => {
                 sequence={[
                   "Thaovy Le",
                   1000,
-                  "a Web Developer",
+                  "Web Developer",
                   1000,
-                  "an App Developer",
+                  "App Developer",
                   1000,
-                  "a Full-Stack Developer",
+                  "Full-Stack Developer",
                   1000,
-                  "a UI/UX Designer",
+                  "UI/UX Designer",
                   1000,
                 ]}
                 wrapper="span"
