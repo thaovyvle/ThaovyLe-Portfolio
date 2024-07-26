@@ -2026,7 +2026,7 @@ const RecentWork = ()=>{
                 children: "RECENT WORK"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-center mt-10 space-x-2 flex-col lg:flex-row lg:items-start",
+                className: "flex items-center mt-10 space-x-2 flex-col lg:flex-row lg:items-start lg:mx-[20px] md:mx-[10px]",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         src: chefIt,
@@ -2038,9 +2038,15 @@ const RecentWork = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex flex-col items-center ml-4 lg:items-start lg:mb-0 text-center lg:text-left",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
                                 className: "text-xl font-bold text-[#564f57] px-8 mb-4",
-                                children: "Chef It! - Recipe & Pantry App"
+                                children: [
+                                    "Chef It! ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        className: "italic font-light font-base",
+                                        children: "Recipe & Pantry App"
+                                    })
+                                ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 className: "text-[#564f57] text-base sm:text-sm px-8 mb-6 lg:text-lg md:text-base flex flex-wrap",
@@ -2052,7 +2058,7 @@ const RecentWork = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 id: "videoWrapper",
-                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[360px] sm:h-[270px]",
+                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                     ref: playerRef,
                     url: "https://vimeo.com/990792000?share=copy",
