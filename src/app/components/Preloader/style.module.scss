@@ -12,6 +12,7 @@
         top: 0;
         width: 100%;
         height: calc(100% + 300px);
+        fill: url(#gradient1);
         path{
             fill: url(#gradient1);
         }
@@ -24,6 +25,7 @@
         align-items: center;
         position: absolute;
         z-index: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow here */
         span{
             display: block;
             width: 10px;
