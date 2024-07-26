@@ -8,3 +8,9 @@ body {
   color: rgb(var(--foreground-rgb));
 
 }
+
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden; /* Ensure this isn't being overridden */
+  }
+}

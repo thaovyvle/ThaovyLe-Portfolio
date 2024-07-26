@@ -52,7 +52,7 @@ const RecentWork = () => {
                 <ReactPlayer
                     ref={playerRef}
                     url='https://vimeo.com/990792000?share=copy'
-                    className="rounded-lg shadow-lg"
+                    className="rounded-lg shadow-lg overflow-hidden overflow-x-hidden"
                     width="100%"
                     height="100%"
                     controls={false}

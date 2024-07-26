@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5737:
+/***/ 5638:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -1982,7 +1982,7 @@ function Contact_index() {
 }
 
 ;// CONCATENATED MODULE: ./public/chefIt.png
-/* harmony default export */ const chefIt = ({"src":"/ThaovyLe-Portfolio/_next/static/media/chefIt.18d8c9c1.png","height":1080,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAsElEQVR42hWOuw6CQBBF7wyLG0BFEm20t7e38hv8Ub/A1s5HaWM0MSa+iTFCWGZcbndPcw5J8ZPbGSoQATQIjBBTf2g8dauFxj2NUw5b29tlXL7j6dzAL7Q6mVHWR12n9yt2S6gYEFA5fj8Oz9xKlUZUIkigDAEn5F77LEzatkundSQfBRs0RmOzIuoc5eu4F9SlVYUBQ/NSCki4gfOWGHXBBGpy7z4XUP8ACEA8GP0BThFT/TNHT4oAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const chefIt = ({"src":"/ThaovyLe-Portfolio/_next/static/media/chefIt.b7d6e23c.png","height":1080,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA0ElEQVR42h3MPUoDURSG4ffce+cnJjEJ2KS3dQluwrXZuoWU7sBarNQqgiDiv0UYJjPnfErqBx7rr6/WggvzIbHvpBhppksGK/LwTTmg4jLqI1iuSaXi7uOVU/W0dUsxLEtCZ+d7W51kuTN7f3Pub2r9r0XJxBCkn8+8/frNTQwsWujJTNUrMYg0McbvB1bVlFlzjD3f0mrHYI0VJFNONMvOJ/MnYjeSFubuVY4+KFbh6hKxjVovj2g0fGwyybBMFAUbyyClrG4uMlgZDeGCzR/KIWzioJNnsQAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
 // EXTERNAL MODULE: ./node_modules/react-player/lib/index.js
 var lib = __webpack_require__(5400);
 var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
@@ -2062,7 +2062,7 @@ const RecentWork = ()=>{
                 children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                     ref: playerRef,
                     url: "https://vimeo.com/990792000?share=copy",
-                    className: "rounded-lg shadow-lg",
+                    className: "rounded-lg shadow-lg overflow-hidden overflow-x-hidden",
                     width: "100%",
                     height: "100%",
                     controls: false,
