@@ -37,7 +37,7 @@ const RecentWork = () => {
             <h1 className="text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-2 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
                 RECENT WORK
             </h1>
-            <div className="flex items-center space-x-2 flex-col lg:flex-row lg:items-start">
+            <div className="flex items-center mt-10 space-x-2 flex-col lg:flex-row lg:items-start">
                 <Image src={ChefItIcon} alt="Thaovy Le - Chef It Icon" width={130} height={130} className="mr-[10px] mb-[15px]" />
                 <div className="flex flex-col items-center ml-4 lg:items-start lg:mb-0 text-center lg:text-left">
                     <h2 className="text-xl font-bold text-[#564f57] px-8 mb-4">
@@ -48,7 +48,7 @@ const RecentWork = () => {
                     </p>
                 </div>
             </div>
-            <div id="videoWrapper" className="flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]">
+            <div id="videoWrapper" className="flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[360px] sm:h-[270px]">
                 <ReactPlayer
                     ref={playerRef}
                     url='https://vimeo.com/990792000?share=copy'

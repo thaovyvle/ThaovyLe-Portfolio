@@ -920,6 +920,10 @@ const navLinks = [
         path: "#about"
     },
     {
+        title: "RECENT WORK",
+        path: "#recentWork"
+    },
+    {
         title: "PROJECTS",
         path: "#projects"
     },
@@ -2022,7 +2026,7 @@ const RecentWork = ()=>{
                 children: "RECENT WORK"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-center space-x-2 flex-col lg:flex-row lg:items-start",
+                className: "flex items-center mt-10 space-x-2 flex-col lg:flex-row lg:items-start",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         src: chefIt,
@@ -2048,7 +2052,7 @@ const RecentWork = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 id: "videoWrapper",
-                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]",
+                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[360px] sm:h-[270px]",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                     ref: playerRef,
                     url: "https://vimeo.com/990792000?share=copy",
