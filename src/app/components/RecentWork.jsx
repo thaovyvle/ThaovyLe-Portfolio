@@ -49,9 +49,9 @@ const RecentWork = () => {
                 className='react-player fixed-bottom'
                 width='640px'
                 height='480px'
-                url='../../../public/chefIt.mov'
+                url='https://vimeo.com/990728213?share=copy'
                 controls={false} // Hide the control bar
-                playing={true} // Initially, set to false; will be controlled by IntersectionObserver
+                playing={true} 
             />
         </section>
     );
