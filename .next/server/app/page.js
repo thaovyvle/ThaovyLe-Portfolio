@@ -597,18 +597,13 @@ const Landing = ()=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
-                                    transition: {
-                                        delay: 3
-                                    }
-                                }),
                                 /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
                                     sequence: [
-                                        "Thaovy Le",
-                                        1000,
                                         "Web Developer",
                                         1000,
                                         "App Developer",
+                                        1000,
+                                        "Thaovy Le",
                                         1000,
                                         "Full-Stack Developer",
                                         1000,

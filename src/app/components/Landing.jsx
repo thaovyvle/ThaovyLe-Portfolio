@@ -31,16 +31,13 @@ const Landing = () => {
               Hello, I&apos;m{" "}
             </span>
             <br></br>
-            <motion.div
-              transition={{ delay: 3 }}
-            ></motion.div>
               <TypeAnimation
                 sequence={[ 
-                  "Thaovy Le",
-                  1000,
                   "Web Developer",
                   1000,
                   "App Developer",
+                  1000,
+                  "Thaovy Le",
                   1000,
                   "Full-Stack Developer",
                   1000,
@@ -73,7 +70,7 @@ const Landing = () => {
               </span>
             </Link>
           </div>
-        </motion.div>
+          </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
