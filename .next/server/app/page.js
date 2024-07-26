@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5737:
+/***/ 5638:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1704))
@@ -1816,7 +1816,7 @@ const RecentWork = ()=>{
                 children: "RECENT WORK"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-center space-x-2",
+                className: "flex items-center space-x-2 flex-col lg:flex-row lg:items-start",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         src: chefIt,
@@ -1826,7 +1826,7 @@ const RecentWork = ()=>{
                         className: "mr-[10px] mb-[15px]"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "flex flex-col items-start ml-4",
+                        className: "flex flex-col items-center ml-4 lg:items-start lg:mb-0 text-center lg:text-left",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                 className: "text-xl font-bold text-[#564f57] px-8 mb-4",
