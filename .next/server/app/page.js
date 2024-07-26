@@ -2045,7 +2045,9 @@ const RecentWork = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                 ref: playerRef,
                 className: "react-player fixed-bottom",
-                url: "https://vimeo.com/990728213?share=copy",
+                width: "640px",
+                height: "480px",
+                url: "../../../public/chefIt.mov",
                 controls: false,
                 playing: true
             })
