@@ -7,11 +7,11 @@ import Link from "next/link";
 import ImageofMe from "../../../public/me.png";
 
 const Landing = () => {
-  const [initialDelay, setInitialDelay] = useState(True);
+  const [initialDelay, setInitialDelay] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setInitialDelay(False);
+      setInitialDelay(false);
     }, 3000); // 3-second delay for the first time
 
     return () => clearTimeout(timer);

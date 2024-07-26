@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -527,10 +527,10 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 const Landing = ()=>{
-    const [initialDelay, setInitialDelay] = (0,react_.useState)(True);
+    const [initialDelay, setInitialDelay] = (0,react_.useState)(true);
     (0,react_.useEffect)(()=>{
         const timer = setTimeout(()=>{
-            setInitialDelay(False);
+            setInitialDelay(false);
         }, 3000); // 3-second delay for the first time
         return ()=>clearTimeout(timer);
     }, []);
