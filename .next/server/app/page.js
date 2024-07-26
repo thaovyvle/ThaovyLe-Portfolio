@@ -2015,6 +2015,7 @@ const RecentWork = ()=>{
     }, []);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         id: "recentWork",
+        className: "flex flex-col items-center",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                 className: "text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-2 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
@@ -2022,11 +2023,11 @@ const RecentWork = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 id: "videoWrapper",
-                className: "items-center justify-center mx-auto mt-5 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[480px] sm:h-[360px]",
+                className: " flex items-center justify-center mx-auto mt-5 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[384px] sm:h-[288px] rounded-lg shadow-lg overflow-hidden",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                     ref: playerRef,
                     url: "https://vimeo.com/990728213?share=copy",
-                    className: "absolute w-full h-full",
+                    className: "w-full h-full",
                     controls: false,
                     playing: isPlaying,
                     muted: true,
