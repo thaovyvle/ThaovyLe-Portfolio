@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -2033,7 +2033,7 @@ const RecentWork = ()=>{
                         alt: "Thaovy Le - Chef It Icon",
                         width: 130,
                         height: 130,
-                        className: "mr-[10px] mb-[15px] shadow-lg"
+                        className: "mr-[10px] mb-[15px]"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex flex-col items-center ml-4 lg:items-start lg:mb-0 text-center lg:text-left",
