@@ -2026,14 +2026,14 @@ const RecentWork = ()=>{
                 children: "RECENT WORK"
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "flex items-center mt-10 space-x-2 flex-col lg:flex-row lg:items-start lg:mx-[20px] md:mx-[10px]",
+                className: "flex items-center mt-10 space-x-2 flex-col lg:flex-row lg:items-start xl:mx-[30px] lg:mx-[20px] md:mx-[10px]",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         src: chefIt,
                         alt: "Thaovy Le - Chef It Icon",
                         width: 130,
                         height: 130,
-                        className: "mr-[10px] mb-[15px]"
+                        className: "mr-[10px] mb-[15px] shadow-lg"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex flex-col items-center ml-4 lg:items-start lg:mb-0 text-center lg:text-left",
@@ -2058,7 +2058,7 @@ const RecentWork = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 id: "videoWrapper",
-                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] w-[390px] h-[270px] 2xl:w-[960px] 2xl:h-[720px] xl:w-[960px] xl:h-[720px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]",
+                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] w-[400px] h-[300px] 2xl:w-[800px] 2xl:h-[600px] xl:w-[800px] xl:h-[600px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                     ref: playerRef,
                     url: "https://vimeo.com/990792000?share=copy",
