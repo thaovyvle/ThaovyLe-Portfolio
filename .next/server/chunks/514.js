@@ -3,7 +3,7 @@ exports.id = 514;
 exports.ids = [514];
 exports.modules = {
 
-/***/ 26528:
+/***/ 6528:
 /***/ ((module) => {
 
 
@@ -342,7 +342,7 @@ function splitCookiesString(cookiesString) {
 
 /***/ }),
 
-/***/ 12250:
+/***/ 2250:
 /***/ ((module, exports, __webpack_require__) => {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;
@@ -2542,7 +2542,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
 
 /***/ }),
 
-/***/ 25737:
+/***/ 5737:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -2597,7 +2597,7 @@ class RemovedUAError extends Error {
 
 /***/ }),
 
-/***/ 52419:
+/***/ 2419:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2610,10 +2610,10 @@ Object.defineProperty(exports, "NextURL", ({
         return NextURL;
     }
 }));
-const _detectdomainlocale = __webpack_require__(86688);
-const _formatnextpathnameinfo = __webpack_require__(74826);
+const _detectdomainlocale = __webpack_require__(6688);
+const _formatnextpathnameinfo = __webpack_require__(4826);
 const _gethostname = __webpack_require__(8363);
-const _getnextpathnameinfo = __webpack_require__(52642);
+const _getnextpathnameinfo = __webpack_require__(1614);
 const REGEX_LOCALHOST_HOSTNAME = /(?!^https?:\/\/)(127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}|\[::1\]|localhost)/;
 function parseURL(url, base) {
     return new URL(String(url).replace(REGEX_LOCALHOST_HOSTNAME, "localhost"), base && String(base).replace(REGEX_LOCALHOST_HOSTNAME, "localhost"));
@@ -2793,7 +2793,7 @@ class NextURL {
 
 /***/ }),
 
-/***/ 33425:
+/***/ 3425:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2815,7 +2815,7 @@ _export(exports, {
         return _cookies.ResponseCookies;
     }
 });
-const _cookies = __webpack_require__(26528); //# sourceMappingURL=cookies.js.map
+const _cookies = __webpack_require__(6528); //# sourceMappingURL=cookies.js.map
 
 
 /***/ }),
@@ -2842,7 +2842,7 @@ class ImageResponse {
         const readable = new ReadableStream({
             async start (controller) {
                 const OGImageResponse = // as the auto resolving is not working
-                (await Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 14021))).ImageResponse;
+                (await Promise.resolve(/* import() */).then(__webpack_require__.bind(__webpack_require__, 4021))).ImageResponse;
                 const imageResponse = new OGImageResponse(...args);
                 if (!imageResponse.body) {
                     return controller.close();
@@ -2873,7 +2873,7 @@ class ImageResponse {
 
 /***/ }),
 
-/***/ 47336:
+/***/ 7336:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2895,10 +2895,10 @@ _export(exports, {
         return NextRequest;
     }
 });
-const _nexturl = __webpack_require__(52419);
-const _utils = __webpack_require__(59537);
-const _error = __webpack_require__(25737);
-const _cookies = __webpack_require__(33425);
+const _nexturl = __webpack_require__(2419);
+const _utils = __webpack_require__(9537);
+const _error = __webpack_require__(5737);
+const _cookies = __webpack_require__(3425);
 const INTERNALS = Symbol("internal request");
 class NextRequest extends Request {
     constructor(input, init = {}){
@@ -2975,7 +2975,7 @@ class NextRequest extends Request {
 
 /***/ }),
 
-/***/ 34415:
+/***/ 4415:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var __webpack_unused_export__;
@@ -2989,9 +2989,9 @@ Object.defineProperty(exports, "x", ({
         return NextResponse;
     }
 }));
-const _nexturl = __webpack_require__(52419);
-const _utils = __webpack_require__(59537);
-const _cookies = __webpack_require__(33425);
+const _nexturl = __webpack_require__(2419);
+const _utils = __webpack_require__(9537);
+const _cookies = __webpack_require__(3425);
 const INTERNALS = Symbol("internal response");
 const REDIRECTS = new Set([
     301,
@@ -3085,7 +3085,7 @@ class NextResponse extends Response {
 
 /***/ }),
 
-/***/ 43889:
+/***/ 3889:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3110,7 +3110,7 @@ _export(exports, {
         return userAgent;
     }
 });
-const _uaparserjs = /*#__PURE__*/ _interop_require_default(__webpack_require__(12250));
+const _uaparserjs = /*#__PURE__*/ _interop_require_default(__webpack_require__(2250));
 function _interop_require_default(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -3132,7 +3132,7 @@ function userAgent({ headers }) {
 
 /***/ }),
 
-/***/ 59537:
+/***/ 9537:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3290,7 +3290,7 @@ function getHostname(parsed, headers) {
 
 /***/ }),
 
-/***/ 86688:
+/***/ 6688:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3321,7 +3321,7 @@ function detectDomainLocale(domainItems, hostname, detectedLocale) {
 
 /***/ }),
 
-/***/ 21103:
+/***/ 1103:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -3356,7 +3356,7 @@ function normalizeLocalePath(pathname, locales) {
 
 /***/ }),
 
-/***/ 98625:
+/***/ 8625:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3369,8 +3369,8 @@ Object.defineProperty(exports, "addLocale", ({
         return addLocale;
     }
 }));
-const _addpathprefix = __webpack_require__(52595);
-const _pathhasprefix = __webpack_require__(17454);
+const _addpathprefix = __webpack_require__(2595);
+const _pathhasprefix = __webpack_require__(7454);
 function addLocale(path, locale, defaultLocale, ignorePrefix) {
     // If no locale was given or the locale is the default locale, we don't need
     // to prefix the path.
@@ -3389,7 +3389,7 @@ function addLocale(path, locale, defaultLocale, ignorePrefix) {
 
 /***/ }),
 
-/***/ 52595:
+/***/ 2595:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3402,7 +3402,7 @@ Object.defineProperty(exports, "addPathPrefix", ({
         return addPathPrefix;
     }
 }));
-const _parsepath = __webpack_require__(39956);
+const _parsepath = __webpack_require__(9956);
 function addPathPrefix(path, prefix) {
     if (!path.startsWith("/") || !prefix) {
         return path;
@@ -3414,7 +3414,7 @@ function addPathPrefix(path, prefix) {
 
 /***/ }),
 
-/***/ 58225:
+/***/ 8225:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3427,7 +3427,7 @@ Object.defineProperty(exports, "addPathSuffix", ({
         return addPathSuffix;
     }
 }));
-const _parsepath = __webpack_require__(39956);
+const _parsepath = __webpack_require__(9956);
 function addPathSuffix(path, suffix) {
     if (!path.startsWith("/") || !suffix) {
         return path;
@@ -3439,7 +3439,7 @@ function addPathSuffix(path, suffix) {
 
 /***/ }),
 
-/***/ 74826:
+/***/ 4826:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3452,10 +3452,10 @@ Object.defineProperty(exports, "formatNextPathnameInfo", ({
         return formatNextPathnameInfo;
     }
 }));
-const _removetrailingslash = __webpack_require__(75105);
-const _addpathprefix = __webpack_require__(52595);
-const _addpathsuffix = __webpack_require__(58225);
-const _addlocale = __webpack_require__(98625);
+const _removetrailingslash = __webpack_require__(5105);
+const _addpathprefix = __webpack_require__(2595);
+const _addpathsuffix = __webpack_require__(8225);
+const _addlocale = __webpack_require__(8625);
 function formatNextPathnameInfo(info) {
     let pathname = (0, _addlocale.addLocale)(info.pathname, info.locale, info.buildId ? undefined : info.defaultLocale, info.ignorePrefix);
     if (info.buildId || !info.trailingSlash) {
@@ -3471,7 +3471,7 @@ function formatNextPathnameInfo(info) {
 
 /***/ }),
 
-/***/ 52642:
+/***/ 1614:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3484,9 +3484,9 @@ Object.defineProperty(exports, "getNextPathnameInfo", ({
         return getNextPathnameInfo;
     }
 }));
-const _normalizelocalepath = __webpack_require__(21103);
-const _removepathprefix = __webpack_require__(71147);
-const _pathhasprefix = __webpack_require__(17454);
+const _normalizelocalepath = __webpack_require__(1103);
+const _removepathprefix = __webpack_require__(1147);
+const _pathhasprefix = __webpack_require__(7454);
 function getNextPathnameInfo(pathname, options) {
     var _options_nextConfig;
     const { basePath, i18n, trailingSlash } = (_options_nextConfig = options.nextConfig) != null ? _options_nextConfig : {};
@@ -3523,7 +3523,7 @@ function getNextPathnameInfo(pathname, options) {
 
 /***/ }),
 
-/***/ 39956:
+/***/ 9956:
 /***/ ((__unused_webpack_module, exports) => {
 
 /**
@@ -3561,7 +3561,7 @@ function parsePath(path) {
 
 /***/ }),
 
-/***/ 17454:
+/***/ 7454:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3574,7 +3574,7 @@ Object.defineProperty(exports, "pathHasPrefix", ({
         return pathHasPrefix;
     }
 }));
-const _parsepath = __webpack_require__(39956);
+const _parsepath = __webpack_require__(9956);
 function pathHasPrefix(path, prefix) {
     if (typeof path !== "string") {
         return false;
@@ -3586,7 +3586,7 @@ function pathHasPrefix(path, prefix) {
 
 /***/ }),
 
-/***/ 71147:
+/***/ 1147:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3599,7 +3599,7 @@ Object.defineProperty(exports, "removePathPrefix", ({
         return removePathPrefix;
     }
 }));
-const _pathhasprefix = __webpack_require__(17454);
+const _pathhasprefix = __webpack_require__(7454);
 function removePathPrefix(path, prefix) {
     // If the path doesn't start with the prefix we can return it as is. This
     // protects us from situations where the prefix is a substring of the path
@@ -3630,7 +3630,7 @@ function removePathPrefix(path, prefix) {
 
 /***/ }),
 
-/***/ 75105:
+/***/ 5105:
 /***/ ((__unused_webpack_module, exports) => {
 
 /**
@@ -3656,16 +3656,16 @@ function removeTrailingSlash(route) {
 
 /***/ }),
 
-/***/ 20514:
+/***/ 514:
 /***/ ((module, exports, __webpack_require__) => {
 
 
 const serverExports = {
-    NextRequest: (__webpack_require__(47336).NextRequest),
-    NextResponse: (__webpack_require__(34415)/* .NextResponse */ .x),
+    NextRequest: (__webpack_require__(7336).NextRequest),
+    NextResponse: (__webpack_require__(4415)/* .NextResponse */ .x),
     ImageResponse: (__webpack_require__(9374)/* .ImageResponse */ .E),
-    userAgentFromString: (__webpack_require__(43889).userAgentFromString),
-    userAgent: (__webpack_require__(43889).userAgent)
+    userAgentFromString: (__webpack_require__(3889).userAgentFromString),
+    userAgent: (__webpack_require__(3889).userAgent)
 };
 if (typeof URLPattern !== "undefined") {
     // eslint-disable-next-line no-undef

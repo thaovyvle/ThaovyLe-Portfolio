@@ -5,91 +5,91 @@ exports.id = 164;
 exports.ids = [164];
 exports.modules = {
 
-/***/ 56786:
+/***/ 6786:
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/react/jsx-runtime");
 
 /***/ }),
 
-/***/ 50852:
+/***/ 852:
 /***/ ((module) => {
 
 module.exports = require("async_hooks");
 
 /***/ }),
 
-/***/ 14300:
+/***/ 4300:
 /***/ ((module) => {
 
 module.exports = require("buffer");
 
 /***/ }),
 
-/***/ 13685:
+/***/ 3685:
 /***/ ((module) => {
 
 module.exports = require("http");
 
 /***/ }),
 
-/***/ 95687:
+/***/ 5687:
 /***/ ((module) => {
 
 module.exports = require("https");
 
 /***/ }),
 
-/***/ 22037:
+/***/ 2037:
 /***/ ((module) => {
 
 module.exports = require("os");
 
 /***/ }),
 
-/***/ 85477:
+/***/ 5477:
 /***/ ((module) => {
 
 module.exports = require("punycode");
 
 /***/ }),
 
-/***/ 12781:
+/***/ 2781:
 /***/ ((module) => {
 
 module.exports = require("stream");
 
 /***/ }),
 
-/***/ 71576:
+/***/ 1576:
 /***/ ((module) => {
 
 module.exports = require("string_decoder");
 
 /***/ }),
 
-/***/ 57310:
+/***/ 7310:
 /***/ ((module) => {
 
 module.exports = require("url");
 
 /***/ }),
 
-/***/ 73837:
+/***/ 3837:
 /***/ ((module) => {
 
 module.exports = require("util");
 
 /***/ }),
 
-/***/ 59796:
+/***/ 9796:
 /***/ ((module) => {
 
 module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 96030:
+/***/ 6030:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -114,17 +114,17 @@ __webpack_require__.d(route_namespaceObject, {
 });
 
 // EXTERNAL MODULE: ./node_modules/next/dist/server/node-polyfill-headers.js
-var node_polyfill_headers = __webpack_require__(42394);
+var node_polyfill_headers = __webpack_require__(2394);
 // EXTERNAL MODULE: ./node_modules/next/dist/server/future/route-modules/app-route/module.js
-var app_route_module = __webpack_require__(69692);
+var app_route_module = __webpack_require__(9692);
 // EXTERNAL MODULE: ./node_modules/next/dist/server/future/route-kind.js
-var route_kind = __webpack_require__(19513);
+var route_kind = __webpack_require__(9513);
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(56786);
+var jsx_runtime_ = __webpack_require__(6786);
 // EXTERNAL MODULE: ./node_modules/next/dist/server/web/exports/next-response.js
-var next_response = __webpack_require__(89335);
+var next_response = __webpack_require__(9335);
 // EXTERNAL MODULE: ./node_modules/resend/build/src/index.js
-var src = __webpack_require__(24975);
+var src = __webpack_require__(4975);
 ;// CONCATENATED MODULE: ./src/app/api/send/route.js
 
 
@@ -208,7 +208,7 @@ const originalPathname = "/api/send/route";
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,501,60,601], () => (__webpack_exec__(96030)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,501,60,601], () => (__webpack_exec__(6030)));
 module.exports = __webpack_exports__;
 
 })();

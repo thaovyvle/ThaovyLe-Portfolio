@@ -2,7 +2,7 @@ exports.id = 704;
 exports.ids = [704];
 exports.modules = {
 
-/***/ 47704:
+/***/ 7704:
 /***/ (function(module) {
 
 /* locomotive-scroll v4.1.3 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */

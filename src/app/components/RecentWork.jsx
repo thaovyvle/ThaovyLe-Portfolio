@@ -3,7 +3,7 @@ import React, { useState, useRef } from "react";
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import ChefItIcon from "../../../public/chefIt.png";
-import { CldVideoPlayer } from 'next-cloudinary';
+import ReactPlayer from 'react-player'
 
 const RecentWork = () => {
 
@@ -23,12 +23,14 @@ const RecentWork = () => {
                 </p>
                 </div>
             </div>
-            <CldVideoPlayer
-    id="sea-turtle-color"
-    width="1920"
-    height="1080"
-    src="samples/sea-turtle"
-/>
+            <ReactPlayer
+            className='react-player fixed-bottom'
+            url= '../../../public/chefIt.move'
+            width='100%'
+            height='100%'
+            controls = {true}
+
+            />
         </section>
     );
 }

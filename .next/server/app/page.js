@@ -4,7 +4,7 @@ exports.id = 931;
 exports.ids = [931];
 exports.modules = {
 
-/***/ 18038:
+/***/ 8038:
 /***/ ((module) => {
 
 "use strict";
@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 98704:
+/***/ 8704:
 /***/ ((module) => {
 
 "use strict";
@@ -20,7 +20,7 @@ module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
 
 /***/ }),
 
-/***/ 97897:
+/***/ 7897:
 /***/ ((module) => {
 
 "use strict";
@@ -28,7 +28,7 @@ module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
 
 /***/ }),
 
-/***/ 56786:
+/***/ 6786:
 /***/ ((module) => {
 
 "use strict";
@@ -44,7 +44,7 @@ module.exports = require("next/dist/server/app-render/app-render");
 
 /***/ }),
 
-/***/ 41844:
+/***/ 1844:
 /***/ ((module) => {
 
 "use strict";
@@ -52,7 +52,7 @@ module.exports = require("next/dist/server/app-render/get-segment-param");
 
 /***/ }),
 
-/***/ 96624:
+/***/ 6624:
 /***/ ((module) => {
 
 "use strict";
@@ -60,7 +60,7 @@ module.exports = require("next/dist/server/future/helpers/interception-routes");
 
 /***/ }),
 
-/***/ 75281:
+/***/ 5281:
 /***/ ((module) => {
 
 "use strict";
@@ -68,7 +68,7 @@ module.exports = require("next/dist/server/future/route-modules/route-module");
 
 /***/ }),
 
-/***/ 57085:
+/***/ 7085:
 /***/ ((module) => {
 
 "use strict";
@@ -84,7 +84,7 @@ module.exports = require("next/dist/shared/lib/get-img-props");
 
 /***/ }),
 
-/***/ 20199:
+/***/ 199:
 /***/ ((module) => {
 
 "use strict";
@@ -92,7 +92,7 @@ module.exports = require("next/dist/shared/lib/hash");
 
 /***/ }),
 
-/***/ 66864:
+/***/ 6864:
 /***/ ((module) => {
 
 "use strict";
@@ -100,15 +100,7 @@ module.exports = require("next/dist/shared/lib/head");
 
 /***/ }),
 
-/***/ 86819:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/head-manager-context");
-
-/***/ }),
-
-/***/ 39569:
+/***/ 9569:
 /***/ ((module) => {
 
 "use strict";
@@ -116,7 +108,7 @@ module.exports = require("next/dist/shared/lib/hooks-client-context");
 
 /***/ }),
 
-/***/ 52210:
+/***/ 2210:
 /***/ ((module) => {
 
 "use strict";
@@ -124,7 +116,7 @@ module.exports = require("next/dist/shared/lib/image-config");
 
 /***/ }),
 
-/***/ 35359:
+/***/ 5359:
 /***/ ((module) => {
 
 "use strict";
@@ -132,7 +124,7 @@ module.exports = require("next/dist/shared/lib/image-config-context");
 
 /***/ }),
 
-/***/ 17160:
+/***/ 7160:
 /***/ ((module) => {
 
 "use strict";
@@ -140,7 +132,7 @@ module.exports = require("next/dist/shared/lib/router-context");
 
 /***/ }),
 
-/***/ 30893:
+/***/ 893:
 /***/ ((module) => {
 
 "use strict";
@@ -148,7 +140,7 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
 
 /***/ }),
 
-/***/ 12336:
+/***/ 2336:
 /***/ ((module) => {
 
 "use strict";
@@ -156,7 +148,7 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url");
 
 /***/ }),
 
-/***/ 17887:
+/***/ 7887:
 /***/ ((module) => {
 
 "use strict";
@@ -164,7 +156,7 @@ module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll
 
 /***/ }),
 
-/***/ 98735:
+/***/ 8735:
 /***/ ((module) => {
 
 "use strict";
@@ -172,7 +164,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-bot");
 
 /***/ }),
 
-/***/ 60120:
+/***/ 120:
 /***/ ((module) => {
 
 "use strict";
@@ -180,7 +172,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-local-url");
 
 /***/ }),
 
-/***/ 68231:
+/***/ 8231:
 /***/ ((module) => {
 
 "use strict";
@@ -188,7 +180,7 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-path");
 
 /***/ }),
 
-/***/ 54614:
+/***/ 4614:
 /***/ ((module) => {
 
 "use strict";
@@ -196,7 +188,7 @@ module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix");
 
 /***/ }),
 
-/***/ 53750:
+/***/ 3750:
 /***/ ((module) => {
 
 "use strict";
@@ -204,7 +196,7 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
-/***/ 70982:
+/***/ 982:
 /***/ ((module) => {
 
 "use strict";
@@ -212,7 +204,7 @@ module.exports = require("next/dist/shared/lib/router/utils/resolve-href");
 
 /***/ }),
 
-/***/ 79618:
+/***/ 9618:
 /***/ ((module) => {
 
 "use strict";
@@ -220,7 +212,7 @@ module.exports = require("next/dist/shared/lib/server-inserted-html");
 
 /***/ }),
 
-/***/ 78423:
+/***/ 8423:
 /***/ ((module) => {
 
 "use strict";
@@ -228,7 +220,7 @@ module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
-/***/ 98658:
+/***/ 8658:
 /***/ ((module) => {
 
 "use strict";
@@ -236,7 +228,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 71017:
+/***/ 1017:
 /***/ ((module) => {
 
 "use strict";
@@ -244,7 +236,7 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 57310:
+/***/ 7310:
 /***/ ((module) => {
 
 "use strict";
@@ -252,7 +244,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 53261:
+/***/ 3261:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -267,10 +259,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7262);
 /* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19513);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(31823);
+/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9513);
+/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1823);
 /* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12502);
+/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2502);
 /* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
 /* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if(["default","tree","pages","GlobalError","originalPathname","__next_app__","routeModule"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]
@@ -286,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 87170)), "/Users/thaovy/ThaovyLe-Portfolio/src/app/page.js"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7170)), "/Users/thaovy/ThaovyLe-Portfolio/src/app/page.js"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9109))).default(props))],
     apple: [],
@@ -297,8 +289,8 @@ const tree = {
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 82911)), "/Users/thaovy/ThaovyLe-Portfolio/src/app/layout.js"],
-'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 95493, 23)), "next/dist/client/components/not-found-error"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2911)), "/Users/thaovy/ThaovyLe-Portfolio/src/app/layout.js"],
+'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5493, 23)), "next/dist/client/components/not-found-error"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9109))).default(props))],
     apple: [],
@@ -341,33 +333,33 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 6844:
+/***/ 609:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
 
 /***/ }),
 
-/***/ 60742:
+/***/ 742:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 85737:
+/***/ 5638:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 17356))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
 
 /***/ }),
 
-/***/ 17356:
+/***/ 7356:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -380,14 +372,14 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(56786);
+var jsx_runtime_ = __webpack_require__(6786);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(18038);
+var react_ = __webpack_require__(8038);
 var react_default = /*#__PURE__*/__webpack_require__.n(react_);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs + 5 modules
-var AnimatePresence = __webpack_require__(30569);
+var AnimatePresence = __webpack_require__(569);
 // EXTERNAL MODULE: ./src/app/components/Preloader/style.module.scss
-var style_module = __webpack_require__(19691);
+var style_module = __webpack_require__(9691);
 var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/dom/motion.mjs + 167 modules
 var motion = __webpack_require__(9640);
@@ -555,12 +547,12 @@ function Index() {
 }
 
 // EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(52451);
+var next_image = __webpack_require__(2451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./node_modules/react-type-animation/dist/cjs/index.js
-var cjs = __webpack_require__(59901);
+var cjs = __webpack_require__(9901);
 // EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(11440);
+var next_link = __webpack_require__(1440);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./public/me.png
 /* harmony default export */ const me = ({"src":"/ThaovyLe-Portfolio/_next/static/media/me.a83533f4.png","height":1063,"width":1063,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABBklEQVR42mMAgTe37wr9evl+/rfn7588vn7/8Z83n+f///pXCCz5/tYdoY/3H1/98vj5/0ntXf+jDOX/H9m64//Xx8+u3j9/SYjh/d0H8z8/fPz/8LadPxOMRf/trY35l+jl+PPuqVP/396+Mx+k4Mnr6zf+56Rn/JuTYPN/W3nsf0Vh3n+nd+78//H+wycMH+89fHJp/77/DAwM/5YWJ/6vD/cEs49s2fr/25PnTxg+3Hswf+OUHpDgz5aeLf+6J+34B2LPnTgJpGA+w////4WacjKuyjIw/K/p3vB/0qKz/50dAv63ZcVfBckxQIGQvTzD/NqOlU/65x174u8dPb+agQEsCQDfW5xPCvkf7QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
@@ -686,14 +678,14 @@ const Landing = ()=>{
 /* harmony default export */ const components_Landing = (Landing);
 
 // EXTERNAL MODULE: ./src/app/components/page.module.scss
-var page_module = __webpack_require__(55882);
+var page_module = __webpack_require__(5882);
 var page_module_default = /*#__PURE__*/__webpack_require__.n(page_module);
 // EXTERNAL MODULE: ./node_modules/@studio-freight/lenis/dist/lenis.mjs
-var dist_lenis = __webpack_require__(86788);
+var dist_lenis = __webpack_require__(6788);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
-var use_scroll = __webpack_require__(89290);
+var use_scroll = __webpack_require__(9290);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-transform.mjs + 4 modules
-var use_transform = __webpack_require__(61591);
+var use_transform = __webpack_require__(1591);
 ;// CONCATENATED MODULE: ./public/1.png
 /* harmony default export */ const _1 = ({"src":"/ThaovyLe-Portfolio/_next/static/media/1.34d6752c.png","height":850,"width":564,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAIAAAC+k6JsAAAAe0lEQVR42hWNuw7CMAwA/f8/wwoCdYCxSJV406UNUVRCbCfOg6wE6YYbTjpAnxuOM4XSBD4UF4vMYixZiuBImHm7Wa92hzdnQE6I2PfH4TpaSoA+zUpP06yUdq3XZrnfTs/HKCIsBV7aXM5D1+1rrSF+wXHiULwU+o/TDwEUa9/aDpSSAAAAAElFTkSuQmCC","blurWidth":5,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/2.png
@@ -894,9 +886,9 @@ const NavLink = ({ href, title })=>{
 /* harmony default export */ const components_NavLink = (NavLink);
 
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/solid/esm/Bars3Icon.js
-var Bars3Icon = __webpack_require__(22876);
+var Bars3Icon = __webpack_require__(2876);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/24/solid/esm/XMarkIcon.js
-var XMarkIcon = __webpack_require__(19322);
+var XMarkIcon = __webpack_require__(9322);
 ;// CONCATENATED MODULE: ./src/app/components/MenuOverlay.jsx
 
 
@@ -1000,10 +992,10 @@ const Navbar = ()=>{
 /* harmony default export */ const components_Navbar = (Navbar);
 
 // EXTERNAL MODULE: ./src/app/components/About/style.module.scss
-var About_style_module = __webpack_require__(28719);
+var About_style_module = __webpack_require__(8859);
 var About_style_module_default = /*#__PURE__*/__webpack_require__.n(About_style_module);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/utils/use-in-view.mjs + 1 modules
-var use_in_view = __webpack_require__(69694);
+var use_in_view = __webpack_require__(9694);
 ;// CONCATENATED MODULE: ./src/app/components/About/animation.js
 const animation_slideUp = {
     initial: {
@@ -1042,10 +1034,10 @@ const animation_opacity = {
 };
 
 // EXTERNAL MODULE: ./src/app/common/RoundedButton/style.module.scss
-var RoundedButton_style_module = __webpack_require__(35909);
+var RoundedButton_style_module = __webpack_require__(5909);
 var RoundedButton_style_module_default = /*#__PURE__*/__webpack_require__.n(RoundedButton_style_module);
 // EXTERNAL MODULE: ./node_modules/gsap/dist/gsap.js
-var gsap = __webpack_require__(76118);
+var gsap = __webpack_require__(6118);
 var gsap_default = /*#__PURE__*/__webpack_require__.n(gsap);
 ;// CONCATENATED MODULE: ./src/app/common/Magnetic/index.jsx
 
@@ -1660,7 +1652,7 @@ const ProjectsSection = ()=>{
 /* harmony default export */ const components_ProjectsSection = (ProjectsSection);
 
 // EXTERNAL MODULE: ./src/app/components/SlidingImages/style.module.scss
-var SlidingImages_style_module = __webpack_require__(16059);
+var SlidingImages_style_module = __webpack_require__(6059);
 var SlidingImages_style_module_default = /*#__PURE__*/__webpack_require__.n(SlidingImages_style_module);
 ;// CONCATENATED MODULE: ./public/layersPages.png
 /* harmony default export */ const layersPages = ({"src":"/ThaovyLe-Portfolio/_next/static/media/layersPages.fd1e0958.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAeElEQVR42gXA2AqCsP3//0TPPmQn2LQgjLEWrB3tcmeIsgC5afiwYyOWr69mMvo0l3VZVpA32+nS8pFE7Wqt0cQ3eiCCgTl2ntAg1U+KJ/4gON5PB2sUiEIUSvW+NbCXTHjr5pSTnUDorubcSdi74VY4D1wYqgREfzgBa0ru2+N2AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
@@ -1820,7 +1812,7 @@ function SlidingImages_index() {
 }
 
 // EXTERNAL MODULE: ./src/app/components/Contact/style.module.scss
-var Contact_style_module = __webpack_require__(44887);
+var Contact_style_module = __webpack_require__(4887);
 var Contact_style_module_default = /*#__PURE__*/__webpack_require__.n(Contact_style_module);
 ;// CONCATENATED MODULE: ./public/github-icon.svg
 /* harmony default export */ const github_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/github-icon.fd8f7f1e.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
@@ -1987,8 +1979,9 @@ function Contact_index() {
 
 ;// CONCATENATED MODULE: ./public/chefIt.png
 /* harmony default export */ const chefIt = ({"src":"/ThaovyLe-Portfolio/_next/static/media/chefIt.18d8c9c1.png","height":1080,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAsElEQVR42hWOuw6CQBBF7wyLG0BFEm20t7e38hv8Ub/A1s5HaWM0MSa+iTFCWGZcbndPcw5J8ZPbGSoQATQIjBBTf2g8dauFxj2NUw5b29tlXL7j6dzAL7Q6mVHWR12n9yt2S6gYEFA5fj8Oz9xKlUZUIkigDAEn5F77LEzatkundSQfBRs0RmOzIuoc5eu4F9SlVYUBQ/NSCki4gfOWGHXBBGpy7z4XUP8ACEA8GP0BThFT/TNHT4oAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
-// EXTERNAL MODULE: ./node_modules/next-cloudinary/dist/index.js
-var dist = __webpack_require__(14835);
+// EXTERNAL MODULE: ./node_modules/react-player/lib/index.js
+var lib = __webpack_require__(5400);
+var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 ;// CONCATENATED MODULE: ./src/app/components/RecentWork.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -2029,11 +2022,12 @@ const RecentWork = ()=>{
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(dist.CldVideoPlayer, {
-                id: "sea-turtle-color",
-                width: "1920",
-                height: "1080",
-                src: "samples/sea-turtle"
+            /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
+                className: "react-player fixed-bottom",
+                url: "../../../public/chefIt.move",
+                width: "100%",
+                height: "100%",
+                controls: true
             })
         ]
     });
@@ -2057,7 +2051,7 @@ function Home() {
     const [isLoading, setIsLoading] = (0,react_.useState)(true);
     (0,react_.useEffect)(()=>{
         (async ()=>{
-            const LocomotiveScroll = (await __webpack_require__.e(/* import() */ 704).then(__webpack_require__.t.bind(__webpack_require__, 47704, 23))).default;
+            const LocomotiveScroll = (await __webpack_require__.e(/* import() */ 704).then(__webpack_require__.t.bind(__webpack_require__, 7704, 23))).default;
             const locomotiveScroll = new LocomotiveScroll();
             setTimeout(()=>{
                 setIsLoading(false);
@@ -2103,7 +2097,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 35909:
+/***/ 5909:
 /***/ ((module) => {
 
 // Exports
@@ -2115,7 +2109,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 28719:
+/***/ 8859:
 /***/ ((module) => {
 
 // Exports
@@ -2132,7 +2126,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 44887:
+/***/ 4887:
 /***/ ((module) => {
 
 // Exports
@@ -2150,7 +2144,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 19691:
+/***/ 9691:
 /***/ ((module) => {
 
 // Exports
@@ -2161,7 +2155,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 16059:
+/***/ 6059:
 /***/ ((module) => {
 
 // Exports
@@ -2177,7 +2171,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 55882:
+/***/ 5882:
 /***/ ((module) => {
 
 // Exports
@@ -2191,7 +2185,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 82911:
+/***/ 2911:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2200,9 +2194,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ RootLayout),
 /* harmony export */   metadata: () => (/* binding */ metadata)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(67647);
+/* harmony import */ var next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7647);
 /* harmony import */ var next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_js_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5023);
 /* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_globals_css__WEBPACK_IMPORTED_MODULE_1__);
@@ -2226,7 +2220,7 @@ function RootLayout({ children }) {
 
 /***/ }),
 
-/***/ 87170:
+/***/ 7170:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2236,7 +2230,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(61363);
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1363);
 
 const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/thaovy/ThaovyLe-Portfolio/src/app/page.js`)
 
@@ -2260,7 +2254,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(80085);
+/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(85);
 /* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
   
 
@@ -2290,7 +2284,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,60,612], () => (__webpack_exec__(53261)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,60,241], () => (__webpack_exec__(3261)));
 module.exports = __webpack_exports__;
 
 })();
