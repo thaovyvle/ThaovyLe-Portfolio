@@ -23,13 +23,17 @@ const Landing = () => {
             <br></br>
             <TypeAnimation
               sequence={[
+                "",
+                1000,
                 "Thaovy Le",
                 1000,
-                "Web Developer",
+                "a Web Developer",
                 1000,
-                "App Developer",
+                "a App Developer",
                 1000,
-                "UI/UX Designer",
+                "a Full-Stack Developer",
+                1000,
+                "a UI/UX Designer",
                 1000,
               ]}
               wrapper="span"

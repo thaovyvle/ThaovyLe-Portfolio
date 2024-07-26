@@ -560,13 +560,17 @@ const Landing = ()=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
                                     sequence: [
+                                        "",
+                                        1000,
                                         "Thaovy Le",
                                         1000,
-                                        "Web Developer",
+                                        "a Web Developer",
                                         1000,
-                                        "App Developer",
+                                        "a App Developer",
                                         1000,
-                                        "UI/UX Designer",
+                                        "a Full-Stack Developer",
+                                        1000,
+                                        "a UI/UX Designer",
                                         1000
                                     ],
                                     wrapper: "span",
