@@ -34,10 +34,10 @@ const RecentWork = () => {
 
     return (
         <section id="recentWork">
-            <h1 className="text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-4 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
+            <h1 className="text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-2 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
                 RECENT WORK
             </h1>
-            <div id="videoWrapper" className="flex items-center justify-center mx-auto relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[600] sm:h-[450px]">
+            <div id="videoWrapper" className="items-center justify-center mx-auto mt-5 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[480px] sm:h-[360px]">
                 <ReactPlayer
                     ref={playerRef}
                     url='https://vimeo.com/990728213?share=copy'
@@ -45,6 +45,7 @@ const RecentWork = () => {
                     controls={false}
                     playing={isPlaying}
                     muted={true}
+                    loop={true}
                 />
             </div>
             <div className="flex items-center space-x-2 flex-col lg:flex-row lg:items-start">
