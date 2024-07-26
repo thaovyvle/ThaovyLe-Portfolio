@@ -444,10 +444,10 @@ function Index() {
         });
     }, []);
     (0,react_.useEffect)(()=>{
-        if (index == words.length - 1) return;
+        if (index === words.length - 1) return;
         setTimeout(()=>{
             setIndex(index + 1);
-        }, index == 0 ? 1000 : 150);
+        }, index === 0 ? 1000 : 150);
     }, [
         index
     ]);
@@ -496,162 +496,110 @@ function Index() {
                         words[index]
                     ]
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.path, {
-                        variants: curve,
-                        initial: "initial",
-                        exit: "exit"
-                    })
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                    width: dimension.width,
+                    height: dimension.height,
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("defs", {
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("linearGradient", {
+                                id: "gradient1",
+                                x1: "0%",
+                                y1: "0%",
+                                x2: "100%",
+                                y2: "100%",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                        offset: "0%",
+                                        style: {
+                                            stopColor: "#primary-400",
+                                            stopOpacity: 1
+                                        }
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                        offset: "100%",
+                                        style: {
+                                            stopColor: "#secondary-600",
+                                            stopOpacity: 1
+                                        }
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.path, {
+                            variants: curve,
+                            initial: "initial",
+                            exit: "exit",
+                            fill: "url(#gradient1)"
+                        })
+                    ]
                 })
             ]
         })
     });
 }
 
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(2451);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./node_modules/react-type-animation/dist/cjs/index.js
 var cjs = __webpack_require__(9901);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1440);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-;// CONCATENATED MODULE: ./public/me.png
-/* harmony default export */ const me = ({"src":"/ThaovyLe-Portfolio/_next/static/media/me.a83533f4.png","height":1063,"width":1063,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABBklEQVR42mMAgTe37wr9evl+/rfn7588vn7/8Z83n+f///pXCCz5/tYdoY/3H1/98vj5/0ntXf+jDOX/H9m64//Xx8+u3j9/SYjh/d0H8z8/fPz/8LadPxOMRf/trY35l+jl+PPuqVP/396+Mx+k4Mnr6zf+56Rn/JuTYPN/W3nsf0Vh3n+nd+78//H+wycMH+89fHJp/77/DAwM/5YWJ/6vD/cEs49s2fr/25PnTxg+3Hswf+OUHpDgz5aeLf+6J+34B2LPnTgJpGA+w////4WacjKuyjIw/K/p3vB/0qKz/50dAv63ZcVfBckxQIGQvTzD/NqOlU/65x174u8dPb+agQEsCQDfW5xPCvkf7QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./src/app/components/Landing.jsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
 
 
 
 const Landing = ()=>{
-    const [initialDelay, setInitialDelay] = (0,react_.useState)(true);
+    // State to handle the delay
+    const [delay, setDelay] = (0,react_.useState)(0);
+    // Use effect to update delay after initial render
     (0,react_.useEffect)(()=>{
         const timer = setTimeout(()=>{
-            setInitialDelay(false);
-        }, 3000); // 3-second delay for the first time
+            setDelay(1000); // Update delay to 1000ms (1 second) after initial render
+        }, 3000); // Initial delay for demonstration
         return ()=>clearTimeout(timer);
     }, []);
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: "lg:py-20",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
             className: "grid grid-cols-1 sm:grid-cols-12",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.div, {
-                    initial: {
-                        opacity: 0,
-                        scale: 0.3
-                    },
-                    animate: {
-                        opacity: 1,
-                        scale: 1
-                    },
-                    transition: {
-                        duration: 1,
-                        delay: 3
-                    },
-                    className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
-                            className: "text-[#222442] mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                    className: "text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600",
-                                    children: [
-                                        "Hello, I'm",
-                                        " "
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                initialDelay ? /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
-                                    sequence: [
-                                        "",
-                                        5000,
-                                        "Thaovy Le",
-                                        1000,
-                                        "Web Developer",
-                                        1000,
-                                        "App Developer",
-                                        1000,
-                                        "Full-Stack Developer",
-                                        1000,
-                                        "UI/UX Designer",
-                                        1000
-                                    ],
-                                    wrapper: "span",
-                                    speed: 35,
-                                    repeat: Infinity
-                                }) : /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
-                                    sequence: [
-                                        "Thaovy Le",
-                                        1000,
-                                        "Web Developer",
-                                        1000,
-                                        "App Developer",
-                                        1000,
-                                        "Full-Stack Developer",
-                                        1000,
-                                        "UI/UX Designer",
-                                        1000
-                                    ],
-                                    wrapper: "span",
-                                    speed: 35,
-                                    repeat: Infinity
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            className: "text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl md:text-lg flex flex-wrap",
-                            children: "Recent Graduate from the University of Central Florida || Web Design & Computer Science"
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "#contact",
-                                    className: "tracking-[0.1em] px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white",
-                                    children: "CONTACT"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "https://drive.google.com/file/d/1uPFUA6yvBTUT1-f9ThdgnFvlM_OLC5Wt/view?usp=sharing",
-                                    rel: "noopener noreferrer",
-                                    target: "_blank",
-                                    className: "px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        className: "tracking-[0.1em] block bg-[#222442] hover:bg-slate-800 rounded-full px-5 py-2",
-                                        children: "VIEW RESUME"
-                                    })
-                                })
-                            ]
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
-                    initial: {
-                        opacity: 0,
-                        scale: 0.5
-                    },
-                    animate: {
-                        opacity: 1,
-                        scale: 1
-                    },
-                    transition: {
-                        duration: 0.5
-                    },
-                    className: "col-span-4 place-self-center mt-4 lg:mt-0 ml-4 lg:ml-10",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 mt-10 w-[210px] h-[210px] px-5 md:w-[275px] md:h-[275px] lg:w-[375px] lg:h-[375px] relative",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: me,
-                            alt: "image of Thaovy Le",
-                            className: "absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2",
-                            width: 400,
-                            height: 400
-                        })
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
+                        className: "text-[#222442] mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold",
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
+                                className: "text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600",
+                                children: [
+                                    "Hello, I'm",
+                                    " "
+                                ]
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                            /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
+                                sequence: [
+                                    "",
+                                    delay,
+                                    "Thaovy Le",
+                                    1000,
+                                    "a Web Developer",
+                                    1000,
+                                    "an App Developer",
+                                    1000,
+                                    "a Full-Stack Developer",
+                                    1000,
+                                    "a UI/UX Designer",
+                                    1000
+                                ],
+                                wrapper: "span",
+                                speed: 35,
+                                repeat: Infinity
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: "text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl md:text-lg flex flex-wrap",
+                        children: "Recent Graduate from the University of Central Florida || Web Design & Computer Science"
                     })
-                })
-            ]
+                ]
+            })
         })
     });
 };
@@ -660,6 +608,9 @@ const Landing = ()=>{
 // EXTERNAL MODULE: ./src/app/components/page.module.scss
 var page_module = __webpack_require__(5882);
 var page_module_default = /*#__PURE__*/__webpack_require__.n(page_module);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(2451);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./node_modules/@studio-freight/lenis/dist/lenis.mjs
 var dist_lenis = __webpack_require__(6788);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-scroll.mjs + 11 modules
@@ -853,6 +804,9 @@ const Column = ({ images, y })=>{
     });
 };
 
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1440);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./src/app/components/NavLink.jsx
 
 
@@ -1802,6 +1756,8 @@ var Contact_style_module_default = /*#__PURE__*/__webpack_require__.n(Contact_st
 /* harmony default export */ const gmail_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/gmail-icon.4fc08bfe.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./public/facebook-icon.svg
 /* harmony default export */ const facebook_icon = ({"src":"/ThaovyLe-Portfolio/_next/static/media/facebook-icon.12acdce1.svg","height":48,"width":48,"blurWidth":0,"blurHeight":0});
+;// CONCATENATED MODULE: ./public/me.png
+/* harmony default export */ const me = ({"src":"/ThaovyLe-Portfolio/_next/static/media/me.a83533f4.png","height":1063,"width":1063,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABBklEQVR42mMAgTe37wr9evl+/rfn7588vn7/8Z83n+f///pXCCz5/tYdoY/3H1/98vj5/0ntXf+jDOX/H9m64//Xx8+u3j9/SYjh/d0H8z8/fPz/8LadPxOMRf/trY35l+jl+PPuqVP/396+Mx+k4Mnr6zf+56Rn/JuTYPN/W3nsf0Vh3n+nd+78//H+wycMH+89fHJp/77/DAwM/5YWJ/6vD/cEs49s2fr/25PnTxg+3Hswf+OUHpDgz5aeLf+6J+34B2LPnTgJpGA+w////4WacjKuyjIw/K/p3vB/0qKz/50dAv63ZcVfBckxQIGQvTzD/NqOlU/65x174u8dPb+agQEsCQDfW5xPCvkf7QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./src/app/components/Contact/index.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
