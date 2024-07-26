@@ -355,11 +355,11 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 /***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4139))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1704))
 
 /***/ }),
 
-/***/ 4139:
+/***/ 1704:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1799,17 +1799,48 @@ function Contact_index() {
     });
 }
 
+;// CONCATENATED MODULE: ./public/chefIt.png
+/* harmony default export */ const chefIt = ({"src":"/ThaovyLe-Portfolio/_next/static/media/chefIt.18d8c9c1.png","height":1080,"width":1080,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAsElEQVR42hWOuw6CQBBF7wyLG0BFEm20t7e38hv8Ub/A1s5HaWM0MSa+iTFCWGZcbndPcw5J8ZPbGSoQATQIjBBTf2g8dauFxj2NUw5b29tlXL7j6dzAL7Q6mVHWR12n9yt2S6gYEFA5fj8Oz9xKlUZUIkigDAEn5F77LEzatkundSQfBRs0RmOzIuoc5eu4F9SlVYUBQ/NSCki4gfOWGHXBBGpy7z4XUP8ACEA8GP0BThFT/TNHT4oAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./src/app/components/RecentWork.jsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
+
+
 const RecentWork = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         id: "recentWork",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-            className: "text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-8 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
-            children: "MOST RECENT WORK"
-        })
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                className: "text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-4 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
+                children: "RECENT WORK"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "flex items-center space-x-2",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        src: chefIt,
+                        alt: "Thaovy Le - Chef It Icon",
+                        width: 130,
+                        height: 130,
+                        className: "mr-[10px] mb-[15px]"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "flex flex-col items-start ml-4",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                className: "text-xl font-bold text-[#564f57] px-8 mb-4",
+                                children: "Chef It! - Recipe & Pantry App"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-[#564f57] text-base sm:text-sm px-8 mb-6 lg:text-lg md:text-base flex flex-wrap",
+                                children: "Senior capstone project developing the full project lifestyle of a mobile app. Chef It transforms the cooking experience with innovative and gamified features. I played a key role in every aspect of the project, from initial research to back-end development."
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
     });
 };
 /* harmony default export */ const components_RecentWork = (RecentWork);
