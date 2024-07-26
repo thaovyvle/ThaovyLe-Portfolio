@@ -352,14 +352,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6158))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4139))
 
 /***/ }),
 
-/***/ 6158:
+/***/ 4139:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1799,8 +1799,24 @@ function Contact_index() {
     });
 }
 
+;// CONCATENATED MODULE: ./src/app/components/RecentWork.jsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+const RecentWork = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        id: "recentWork",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+            className: "text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-8 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
+            children: "MOST RECENT WORK"
+        })
+    });
+};
+/* harmony default export */ const components_RecentWork = (RecentWork);
+
 ;// CONCATENATED MODULE: ./src/app/page.js
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -1825,6 +1841,7 @@ function Home() {
                 className: "container mt-10 mx-auto px-10",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(AboutSection, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(components_RecentWork, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx(components_ProjectsSection, {})
                 ]
             }),

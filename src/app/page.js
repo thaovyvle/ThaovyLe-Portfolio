@@ -6,6 +6,7 @@ import AboutSection from "./components/About/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import SlidingImages from './components/SlidingImages';
 import Contact from './components/Contact';
+import RecentWork from './components/RecentWork';
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
       </div>
       <div className="container mt-10 mx-auto px-10">
         <AboutSection />
+        <RecentWork />
         <ProjectsSection />
       </div>
       <SlidingImages />
