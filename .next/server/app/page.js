@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -422,15 +422,15 @@ const slideUp = {
 
 
 const words = [
-    "Hello",
-    "Bonjour",
-    "Ciao",
-    "Ol\xe0",
-    "やあ",
-    "Hall\xe5",
-    "Guten tag",
-    "Hallo",
-    "Hello"
+    " Hello ",
+    " Bonjour ",
+    " Ciao ",
+    " Ol\xe0 ",
+    " やあ ",
+    " Hall\xe5 ",
+    " Guten tag ",
+    " Hallo ",
+    " Hello "
 ];
 function Index() {
     const [index, setIndex] = (0,react_.useState)(0);
@@ -495,6 +495,7 @@ function Index() {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
                         words[index],
+                        " ",
                         /*#__PURE__*/ jsx_runtime_.jsx("span", {})
                     ]
                 }),
