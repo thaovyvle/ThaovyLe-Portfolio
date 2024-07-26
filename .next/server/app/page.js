@@ -494,7 +494,8 @@ function Index() {
                     animate: "enter",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("span", {}),
-                        words[index]
+                        words[index],
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {})
                     ]
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
@@ -601,9 +602,9 @@ const Landing = ()=>{
                                     sequence: [
                                         "Web Developer",
                                         1000,
-                                        "App Developer",
-                                        1000,
                                         "Thaovy Le",
+                                        1000,
+                                        "App Developer",
                                         1000,
                                         "Full-Stack Developer",
                                         1000,

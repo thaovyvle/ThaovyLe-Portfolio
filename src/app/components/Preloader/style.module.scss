@@ -6,14 +6,14 @@
     justify-content: center;
     position: fixed;
     z-index: 99;
-    background: #ffd4e5;
+    background: linear-gradient(to right, #C183F9, #DB2A7A);;
     svg{
         position: absolute;
         top: 0;
         width: 100%;
         height: calc(100% + 300px);
         path{
-            fill: #ffd4e5;
+            fill: url(#gradient1);
         }
     }
     p{
@@ -28,7 +28,7 @@
             display: block;
             width: 10px;
             height: 10px;
-            background-color: #ffd4e5;
+            background-color: white;
             border-radius: 50%;
             margin-right: 10px;
         }

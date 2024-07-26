@@ -35,9 +35,9 @@ const Landing = () => {
                 sequence={[ 
                   "Web Developer",
                   1000,
-                  "App Developer",
-                  1000,
                   "Thaovy Le",
+                  1000,
+                  "App Developer",
                   1000,
                   "Full-Stack Developer",
                   1000,
