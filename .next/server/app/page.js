@@ -529,6 +529,10 @@ function Index() {
                             })
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.path, {
+                            x: "10",
+                            y: "10",
+                            rx: "15",
+                            ry: "15",
                             variants: curve,
                             initial: "initial",
                             exit: "exit",

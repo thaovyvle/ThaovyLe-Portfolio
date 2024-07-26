@@ -31,7 +31,7 @@ export default function Index() {
         },
         exit: {
             d: targetPath,
-            transition: {duration: 0.7, ease: [0.76, 0, 0.24, 1], delay: 0.3}
+            transition: {duration: 0.7, ease: [0.76, 0, 0.24, 1], delay: 0.2}
         }
     };
 
@@ -48,6 +48,10 @@ export default function Index() {
                         </linearGradient>
                     </defs>
                     <motion.path
+                        x="10"
+                        y="10"
+                        rx="15"
+                        ry="15"
                         variants={curve}
                         initial="initial"
                         exit="exit"
