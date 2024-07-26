@@ -1,19 +1,29 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import ImageofMe from "../../../public/me.png"
+import ImageofMe from "../../../public/me.png";
 
 const Landing = () => {
+  const [initialDelay, setInitialDelay] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setInitialDelay(false);
+    }, 3000); // 3-second delay for the first time
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className="lg:py-20">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.3 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 3}}
+          transition={{ duration: 1, delay: 3 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-[#222442] mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
@@ -21,25 +31,45 @@ const Landing = () => {
               Hello, I&apos;m{" "}
             </span>
             <br></br>
-            <TypeAnimation
-              sequence={[
-                "",
-                1000,
-                "Thaovy Le",
-                1000,
-                "a Web Developer",
-                1000,
-                "a App Developer",
-                1000,
-                "a Full-Stack Developer",
-                1000,
-                "a UI/UX Designer",
-                1000,
-              ]}
-              wrapper="span"
-              speed={35}
-              repeat={Infinity}
-            />
+            {initialDelay ? (
+              <TypeAnimation
+                sequence={[
+                  "", // Initial empty string to delay the start
+                  3000, // Delay for 3 seconds
+                  "Thaovy Le",
+                  1000,
+                  "a Web Developer",
+                  1000,
+                  "an App Developer",
+                  1000,
+                  "a Full-Stack Developer",
+                  1000,
+                  "a UI/UX Designer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={35}
+                repeat={Infinity}
+              />
+            ) : (
+              <TypeAnimation
+                sequence={[
+                  "Thaovy Le",
+                  1000,
+                  "a Web Developer",
+                  1000,
+                  "an App Developer",
+                  1000,
+                  "a Full-Stack Developer",
+                  1000,
+                  "a UI/UX Designer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={35}
+                repeat={Infinity}
+              />
+            )}
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl md:text-lg flex flex-wrap">
             Recent Graduate from the University of Central Florida || Web Design & Computer Science
@@ -52,10 +82,12 @@ const Landing = () => {
               CONTACT
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1uPFUA6yvBTUT1-f9ThdgnFvlM_OLC5Wt/view?usp=sharing" rel="noopener noreferrer" target="_blank"
+              href="https://drive.google.com/file/d/1uPFUA6yvBTUT1-f9ThdgnFvlM_OLC5Wt/view?usp=sharing"
+              rel="noopener noreferrer"
+              target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
-              <span className=" tracking-[0.1em] block bg-[#222442] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="tracking-[0.1em] block bg-[#222442] hover:bg-slate-800 rounded-full px-5 py-2">
                 VIEW RESUME
               </span>
             </Link>

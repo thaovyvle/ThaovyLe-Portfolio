@@ -527,6 +527,13 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 const Landing = ()=>{
+    const [initialDelay, setInitialDelay] = (0,react_.useState)(true);
+    (0,react_.useEffect)(()=>{
+        const timer = setTimeout(()=>{
+            setInitialDelay(false);
+        }, 3000); // 3-second delay for the first time
+        return ()=>clearTimeout(timer);
+    }, []);
     return /*#__PURE__*/ jsx_runtime_.jsx("section", {
         className: "lg:py-20",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -558,15 +565,31 @@ const Landing = ()=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
+                                initialDelay ? /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
                                     sequence: [
                                         "",
-                                        1000,
+                                        3000,
                                         "Thaovy Le",
                                         1000,
                                         "a Web Developer",
                                         1000,
-                                        "a App Developer",
+                                        "an App Developer",
+                                        1000,
+                                        "a Full-Stack Developer",
+                                        1000,
+                                        "a UI/UX Designer",
+                                        1000
+                                    ],
+                                    wrapper: "span",
+                                    speed: 35,
+                                    repeat: Infinity
+                                }) : /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
+                                    sequence: [
+                                        "Thaovy Le",
+                                        1000,
+                                        "a Web Developer",
+                                        1000,
+                                        "an App Developer",
                                         1000,
                                         "a Full-Stack Developer",
                                         1000,
@@ -596,7 +619,7 @@ const Landing = ()=>{
                                     target: "_blank",
                                     className: "px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        className: " tracking-[0.1em] block bg-[#222442] hover:bg-slate-800 rounded-full px-5 py-2",
+                                        className: "tracking-[0.1em] block bg-[#222442] hover:bg-slate-800 rounded-full px-5 py-2",
                                         children: "VIEW RESUME"
                                     })
                                 })
