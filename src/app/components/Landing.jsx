@@ -23,7 +23,7 @@ const Landing = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.3 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 3 }}
+          transition={{ duration: 1, delay: 5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-[#222442] mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
@@ -33,9 +33,7 @@ const Landing = () => {
             <br></br>
             {initialDelay ? (
               <TypeAnimation
-                sequence={[
-                  "", 
-                  5000, 
+                sequence={[ 
                   "Thaovy Le",
                   1000,
                   "Web Developer",

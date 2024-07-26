@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5737:
+/***/ 5638:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -429,7 +429,8 @@ const words = [
     "やあ",
     "Hall\xe5",
     "Guten tag",
-    "Hallo"
+    "Hallo",
+    "Hello"
 ];
 function Index() {
     const [index, setIndex] = (0,react_.useState)(0);
@@ -444,10 +445,10 @@ function Index() {
         });
     }, []);
     (0,react_.useEffect)(()=>{
-        if (index == words.length - 1) return;
+        if (index === words.length - 1) return;
         setTimeout(()=>{
             setIndex(index + 1);
-        }, index == 0 ? 1000 : 150);
+        }, index === 0 ? 1000 : 150);
     }, [
         index
     ]);
@@ -496,12 +497,43 @@ function Index() {
                         words[index]
                     ]
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.path, {
-                        variants: curve,
-                        initial: "initial",
-                        exit: "exit"
-                    })
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                    width: dimension.width,
+                    height: dimension.height,
+                    xmlns: "http://www.w3.org/2000/svg",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("defs", {
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("linearGradient", {
+                                id: "gradient1",
+                                x1: "0%",
+                                y1: "0%",
+                                x2: "100%",
+                                y2: "100%",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                        offset: "0%",
+                                        style: {
+                                            stopColor: "#primary-400",
+                                            stopOpacity: 1
+                                        }
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("stop", {
+                                        offset: "100%",
+                                        style: {
+                                            stopColor: "#secondary-600",
+                                            stopOpacity: 1
+                                        }
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.path, {
+                            variants: curve,
+                            initial: "initial",
+                            exit: "exit",
+                            fill: "url(#gradient1)"
+                        })
+                    ]
                 })
             ]
         })
@@ -550,7 +582,7 @@ const Landing = ()=>{
                     },
                     transition: {
                         duration: 1,
-                        delay: 3
+                        delay: 5
                     },
                     className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
                     children: [
@@ -567,8 +599,6 @@ const Landing = ()=>{
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 initialDelay ? /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
                                     sequence: [
-                                        "",
-                                        5000,
                                         "Thaovy Le",
                                         1000,
                                         "Web Developer",
