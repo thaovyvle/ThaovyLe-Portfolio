@@ -2021,21 +2021,6 @@ const RecentWork = ()=>{
                 className: "text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-2 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
                 children: "RECENT WORK"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                id: "videoWrapper",
-                className: "flex items-center justify-center mx-auto mt-5 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[384px] sm:h-[288px]",
-                children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
-                    ref: playerRef,
-                    url: "https://vimeo.com/990728213?share=copy",
-                    className: "rounded-lg shadow-lg overflow-hidden",
-                    width: "100%",
-                    height: "100%",
-                    controls: false,
-                    playing: isPlaying,
-                    muted: true,
-                    loop: true
-                })
-            }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "flex items-center space-x-2 flex-col lg:flex-row lg:items-start",
                 children: [
@@ -2060,6 +2045,21 @@ const RecentWork = ()=>{
                         ]
                     })
                 ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                id: "videoWrapper",
+                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]",
+                children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
+                    ref: playerRef,
+                    url: "https://vimeo.com/990792000?share=copy",
+                    className: "rounded-lg shadow-lg overflow-hidden",
+                    width: "100%",
+                    height: "100%",
+                    controls: false,
+                    playing: isPlaying,
+                    muted: true,
+                    loop: true
+                })
             })
         ]
     });
