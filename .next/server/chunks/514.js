@@ -2542,7 +2542,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
 
 /***/ }),
 
-/***/ 9301:
+/***/ 5737:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -2897,7 +2897,7 @@ _export(exports, {
 });
 const _nexturl = __webpack_require__(2419);
 const _utils = __webpack_require__(9537);
-const _error = __webpack_require__(9301);
+const _error = __webpack_require__(5737);
 const _cookies = __webpack_require__(3425);
 const INTERNALS = Symbol("internal request");
 class NextRequest extends Request {
@@ -3414,7 +3414,7 @@ function addPathPrefix(path, prefix) {
 
 /***/ }),
 
-/***/ 6660:
+/***/ 8225:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -3454,7 +3454,7 @@ Object.defineProperty(exports, "formatNextPathnameInfo", ({
 }));
 const _removetrailingslash = __webpack_require__(5105);
 const _addpathprefix = __webpack_require__(2595);
-const _addpathsuffix = __webpack_require__(6660);
+const _addpathsuffix = __webpack_require__(8225);
 const _addlocale = __webpack_require__(8625);
 function formatNextPathnameInfo(info) {
     let pathname = (0, _addlocale.addLocale)(info.pathname, info.locale, info.buildId ? undefined : info.defaultLocale, info.ignorePrefix);
