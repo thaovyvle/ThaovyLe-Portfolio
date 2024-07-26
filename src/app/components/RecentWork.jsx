@@ -25,9 +25,9 @@ const RecentWork = () => {
             </div>
             <ReactPlayer
             className='react-player fixed-bottom'
-            url= '../../../public/chefIt.move'
-            width='100%'
-            height='100%'
+            url= 'https://vimeo.com/990728213?share=copy'
+            width='80%'
+            height='80%'
             controls = {true}
 
             />
