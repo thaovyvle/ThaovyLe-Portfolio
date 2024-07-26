@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5737:
+/***/ 5638:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -1999,7 +1999,7 @@ const RecentWork = ()=>{
             });
         };
         const observer = new IntersectionObserver(handlePlay, {
-            threshold: 0.5
+            threshold: 0.1
         });
         if (playerRef.current) {
             observer.observe(playerRef.current.wrapper);
@@ -2016,6 +2016,17 @@ const RecentWork = ()=>{
             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                 className: "text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-4 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text",
                 children: "RECENT WORK"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                id: "videoWrapper",
+                className: "relative w-full pb-[56.25%] mt-8 lg:w-4/5 lg:pb-[45%] xl:w-3/4 xl:pb-[40%]",
+                children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
+                    ref: playerRef,
+                    className: "react-player fixed-bottom",
+                    url: "https://vimeo.com/990728213?share=copy",
+                    controls: true,
+                    playing: true
+                })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: "flex items-center space-x-2 flex-col lg:flex-row lg:items-start",
@@ -2041,15 +2052,6 @@ const RecentWork = ()=>{
                         ]
                     })
                 ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
-                ref: playerRef,
-                className: "react-player fixed-bottom",
-                width: "640px",
-                height: "480px",
-                url: "../../../public/chefIt.mov",
-                controls: false,
-                playing: true
             })
         ]
     });

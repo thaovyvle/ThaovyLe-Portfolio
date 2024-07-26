@@ -16,7 +16,7 @@ const RecentWork = () => {
             });
         };
 
-        const observer = new IntersectionObserver(handlePlay, { threshold: 0.5 });
+        const observer = new IntersectionObserver(handlePlay, { threshold: 0.1 });
         if (playerRef.current) {
             observer.observe(playerRef.current.wrapper);
         }
@@ -33,6 +33,15 @@ const RecentWork = () => {
             <h1 className="text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-4 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
                 RECENT WORK
             </h1>
+            <div id="videoWrapper" className="relative w-full pb-[56.25%] mt-8 lg:w-4/5 lg:pb-[45%] xl:w-3/4 xl:pb-[40%]">
+                <ReactPlayer
+                    ref={playerRef}
+                    className='react-player fixed-bottom'
+                    url='https://vimeo.com/990728213?share=copy'
+                    controls={true} // Hide the control bar
+                    playing={true} 
+                />
+            </div>
             <div className="flex items-center space-x-2 flex-col lg:flex-row lg:items-start">
                 <Image src={ChefItIcon} alt="Thaovy Le - Chef It Icon" width={130} height={130} className="mr-[10px] mb-[15px]" />
                 <div className="flex flex-col items-center ml-4 lg:items-start lg:mb-0 text-center lg:text-left">
@@ -44,15 +53,6 @@ const RecentWork = () => {
                     </p>
                 </div>
             </div>
-            <ReactPlayer
-                ref={playerRef}
-                className='react-player fixed-bottom'
-                width='640px'
-                height='480px'
-                url='https://vimeo.com/990728213?share=copy'
-                controls={false} // Hide the control bar
-                playing={true} 
-            />
         </section>
     );
 };
