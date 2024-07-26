@@ -37,11 +37,13 @@ const RecentWork = () => {
             <h1 className="text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-2 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
                 RECENT WORK
             </h1>
-            <div id="videoWrapper" className="flex items-center justify-center mx-auto mt-5 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[384px] sm:h-[288px] rounded-lg shadow-lg overflow-hidden">
+            <div id="videoWrapper" className="flex items-center justify-center mx-auto mt-5 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[384px] sm:h-[288px]">
                 <ReactPlayer
                     ref={playerRef}
                     url='https://vimeo.com/990728213?share=copy'
-                    className="w-full h-full"
+                    className="rounded-lg shadow-lg overflow-hidden"
+                    width="100%"
+                    height="100%"
                     controls={false}
                     playing={isPlaying}
                     muted={true}
