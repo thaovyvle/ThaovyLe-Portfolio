@@ -1,22 +1,26 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Image from 'next/image';
 import ChefItIcon from "../../../public/chefIt.png";
 import ReactPlayer from 'react-player';
 
 const RecentWork = () => {
     const playerRef = useRef(null);
+    const [isPlaying, setIsPlaying] = useState(false);
 
     useEffect(() => {
-        const handlePlay = (entries) => {
+        const handleIntersection = (entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting && playerRef.current) {
-                    playerRef.current.getInternalPlayer().play();
+                if (entry.isIntersecting) {
+                    setIsPlaying(true);
+                } else {
+                    setIsPlaying(false);
                 }
             });
         };
 
-        const observer = new IntersectionObserver(handlePlay, { threshold: 0.1 });
+        const observer = new IntersectionObserver(handleIntersection, { threshold: 0.5 });
+        
         if (playerRef.current) {
             observer.observe(playerRef.current.wrapper);
         }
@@ -33,13 +37,14 @@ const RecentWork = () => {
             <h1 className="text-center text-4xl lg:text-5xl md:text-5xl font-semibold tracking-[0.2em] mb-4 md:mb-12 mt-[2.5em] bg-gradient-to-r from-primary-400 to-secondary-600 text-transparent bg-clip-text">
                 RECENT WORK
             </h1>
-            <div id="videoWrapper" className="relative w-full pb-[56.25%] mt-8 lg:w-4/5 lg:pb-[45%] xl:w-3/4 xl:pb-[40%]">
+            <div id="videoWrapper" className="flex items-center justify-center mx-auto relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[600] sm:h-[450px]">
                 <ReactPlayer
                     ref={playerRef}
-                    className='react-player fixed-bottom'
                     url='https://vimeo.com/990728213?share=copy'
-                    controls={true} // Hide the control bar
-                    playing={true} 
+                    className="absolute w-full h-full"
+                    controls={false}
+                    playing={isPlaying}
+                    muted={true}
                 />
             </div>
             <div className="flex items-center space-x-2 flex-col lg:flex-row lg:items-start">

@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -1990,16 +1990,19 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 
 const RecentWork = ()=>{
     const playerRef = (0,react_.useRef)(null);
+    const [isPlaying, setIsPlaying] = (0,react_.useState)(false);
     (0,react_.useEffect)(()=>{
-        const handlePlay = (entries)=>{
+        const handleIntersection = (entries)=>{
             entries.forEach((entry)=>{
-                if (entry.isIntersecting && playerRef.current) {
-                    playerRef.current.getInternalPlayer().play();
+                if (entry.isIntersecting) {
+                    setIsPlaying(true);
+                } else {
+                    setIsPlaying(false);
                 }
             });
         };
-        const observer = new IntersectionObserver(handlePlay, {
-            threshold: 0.1
+        const observer = new IntersectionObserver(handleIntersection, {
+            threshold: 0.5
         });
         if (playerRef.current) {
             observer.observe(playerRef.current.wrapper);
@@ -2019,13 +2022,14 @@ const RecentWork = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 id: "videoWrapper",
-                className: "relative w-full pb-[56.25%] mt-8 lg:w-4/5 lg:pb-[45%] xl:w-3/4 xl:pb-[40%]",
+                className: "flex items-center justify-center mx-auto relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[600] sm:h-[450px]",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                     ref: playerRef,
-                    className: "react-player fixed-bottom",
                     url: "https://vimeo.com/990728213?share=copy",
-                    controls: true,
-                    playing: true
+                    className: "absolute w-full h-full",
+                    controls: false,
+                    playing: isPlaying,
+                    muted: true
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
