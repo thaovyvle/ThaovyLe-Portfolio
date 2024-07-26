@@ -6,20 +6,20 @@
     justify-content: center;
     position: fixed;
     z-index: 99;
-    background-color: #141516;
+    background-color: linear-gradient(to bottom, #C183F9 0%, #DB2A7A 100%);
     svg{
         position: absolute;
         top: 0;
         width: 100%;
         height: calc(100% + 300px);
         path{
-            fill: #141516;
+            fill: linear-gradient(to bottom, #C183F9 0%, #DB2A7A 100%);
         }
     }
     p{
         display: flex;
         color: white;
-        font-size: 42px;
+        font-size: 50px;
         align-items: center;
         position: absolute;
         z-index: 1;

@@ -333,19 +333,19 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 4439:
+/***/ 6076:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
 
 /***/ }),
 
-/***/ 742:
+/***/ 809:
 /***/ (() => {
 
 
@@ -535,14 +535,15 @@ const Landing = ()=>{
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.div, {
                     initial: {
                         opacity: 0,
-                        scale: 0.5
+                        scale: 0.3
                     },
                     animate: {
                         opacity: 1,
                         scale: 1
                     },
                     transition: {
-                        duration: 1
+                        duration: 1,
+                        delay: 1
                     },
                     className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
                     children: [
