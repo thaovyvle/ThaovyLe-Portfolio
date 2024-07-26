@@ -23,7 +23,7 @@ const Landing = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.3 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 5 }}
+          transition={{ duration: 1, delay: 1 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-[#222442] mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
@@ -31,7 +31,9 @@ const Landing = () => {
               Hello, I&apos;m{" "}
             </span>
             <br></br>
-            {initialDelay ? (
+            <motion.div
+              transition={{ delay: 3 }}
+            ></motion.div>
               <TypeAnimation
                 sequence={[ 
                   "Thaovy Le",
@@ -49,25 +51,6 @@ const Landing = () => {
                 speed={35}
                 repeat={Infinity}
               />
-            ) : (
-              <TypeAnimation
-                sequence={[
-                  "Thaovy Le",
-                  1000,
-                  "Web Developer",
-                  1000,
-                  "App Developer",
-                  1000,
-                  "Full-Stack Developer",
-                  1000,
-                  "UI/UX Designer",
-                  1000,
-                ]}
-                wrapper="span"
-                speed={35}
-                repeat={Infinity}
-              />
-            )}
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl md:text-lg flex flex-wrap">
             Recent Graduate from the University of Central Florida || Web Design & Computer Science

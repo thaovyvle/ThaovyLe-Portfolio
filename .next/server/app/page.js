@@ -352,7 +352,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5638:
+/***/ 5737:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7356))
@@ -582,7 +582,7 @@ const Landing = ()=>{
                     },
                     transition: {
                         duration: 1,
-                        delay: 5
+                        delay: 1
                     },
                     className: "col-span-8 place-self-center text-center sm:text-left justify-self-start",
                     children: [
@@ -597,23 +597,12 @@ const Landing = ()=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                initialDelay ? /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
-                                    sequence: [
-                                        "Thaovy Le",
-                                        1000,
-                                        "Web Developer",
-                                        1000,
-                                        "App Developer",
-                                        1000,
-                                        "Full-Stack Developer",
-                                        1000,
-                                        "UI/UX Designer",
-                                        1000
-                                    ],
-                                    wrapper: "span",
-                                    speed: 35,
-                                    repeat: Infinity
-                                }) : /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
+                                /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                                    transition: {
+                                        delay: 3
+                                    }
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx(cjs/* TypeAnimation */.e, {
                                     sequence: [
                                         "Thaovy Le",
                                         1000,
