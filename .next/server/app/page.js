@@ -2058,11 +2058,11 @@ const RecentWork = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 id: "videoWrapper",
-                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]",
+                className: "flex items-center justify-center mx-auto mt-10 mb-2 relative w-full mt-5 lg:w-[800px] lg:h-[600px] w-[390px] h-[270px] 2xl:w-[960px] 2xl:h-[720px] xl:w-[960px] xl:h-[720px] md:w-[640px] md:h-[480px] sm:w-[400px] sm:h-[300px]",
                 children: /*#__PURE__*/ jsx_runtime_.jsx((lib_default()), {
                     ref: playerRef,
                     url: "https://vimeo.com/990792000?share=copy",
-                    className: "rounded-lg shadow-lg overflow-hidden",
+                    className: "rounded-lg shadow-lg",
                     width: "100%",
                     height: "100%",
                     controls: false,
