@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import ChefItIcon from "../../../public/chefIt.png";
+import { CldVideoPlayer } from 'next-cloudinary';
 
 const RecentWork = () => {
 
@@ -22,6 +23,12 @@ const RecentWork = () => {
                 </p>
                 </div>
             </div>
+            <CldVideoPlayer
+    id="sea-turtle-color"
+    width="1920"
+    height="1080"
+    src="samples/sea-turtle"
+/>
         </section>
     );
 }
